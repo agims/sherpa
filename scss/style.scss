@@ -1,0 +1,29 @@
+@import 'compass';
+@import 'bootstrap-variables';
+@import 'bootstrap';
+@import 'wp-core';
+
+// Set up variables
+@import 'sherpa-variables';
+
+// Non-responsiveness Setup
+@import 'non-responsive';
+
+// General Tag Styling
+body {
+
+}
+
+img {
+	max-width: 100%;
+}
+
+// Special components
+@import 'sherpa-navbar';
+@import 'sherpa-buttons';
+@import 'sherpa-general-classes';
+
+// Sections
+@import 'sherpa-header';
+@import 'sherpa-main';
+@import 'sherpa-footer';
