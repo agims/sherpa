@@ -18,7 +18,7 @@ add_action('admin_menu', 'agi_option_menu');
 
 function agi_option_page() {
 	if( !current_user_can('manage_options')) {
-		wp_die( __('Umm, what are you doing?', 'rincon'));
+		wp_die( __('Umm, what are you doing?', 'sherpa'));
 	}
 	?>
 	<div class="wrap">

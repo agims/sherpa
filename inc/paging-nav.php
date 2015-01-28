@@ -31,8 +31,8 @@ function agi_paging_nav() {
 		'current'  => $paged,
 		'mid_size' => 1,
 		'add_args' => array_map( 'urlencode', $query_args ),
-		'prev_text' => __( '&larr; Previous', 'kalesa' ),
-		'next_text' => __( 'Next &rarr;', 'kalesa' ),
+		'prev_text' => __( '&larr; Previous', 'sherpa' ),
+		'next_text' => __( 'Next &rarr;', 'sherpa' ),
 	) );
 
 	if ( $links ) :
