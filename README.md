@@ -1,9 +1,10 @@
 # sherpa
-A SCSS-based boilerplate for developing WordPress themes.
+A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Introduction
-Sherpa was born because I ended up reusing the same files over and over again to create a theme.
+Sherpa was born because I ended up reusing the same files over and over again to create a theme.  I am trying to update it each time I work on a new theme to include things I use over and over.
 
-## Versions
-I am using the SCSS version of Twitter Bootstrap (currently v3.3.2).
+## Frameworks and Dependencies
+* Twitter Bootstrap (SCSS) - v3.3.2
+* FontAwesome - v4.3.0
 
