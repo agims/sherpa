@@ -31,7 +31,7 @@ function testimonial_cpt() {
 		'label'               => __( 'testimonial', 'sherpa' ),
 		'description'         => __( 'Testimonials', 'sherpa' ),
 		'labels'              => $labels,
-		'supports'            => array( 'thumbnail', ),
+		'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
