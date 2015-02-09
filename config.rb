@@ -9,6 +9,7 @@ javascripts_dir = "js"
 fonts_dir = "fonts"
 
 output_style = :expanded
+#### Don't forget to change this to :compressed before you go live! ####
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
