@@ -8,3 +8,78 @@
 .clear {
 	@extend .clearfix;
 }
+
+blockquote.testimonial {
+	background-color: $sherpa-primary-color;
+	border: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	margin: 1em -1em;
+	min-height: 12em;
+	padding: 1em 3.1428571429em 1em 10em;
+	position: relative;
+	@media (min-width: $screen-sm-min) {
+		@include border-radius(1em);
+	}
+	&:nth-of-type(2n) {
+		background-color: $sherpa-secondary-color;
+		.profile-pic {
+			border-color: darken($sherpa-secondary-color, 10%);
+		}
+		.quote {
+			&:before,
+			&:after {
+				color: darken($sherpa-secondary-color, 10%);
+			}
+		}
+	}
+	.profile-pic {
+		border: 5px solid darken($sherpa-primary-color, 10%);
+		left: 1em;
+		position: absolute;
+		top: 1em;
+		width: 8em;
+	}
+	.star-rating {
+		left: 1em;
+		position: absolute;
+		top: 10em;
+		width: 8em;
+	}
+	.quote {
+		color: $white;
+		padding: 0 1em 0 2em;
+		position: relative;
+		&:before,
+		&:after {
+			color: darken($sherpa-primary-color, 10%);
+			display: inline-block;
+			font-family: "Georgia", serif;
+			font-size: 10em;
+			position: absolute;
+			z-index: 1;
+		}
+		&:before {
+			content: "\201C";
+			left: 0;
+			top: -0.2em;
+		}
+		&:after {
+			content: "\201D";
+			bottom: -0.85em;
+			right: 0;
+		}
+		> * {
+			position: relative;
+			z-index: 100;
+		}
+		h3 {
+			margin-top: 0;
+			.post-edit-link {
+				display: inline-block;
+				font-size: 0.5em;
+				margin-left: 1.5em;
+			}
+		}
+	}
+}

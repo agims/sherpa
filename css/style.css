@@ -8641,13 +8641,126 @@ a img.aligncenter {
   padding: 0 4px 5px;
 }
 
-/* line 17, ../scss/style.scss */
-img {
-  max-width: 100%;
+/* line 3, ../scss/_sherpa-buttons.scss */
+.btn-read-more {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+/* line 16, ../scss/bootstrap/mixins/_buttons.scss */
+.btn-read-more:hover, .btn-read-more:focus, .btn-read-more.focus, .btn-read-more:active, .btn-read-more.active, .open > .btn-read-more.dropdown-toggle {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+/* line 23, ../scss/bootstrap/mixins/_buttons.scss */
+.btn-read-more:active, .btn-read-more.active, .open > .btn-read-more.dropdown-toggle {
+  background-image: none;
+}
+/* line 34, ../scss/bootstrap/mixins/_buttons.scss */
+.btn-read-more.disabled, .btn-read-more.disabled:hover, .btn-read-more.disabled:focus, .btn-read-more.disabled.focus, .btn-read-more.disabled:active, .btn-read-more.disabled.active, .btn-read-more[disabled], .btn-read-more[disabled]:hover, .btn-read-more[disabled]:focus, .btn-read-more[disabled].focus, .btn-read-more[disabled]:active, .btn-read-more[disabled].active, fieldset[disabled] .btn-read-more, fieldset[disabled] .btn-read-more:hover, fieldset[disabled] .btn-read-more:focus, fieldset[disabled] .btn-read-more.focus, fieldset[disabled] .btn-read-more:active, fieldset[disabled] .btn-read-more.active {
+  background-color: black;
+  border-color: black;
+}
+/* line 40, ../scss/bootstrap/mixins/_buttons.scss */
+.btn-read-more .badge {
+  color: black;
+  background-color: white;
 }
 
-/* line 1, ../scss/_sherpa-general-classes.scss */
+/* line 3, ../scss/_sherpa-general.scss */
 .add-extra-padding {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/* line 12, ../scss/_sherpa-general.scss */
+blockquote.testimonial {
+  background-color: black;
+  border: 0;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 1em -1em;
+  min-height: 12em;
+  padding: 1em 3.1428571429em 1em 10em;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 12, ../scss/_sherpa-general.scss */
+  blockquote.testimonial {
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    border-radius: 1em;
+  }
+}
+/* line 24, ../scss/_sherpa-general.scss */
+blockquote.testimonial:nth-of-type(2n) {
+  background-color: white;
+}
+/* line 26, ../scss/_sherpa-general.scss */
+blockquote.testimonial:nth-of-type(2n) .profile-pic {
+  border-color: #e6e6e6;
+}
+/* line 31, ../scss/_sherpa-general.scss */
+blockquote.testimonial:nth-of-type(2n) .quote:before, blockquote.testimonial:nth-of-type(2n) .quote:after {
+  color: #e6e6e6;
+}
+/* line 36, ../scss/_sherpa-general.scss */
+blockquote.testimonial .profile-pic {
+  border: 5px solid black;
+  left: 1em;
+  position: absolute;
+  top: 1em;
+  width: 8em;
+}
+/* line 43, ../scss/_sherpa-general.scss */
+blockquote.testimonial .star-rating {
+  left: 1em;
+  position: absolute;
+  top: 10em;
+  width: 8em;
+}
+/* line 49, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote {
+  color: white;
+  padding: 0 1em 0 2em;
+  position: relative;
+}
+/* line 54, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote:before, blockquote.testimonial .quote:after {
+  color: black;
+  display: inline-block;
+  font-family: "Georgia", serif;
+  font-size: 10em;
+  position: absolute;
+  z-index: 1;
+}
+/* line 62, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote:before {
+  content: "\201C";
+  left: 0;
+  top: -0.2em;
+}
+/* line 67, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote:after {
+  content: "\201D";
+  bottom: -0.85em;
+  right: 0;
+}
+/* line 72, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote > * {
+  position: relative;
+  z-index: 100;
+}
+/* line 76, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote h3 {
+  margin-top: 0;
+}
+/* line 78, ../scss/_sherpa-general.scss */
+blockquote.testimonial .quote h3 .post-edit-link {
+  display: inline-block;
+  font-size: 0.5em;
+  margin-left: 1.5em;
 }
