@@ -11,7 +11,7 @@
 		'menus.php',					// Set up our menus
 		'paging-nav.php',				// Set up our paging nav
 		'theme-features.php',			// Set up our theme features
-		'testimonials-cpt',				// Set up our Testimonials Custom Post Type
+		'testimonials-cpt.php',			// Set up our Testimonials Custom Post Type
 		'wp_bootstrap_navwalker.php',	// Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
 		'prevent-image-size-attr.php'	// Prevent WP from adding Height and Width to images
 	);
