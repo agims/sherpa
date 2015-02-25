@@ -22,7 +22,7 @@ function testimonial_cpt() {
 		'not_found_in_trash'  => __( 'Not found in Trash', 'sherpa' ),
 	);
 	$rewrite = array(
-		'slug'                => 'testimonials',
+		'slug'                => 'testimonial',
 		'with_front'          => true,
 		'pages'               => false,
 		'feeds'               => false,
