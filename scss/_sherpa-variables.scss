@@ -1,7 +1,43 @@
 // Sherpa Variables
 
-$black:								#000000;
-$white:								#FFFFFF;
+$black:											#000000;
+$gray-md:										#999999;
+$white:											#FFFFFF;
 
-$sherpa-primary-color:				$black;
-$sherpa-secondary-color:			$white;
+// Defaults
+$sherpa-primary-color:							$black;
+$sherpa-secondary-color:						$white;
+$sherpa-tertiary-color:							$gray-md;
+
+$sherpa-alt-font-family:						sans-serif;
+
+// Elements
+/// Sherpa Navbar
+$sherpa-nav-bg:									$sherpa-secondary-color;
+
+$sherpa-navbar-default-bg:						transparent;
+$sherpa-navbar-default-border:					transparent;
+$sherpa-navbar-font-family:						$sherpa-alt-font-family;
+
+$sherpa-navbar-default-brand-color:				$white;
+$sherpa-navbar-default-brand-hover-color:		$white;
+$sherpa-navbar-default-brand-hover-bg:			transparent;
+
+$sherpa-navbar-default-color:					$black;
+
+$sherpa-navbar-default-link-color:				$black;
+
+$sherpa-navbar-default-link-hover-color:		$white;
+$sherpa-navbar-default-link-hover-bg:			$sherpa-primary-color;
+
+$sherpa-navbar-default-link-active-color:		$white;
+$sherpa-navbar-default-link-active-bg:			$sherpa-primary-color;
+
+$sherpa-navbar-default-link-disabled-color:		lighten($sherpa-nav-bg,10%);
+$sherpa-navbar-default-link-disabled-bg:		lighten($sherpa-navbar-default-link-color,10%);
+
+$sherpa-navbar-right-link-color:				$white;
+
+$sherpa-navbar-default-toggle-border-color:		$white;
+$sherpa-navbar-default-toggle-hover-bg:			transparent;
+$sherpa-navbar-default-toggle-icon-bar-bg:		$white;
