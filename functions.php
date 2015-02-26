@@ -2,6 +2,7 @@
 	
 	$includes = array(
 		'checks.php', 					// Set up options
+		'constants.php',				// Add in Constants
 		'styles.php', 					// Enqueue our styles
 		'scripts.php', 					// Enqueue our scripts
 		'sidebars.php',					// Set up our sidebar
@@ -13,7 +14,7 @@
 		'theme-features.php',			// Set up our theme features
 		'testimonials-cpt.php',			// Set up our Testimonials Custom Post Type
 		'wp_bootstrap_navwalker.php',	// Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
-		'prevent-image-size-attr.php'	// Prevent WP from adding Height and Width to images
+		'prevent-image-size-attr.php',	// Prevent WP from adding Height and Width to images
 	);
 	
 	$prefix = 'inc/';
