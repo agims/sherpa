@@ -12,6 +12,62 @@ i.fa {
 	}
 }
 
+.social-media-button {
+	@extend .img-circle;
+	color: $white;
+	display: inline-block;
+	text-align: center;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $white;
+		text-decoration: none;
+	}
+	&.lg {
+		height: 40px;
+		line-height: 2.3;
+		width: 40px;
+	}
+	&.sm {
+		height: 25px;
+		line-height: 1.5;
+		width: 25px;
+	}
+	&.facebook-button {
+		background-color: $color-facebook;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($color-facebook, 10%);
+		}
+	}
+	&.twitter-button {
+		background-color: $color-twitter;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($color-twitter, 10%);
+		}
+	}
+	&.google-plus-button {
+		background-color: $color-google-plus;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($color-google-plus, 10%);
+		}
+	}
+	&.pinterest-button {
+		background-color: $color-pinterest;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($color-pinterest, 10%);
+		}
+	}
+}
+
+
 .add-extra-padding {
 	padding-left: 15px;
 	padding-right: 15px;
