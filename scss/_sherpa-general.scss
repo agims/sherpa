@@ -1,5 +1,17 @@
 // This is where you put stying for things that will be used in more than one area
 
+img {
+	max-width: 100%;
+}
+
+i.fa {
+	span {
+		@media screen, print {
+			display: none;
+		}
+	}
+}
+
 .add-extra-padding {
 	padding-left: 15px;
 	padding-right: 15px;
