@@ -1,7 +1,13 @@
-<?php
-	
-	get_header();
-	
-	get_template_part('content', 'page');
+<?php get_header(); ?>
 
-	get_footer();
+<section id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<?php get_template_part('content', 'page'); ?>
+			</div>
+		</div>
+	</div>
+</section>
+	
+<?php get_footer(); ?>

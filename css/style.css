@@ -399,1282 +399,1302 @@ th {
 /* line 38, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-euro:before,
 .glyphicon-eur:before {
-  content: \20ac;
+  content: "\20ac";
 }
 
 /* line 39, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-minus:before {
-  content: \2212;
+  content: "\2212";
 }
 
 /* line 40, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-cloud:before {
-  content: \2601;
+  content: "\2601";
 }
 
 /* line 41, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-envelope:before {
-  content: \2709;
+  content: "\2709";
 }
 
 /* line 42, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-pencil:before {
-  content: \270f;
+  content: "\270f";
 }
 
 /* line 43, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-glass:before {
-  content: \e001;
+  content: "\e001";
 }
 
 /* line 44, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-music:before {
-  content: \e002;
+  content: "\e002";
 }
 
 /* line 45, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-search:before {
-  content: \e003;
+  content: "\e003";
 }
 
 /* line 46, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-heart:before {
-  content: \e005;
+  content: "\e005";
 }
 
 /* line 47, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-star:before {
-  content: \e006;
+  content: "\e006";
 }
 
 /* line 48, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-star-empty:before {
-  content: \e007;
+  content: "\e007";
 }
 
 /* line 49, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-user:before {
-  content: \e008;
+  content: "\e008";
 }
 
 /* line 50, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-film:before {
-  content: \e009;
+  content: "\e009";
 }
 
 /* line 51, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-th-large:before {
-  content: \e010;
+  content: "\e010";
 }
 
 /* line 52, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-th:before {
-  content: \e011;
+  content: "\e011";
 }
 
 /* line 53, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-th-list:before {
-  content: \e012;
+  content: "\e012";
 }
 
 /* line 54, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-ok:before {
-  content: \e013;
+  content: "\e013";
 }
 
 /* line 55, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-remove:before {
-  content: \e014;
+  content: "\e014";
 }
 
 /* line 56, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-zoom-in:before {
-  content: \e015;
+  content: "\e015";
 }
 
 /* line 57, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-zoom-out:before {
-  content: \e016;
+  content: "\e016";
 }
 
 /* line 58, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-off:before {
-  content: \e017;
+  content: "\e017";
 }
 
 /* line 59, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-signal:before {
-  content: \e018;
+  content: "\e018";
 }
 
 /* line 60, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-cog:before {
-  content: \e019;
+  content: "\e019";
 }
 
 /* line 61, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-trash:before {
-  content: \e020;
+  content: "\e020";
 }
 
 /* line 62, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-home:before {
-  content: \e021;
+  content: "\e021";
 }
 
 /* line 63, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-file:before {
-  content: \e022;
+  content: "\e022";
 }
 
 /* line 64, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-time:before {
-  content: \e023;
+  content: "\e023";
 }
 
 /* line 65, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-road:before {
-  content: \e024;
+  content: "\e024";
 }
 
 /* line 66, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-download-alt:before {
-  content: \e025;
+  content: "\e025";
 }
 
 /* line 67, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-download:before {
-  content: \e026;
+  content: "\e026";
 }
 
 /* line 68, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-upload:before {
-  content: \e027;
+  content: "\e027";
 }
 
 /* line 69, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-inbox:before {
-  content: \e028;
+  content: "\e028";
 }
 
 /* line 70, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-play-circle:before {
-  content: \e029;
+  content: "\e029";
 }
 
 /* line 71, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-repeat:before {
-  content: \e030;
+  content: "\e030";
 }
 
 /* line 72, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-refresh:before {
-  content: \e031;
+  content: "\e031";
 }
 
 /* line 73, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-list-alt:before {
-  content: \e032;
+  content: "\e032";
 }
 
 /* line 74, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-lock:before {
-  content: \e033;
+  content: "\e033";
 }
 
 /* line 75, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-flag:before {
-  content: \e034;
+  content: "\e034";
 }
 
 /* line 76, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-headphones:before {
-  content: \e035;
+  content: "\e035";
 }
 
 /* line 77, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-volume-off:before {
-  content: \e036;
+  content: "\e036";
 }
 
 /* line 78, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-volume-down:before {
-  content: \e037;
+  content: "\e037";
 }
 
 /* line 79, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-volume-up:before {
-  content: \e038;
+  content: "\e038";
 }
 
 /* line 80, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-qrcode:before {
-  content: \e039;
+  content: "\e039";
 }
 
 /* line 81, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-barcode:before {
-  content: \e040;
+  content: "\e040";
 }
 
 /* line 82, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tag:before {
-  content: \e041;
+  content: "\e041";
 }
 
 /* line 83, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tags:before {
-  content: \e042;
+  content: "\e042";
 }
 
 /* line 84, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-book:before {
-  content: \e043;
+  content: "\e043";
 }
 
 /* line 85, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bookmark:before {
-  content: \e044;
+  content: "\e044";
 }
 
 /* line 86, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-print:before {
-  content: \e045;
+  content: "\e045";
 }
 
 /* line 87, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-camera:before {
-  content: \e046;
+  content: "\e046";
 }
 
 /* line 88, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-font:before {
-  content: \e047;
+  content: "\e047";
 }
 
 /* line 89, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bold:before {
-  content: \e048;
+  content: "\e048";
 }
 
 /* line 90, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-italic:before {
-  content: \e049;
+  content: "\e049";
 }
 
 /* line 91, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-text-height:before {
-  content: \e050;
+  content: "\e050";
 }
 
 /* line 92, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-text-width:before {
-  content: \e051;
+  content: "\e051";
 }
 
 /* line 93, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-align-left:before {
-  content: \e052;
+  content: "\e052";
 }
 
 /* line 94, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-align-center:before {
-  content: \e053;
+  content: "\e053";
 }
 
 /* line 95, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-align-right:before {
-  content: \e054;
+  content: "\e054";
 }
 
 /* line 96, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-align-justify:before {
-  content: \e055;
+  content: "\e055";
 }
 
 /* line 97, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-list:before {
-  content: \e056;
+  content: "\e056";
 }
 
 /* line 98, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-indent-left:before {
-  content: \e057;
+  content: "\e057";
 }
 
 /* line 99, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-indent-right:before {
-  content: \e058;
+  content: "\e058";
 }
 
 /* line 100, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-facetime-video:before {
-  content: \e059;
+  content: "\e059";
 }
 
 /* line 101, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-picture:before {
-  content: \e060;
+  content: "\e060";
 }
 
 /* line 102, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-map-marker:before {
-  content: \e062;
+  content: "\e062";
 }
 
 /* line 103, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-adjust:before {
-  content: \e063;
+  content: "\e063";
 }
 
 /* line 104, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tint:before {
-  content: \e064;
+  content: "\e064";
 }
 
 /* line 105, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-edit:before {
-  content: \e065;
+  content: "\e065";
 }
 
 /* line 106, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-share:before {
-  content: \e066;
+  content: "\e066";
 }
 
 /* line 107, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-check:before {
-  content: \e067;
+  content: "\e067";
 }
 
 /* line 108, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-move:before {
-  content: \e068;
+  content: "\e068";
 }
 
 /* line 109, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-step-backward:before {
-  content: \e069;
+  content: "\e069";
 }
 
 /* line 110, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-fast-backward:before {
-  content: \e070;
+  content: "\e070";
 }
 
 /* line 111, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-backward:before {
-  content: \e071;
+  content: "\e071";
 }
 
 /* line 112, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-play:before {
-  content: \e072;
+  content: "\e072";
 }
 
 /* line 113, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-pause:before {
-  content: \e073;
+  content: "\e073";
 }
 
 /* line 114, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-stop:before {
-  content: \e074;
+  content: "\e074";
 }
 
 /* line 115, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-forward:before {
-  content: \e075;
+  content: "\e075";
 }
 
 /* line 116, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-fast-forward:before {
-  content: \e076;
+  content: "\e076";
 }
 
 /* line 117, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-step-forward:before {
-  content: \e077;
+  content: "\e077";
 }
 
 /* line 118, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-eject:before {
-  content: \e078;
+  content: "\e078";
 }
 
 /* line 119, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-left:before {
-  content: \e079;
+  content: "\e079";
 }
 
 /* line 120, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-right:before {
-  content: \e080;
+  content: "\e080";
 }
 
 /* line 121, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-plus-sign:before {
-  content: \e081;
+  content: "\e081";
 }
 
 /* line 122, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-minus-sign:before {
-  content: \e082;
+  content: "\e082";
 }
 
 /* line 123, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-remove-sign:before {
-  content: \e083;
+  content: "\e083";
 }
 
 /* line 124, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-ok-sign:before {
-  content: \e084;
+  content: "\e084";
 }
 
 /* line 125, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-question-sign:before {
-  content: \e085;
+  content: "\e085";
 }
 
 /* line 126, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-info-sign:before {
-  content: \e086;
+  content: "\e086";
 }
 
 /* line 127, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-screenshot:before {
-  content: \e087;
+  content: "\e087";
 }
 
 /* line 128, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-remove-circle:before {
-  content: \e088;
+  content: "\e088";
 }
 
 /* line 129, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-ok-circle:before {
-  content: \e089;
+  content: "\e089";
 }
 
 /* line 130, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-ban-circle:before {
-  content: \e090;
+  content: "\e090";
 }
 
 /* line 131, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-left:before {
-  content: \e091;
+  content: "\e091";
 }
 
 /* line 132, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-right:before {
-  content: \e092;
+  content: "\e092";
 }
 
 /* line 133, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-up:before {
-  content: \e093;
+  content: "\e093";
 }
 
 /* line 134, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-down:before {
-  content: \e094;
+  content: "\e094";
 }
 
 /* line 135, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-share-alt:before {
-  content: \e095;
+  content: "\e095";
 }
 
 /* line 136, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-resize-full:before {
-  content: \e096;
+  content: "\e096";
 }
 
 /* line 137, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-resize-small:before {
-  content: \e097;
+  content: "\e097";
 }
 
 /* line 138, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-exclamation-sign:before {
-  content: \e101;
+  content: "\e101";
 }
 
 /* line 139, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-gift:before {
-  content: \e102;
+  content: "\e102";
 }
 
 /* line 140, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-leaf:before {
-  content: \e103;
+  content: "\e103";
 }
 
 /* line 141, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-fire:before {
-  content: \e104;
+  content: "\e104";
 }
 
 /* line 142, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-eye-open:before {
-  content: \e105;
+  content: "\e105";
 }
 
 /* line 143, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-eye-close:before {
-  content: \e106;
+  content: "\e106";
 }
 
 /* line 144, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-warning-sign:before {
-  content: \e107;
+  content: "\e107";
 }
 
 /* line 145, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-plane:before {
-  content: \e108;
+  content: "\e108";
 }
 
 /* line 146, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-calendar:before {
-  content: \e109;
+  content: "\e109";
 }
 
 /* line 147, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-random:before {
-  content: \e110;
+  content: "\e110";
 }
 
 /* line 148, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-comment:before {
-  content: \e111;
+  content: "\e111";
 }
 
 /* line 149, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-magnet:before {
-  content: \e112;
+  content: "\e112";
 }
 
 /* line 150, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-up:before {
-  content: \e113;
+  content: "\e113";
 }
 
 /* line 151, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-down:before {
-  content: \e114;
+  content: "\e114";
 }
 
 /* line 152, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-retweet:before {
-  content: \e115;
+  content: "\e115";
 }
 
 /* line 153, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-shopping-cart:before {
-  content: \e116;
+  content: "\e116";
 }
 
 /* line 154, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-folder-close:before {
-  content: \e117;
+  content: "\e117";
 }
 
 /* line 155, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-folder-open:before {
-  content: \e118;
+  content: "\e118";
 }
 
 /* line 156, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-resize-vertical:before {
-  content: \e119;
+  content: "\e119";
 }
 
 /* line 157, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-resize-horizontal:before {
-  content: \e120;
+  content: "\e120";
 }
 
 /* line 158, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hdd:before {
-  content: \e121;
+  content: "\e121";
 }
 
 /* line 159, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bullhorn:before {
-  content: \e122;
+  content: "\e122";
 }
 
 /* line 160, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bell:before {
-  content: \e123;
+  content: "\e123";
 }
 
 /* line 161, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-certificate:before {
-  content: \e124;
+  content: "\e124";
 }
 
 /* line 162, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-thumbs-up:before {
-  content: \e125;
+  content: "\e125";
 }
 
 /* line 163, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-thumbs-down:before {
-  content: \e126;
+  content: "\e126";
 }
 
 /* line 164, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hand-right:before {
-  content: \e127;
+  content: "\e127";
 }
 
 /* line 165, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hand-left:before {
-  content: \e128;
+  content: "\e128";
 }
 
 /* line 166, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hand-up:before {
-  content: \e129;
+  content: "\e129";
 }
 
 /* line 167, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hand-down:before {
-  content: \e130;
+  content: "\e130";
 }
 
 /* line 168, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-right:before {
-  content: \e131;
+  content: "\e131";
 }
 
 /* line 169, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-left:before {
-  content: \e132;
+  content: "\e132";
 }
 
 /* line 170, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-up:before {
-  content: \e133;
+  content: "\e133";
 }
 
 /* line 171, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-down:before {
-  content: \e134;
+  content: "\e134";
 }
 
 /* line 172, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-globe:before {
-  content: \e135;
+  content: "\e135";
 }
 
 /* line 173, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-wrench:before {
-  content: \e136;
+  content: "\e136";
 }
 
 /* line 174, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tasks:before {
-  content: \e137;
+  content: "\e137";
 }
 
 /* line 175, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-filter:before {
-  content: \e138;
+  content: "\e138";
 }
 
 /* line 176, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-briefcase:before {
-  content: \e139;
+  content: "\e139";
 }
 
 /* line 177, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-fullscreen:before {
-  content: \e140;
+  content: "\e140";
 }
 
 /* line 178, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-dashboard:before {
-  content: \e141;
+  content: "\e141";
 }
 
 /* line 179, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-paperclip:before {
-  content: \e142;
+  content: "\e142";
 }
 
 /* line 180, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-heart-empty:before {
-  content: \e143;
+  content: "\e143";
 }
 
 /* line 181, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-link:before {
-  content: \e144;
+  content: "\e144";
 }
 
 /* line 182, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-phone:before {
-  content: \e145;
+  content: "\e145";
 }
 
 /* line 183, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-pushpin:before {
-  content: \e146;
+  content: "\e146";
 }
 
 /* line 184, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-usd:before {
-  content: \e148;
+  content: "\e148";
 }
 
 /* line 185, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-gbp:before {
-  content: \e149;
+  content: "\e149";
 }
 
 /* line 186, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort:before {
-  content: \e150;
+  content: "\e150";
 }
 
 /* line 187, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-alphabet:before {
-  content: \e151;
+  content: "\e151";
 }
 
 /* line 188, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-alphabet-alt:before {
-  content: \e152;
+  content: "\e152";
 }
 
 /* line 189, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-order:before {
-  content: \e153;
+  content: "\e153";
 }
 
 /* line 190, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-order-alt:before {
-  content: \e154;
+  content: "\e154";
 }
 
 /* line 191, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-attributes:before {
-  content: \e155;
+  content: "\e155";
 }
 
 /* line 192, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-attributes-alt:before {
-  content: \e156;
+  content: "\e156";
 }
 
 /* line 193, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-unchecked:before {
-  content: \e157;
+  content: "\e157";
 }
 
 /* line 194, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-expand:before {
-  content: \e158;
+  content: "\e158";
 }
 
 /* line 195, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-collapse-down:before {
-  content: \e159;
+  content: "\e159";
 }
 
 /* line 196, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-collapse-up:before {
-  content: \e160;
+  content: "\e160";
 }
 
 /* line 197, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-log-in:before {
-  content: \e161;
+  content: "\e161";
 }
 
 /* line 198, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-flash:before {
-  content: \e162;
+  content: "\e162";
 }
 
 /* line 199, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-log-out:before {
-  content: \e163;
+  content: "\e163";
 }
 
 /* line 200, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-new-window:before {
-  content: \e164;
+  content: "\e164";
 }
 
 /* line 201, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-record:before {
-  content: \e165;
+  content: "\e165";
 }
 
 /* line 202, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-save:before {
-  content: \e166;
+  content: "\e166";
 }
 
 /* line 203, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-open:before {
-  content: \e167;
+  content: "\e167";
 }
 
 /* line 204, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-saved:before {
-  content: \e168;
+  content: "\e168";
 }
 
 /* line 205, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-import:before {
-  content: \e169;
+  content: "\e169";
 }
 
 /* line 206, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-export:before {
-  content: \e170;
+  content: "\e170";
 }
 
 /* line 207, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-send:before {
-  content: \e171;
+  content: "\e171";
 }
 
 /* line 208, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-disk:before {
-  content: \e172;
+  content: "\e172";
 }
 
 /* line 209, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-saved:before {
-  content: \e173;
+  content: "\e173";
 }
 
 /* line 210, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-remove:before {
-  content: \e174;
+  content: "\e174";
 }
 
 /* line 211, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-save:before {
-  content: \e175;
+  content: "\e175";
 }
 
 /* line 212, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-open:before {
-  content: \e176;
+  content: "\e176";
 }
 
 /* line 213, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-credit-card:before {
-  content: \e177;
+  content: "\e177";
 }
 
 /* line 214, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-transfer:before {
-  content: \e178;
+  content: "\e178";
 }
 
 /* line 215, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-cutlery:before {
-  content: \e179;
+  content: "\e179";
 }
 
 /* line 216, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-header:before {
-  content: \e180;
+  content: "\e180";
 }
 
 /* line 217, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-compressed:before {
-  content: \e181;
+  content: "\e181";
 }
 
 /* line 218, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-earphone:before {
-  content: \e182;
+  content: "\e182";
 }
 
 /* line 219, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-phone-alt:before {
-  content: \e183;
+  content: "\e183";
 }
 
 /* line 220, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tower:before {
-  content: \e184;
+  content: "\e184";
 }
 
 /* line 221, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-stats:before {
-  content: \e185;
+  content: "\e185";
 }
 
 /* line 222, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sd-video:before {
-  content: \e186;
+  content: "\e186";
 }
 
 /* line 223, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hd-video:before {
-  content: \e187;
+  content: "\e187";
 }
 
 /* line 224, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-subtitles:before {
-  content: \e188;
+  content: "\e188";
 }
 
 /* line 225, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sound-stereo:before {
-  content: \e189;
+  content: "\e189";
 }
 
 /* line 226, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sound-dolby:before {
-  content: \e190;
+  content: "\e190";
 }
 
 /* line 227, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sound-5-1:before {
-  content: \e191;
+  content: "\e191";
 }
 
 /* line 228, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sound-6-1:before {
-  content: \e192;
+  content: "\e192";
 }
 
 /* line 229, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-sound-7-1:before {
-  content: \e193;
+  content: "\e193";
 }
 
 /* line 230, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-copyright-mark:before {
-  content: \e194;
+  content: "\e194";
 }
 
 /* line 231, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-registration-mark:before {
-  content: \e195;
+  content: "\e195";
 }
 
 /* line 232, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-cloud-download:before {
-  content: \e197;
+  content: "\e197";
 }
 
 /* line 233, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-cloud-upload:before {
-  content: \e198;
+  content: "\e198";
 }
 
 /* line 234, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tree-conifer:before {
-  content: \e199;
+  content: "\e199";
 }
 
 /* line 235, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tree-deciduous:before {
-  content: \e200;
+  content: "\e200";
 }
 
 /* line 236, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-cd:before {
-  content: \e201;
+  content: "\e201";
 }
 
 /* line 237, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-save-file:before {
-  content: \e202;
+  content: "\e202";
 }
 
 /* line 238, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-open-file:before {
-  content: \e203;
+  content: "\e203";
 }
 
 /* line 239, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-level-up:before {
-  content: \e204;
+  content: "\e204";
 }
 
 /* line 240, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-copy:before {
-  content: \e205;
+  content: "\e205";
 }
 
 /* line 241, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-paste:before {
-  content: \e206;
+  content: "\e206";
 }
 
 /* line 250, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-alert:before {
-  content: \e209;
+  content: "\e209";
 }
 
 /* line 251, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-equalizer:before {
-  content: \e210;
+  content: "\e210";
 }
 
 /* line 252, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-king:before {
-  content: \e211;
+  content: "\e211";
 }
 
 /* line 253, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-queen:before {
-  content: \e212;
+  content: "\e212";
 }
 
 /* line 254, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-pawn:before {
-  content: \e213;
+  content: "\e213";
 }
 
 /* line 255, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bishop:before {
-  content: \e214;
+  content: "\e214";
 }
 
 /* line 256, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-knight:before {
-  content: \e215;
+  content: "\e215";
 }
 
 /* line 257, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-baby-formula:before {
-  content: \e216;
+  content: "\e216";
 }
 
 /* line 258, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-tent:before {
-  content: \26fa;
+  content: "\26fa";
 }
 
 /* line 259, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-blackboard:before {
-  content: \e218;
+  content: "\e218";
 }
 
 /* line 260, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bed:before {
-  content: \e219;
+  content: "\e219";
 }
 
 /* line 261, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-apple:before {
-  content: \f8ff;
+  content: "\f8ff";
 }
 
 /* line 262, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-erase:before {
-  content: \e221;
+  content: "\e221";
 }
 
 /* line 263, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-hourglass:before {
-  content: \231b;
+  content: "\231b";
 }
 
 /* line 264, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-lamp:before {
-  content: \e223;
+  content: "\e223";
 }
 
 /* line 265, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-duplicate:before {
-  content: \e224;
+  content: "\e224";
 }
 
 /* line 266, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-piggy-bank:before {
-  content: \e225;
+  content: "\e225";
 }
 
 /* line 267, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-scissors:before {
-  content: \e226;
+  content: "\e226";
 }
 
 /* line 268, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-bitcoin:before {
-  content: \e227;
+  content: "\e227";
 }
 
 /* line 269, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-yen:before {
-  content: \00a5;
+.glyphicon-btc:before {
+  content: "\e227";
 }
 
 /* line 270, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-ruble:before {
-  content: \20bd;
+.glyphicon-xbt:before {
+  content: "\e227";
 }
 
 /* line 271, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-scale:before {
-  content: \e230;
+.glyphicon-yen:before {
+  content: "\00a5";
 }
 
 /* line 272, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-ice-lolly:before {
-  content: \e231;
+.glyphicon-jpy:before {
+  content: "\00a5";
 }
 
 /* line 273, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-ice-lolly-tasted:before {
-  content: \e232;
+.glyphicon-ruble:before {
+  content: "\20bd";
 }
 
 /* line 274, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-education:before {
-  content: \e233;
+.glyphicon-rub:before {
+  content: "\20bd";
 }
 
 /* line 275, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-option-horizontal:before {
-  content: \e234;
+.glyphicon-scale:before {
+  content: "\e230";
 }
 
 /* line 276, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-option-vertical:before {
-  content: \e235;
+.glyphicon-ice-lolly:before {
+  content: "\e231";
 }
 
 /* line 277, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-menu-hamburger:before {
-  content: \e236;
+.glyphicon-ice-lolly-tasted:before {
+  content: "\e232";
 }
 
 /* line 278, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-modal-window:before {
-  content: \e237;
+.glyphicon-education:before {
+  content: "\e233";
 }
 
 /* line 279, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-oil:before {
-  content: \e238;
+.glyphicon-option-horizontal:before {
+  content: "\e234";
 }
 
 /* line 280, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-grain:before {
-  content: \e239;
+.glyphicon-option-vertical:before {
+  content: "\e235";
 }
 
 /* line 281, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-sunglasses:before {
-  content: \e240;
+.glyphicon-menu-hamburger:before {
+  content: "\e236";
 }
 
 /* line 282, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-text-size:before {
-  content: \e241;
+.glyphicon-modal-window:before {
+  content: "\e237";
 }
 
 /* line 283, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-text-color:before {
-  content: \e242;
+.glyphicon-oil:before {
+  content: "\e238";
 }
 
 /* line 284, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-text-background:before {
-  content: \e243;
+.glyphicon-grain:before {
+  content: "\e239";
 }
 
 /* line 285, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-object-align-top:before {
-  content: \e244;
+.glyphicon-sunglasses:before {
+  content: "\e240";
 }
 
 /* line 286, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-object-align-bottom:before {
-  content: \e245;
+.glyphicon-text-size:before {
+  content: "\e241";
 }
 
 /* line 287, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-object-align-horizontal:before {
-  content: \e246;
+.glyphicon-text-color:before {
+  content: "\e242";
 }
 
 /* line 288, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-object-align-left:before {
-  content: \e247;
+.glyphicon-text-background:before {
+  content: "\e243";
 }
 
 /* line 289, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-object-align-vertical:before {
-  content: \e248;
+.glyphicon-object-align-top:before {
+  content: "\e244";
 }
 
 /* line 290, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-object-align-right:before {
-  content: \e249;
+.glyphicon-object-align-bottom:before {
+  content: "\e245";
 }
 
 /* line 291, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-triangle-right:before {
-  content: \e250;
+.glyphicon-object-align-horizontal:before {
+  content: "\e246";
 }
 
 /* line 292, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-triangle-left:before {
-  content: \e251;
+.glyphicon-object-align-left:before {
+  content: "\e247";
 }
 
 /* line 293, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-triangle-bottom:before {
-  content: \e252;
+.glyphicon-object-align-vertical:before {
+  content: "\e248";
 }
 
 /* line 294, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-triangle-top:before {
-  content: \e253;
+.glyphicon-object-align-right:before {
+  content: "\e249";
 }
 
 /* line 295, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-console:before {
-  content: \e254;
+.glyphicon-triangle-right:before {
+  content: "\e250";
 }
 
 /* line 296, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-superscript:before {
-  content: \e255;
+.glyphicon-triangle-left:before {
+  content: "\e251";
 }
 
 /* line 297, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-subscript:before {
-  content: \e256;
+.glyphicon-triangle-bottom:before {
+  content: "\e252";
 }
 
 /* line 298, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-menu-left:before {
-  content: \e257;
+.glyphicon-triangle-top:before {
+  content: "\e253";
 }
 
 /* line 299, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-menu-right:before {
-  content: \e258;
+.glyphicon-console:before {
+  content: "\e254";
 }
 
 /* line 300, ../scss/bootstrap/_glyphicons.scss */
-.glyphicon-menu-down:before {
-  content: \e259;
+.glyphicon-superscript:before {
+  content: "\e255";
 }
 
 /* line 301, ../scss/bootstrap/_glyphicons.scss */
+.glyphicon-subscript:before {
+  content: "\e256";
+}
+
+/* line 302, ../scss/bootstrap/_glyphicons.scss */
+.glyphicon-menu-left:before {
+  content: "\e257";
+}
+
+/* line 303, ../scss/bootstrap/_glyphicons.scss */
+.glyphicon-menu-right:before {
+  content: "\e258";
+}
+
+/* line 304, ../scss/bootstrap/_glyphicons.scss */
+.glyphicon-menu-down:before {
+  content: "\e259";
+}
+
+/* line 305, ../scss/bootstrap/_glyphicons.scss */
 .glyphicon-menu-up:before {
-  content: \e260;
+  content: "\e260";
 }
 
 /* line 11, ../scss/bootstrap/_scaffolding.scss */
@@ -1772,7 +1792,7 @@ img {
 }
 
 /* line 106, ../scss/bootstrap/_scaffolding.scss */
-.img-circle {
+.img-circle, .social-media-button {
   border-radius: 50%;
 }
 
@@ -1804,6 +1824,11 @@ hr {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+/* line 160, ../scss/bootstrap/_scaffolding.scss */
+[role="button"] {
+  cursor: pointer;
 }
 
 /* line 10, ../scss/bootstrap/_type.scss */
@@ -1967,7 +1992,7 @@ mark,
 }
 
 /* line 98, ../scss/bootstrap/_type.scss */
-.text-uppercase {
+.text-uppercase, .initialism {
   text-transform: uppercase;
 }
 
@@ -2184,7 +2209,6 @@ abbr[data-original-title] {
 /* line 235, ../scss/bootstrap/_type.scss */
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
 }
 
 /* line 241, ../scss/bootstrap/_type.scss */
@@ -3824,30 +3848,33 @@ output {
 }
 /* line 143, ../scss/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-  cursor: not-allowed;
   background-color: #eeeeee;
   opacity: 1;
 }
+/* line 149, ../scss/bootstrap/_forms.scss */
+.form-control[disabled], fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
 
-/* line 153, ../scss/bootstrap/_forms.scss */
+/* line 157, ../scss/bootstrap/_forms.scss */
 textarea.form-control {
   height: auto;
 }
 
-/* line 165, ../scss/bootstrap/_forms.scss */
+/* line 169, ../scss/bootstrap/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 181, ../scss/bootstrap/_forms.scss */
+  /* line 185, ../scss/bootstrap/_forms.scss */
   input[type="date"],
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
     line-height: 34px;
   }
-  /* line 185, ../scss/bootstrap/_forms.scss */
+  /* line 189, ../scss/bootstrap/_forms.scss */
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
   .input-group-sm > input[type="date"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="date"].btn, .input-group-sm input[type="date"],
@@ -3868,7 +3895,7 @@ input[type="search"] {
   input[type="month"] {
     line-height: 30px;
   }
-  /* line 190, ../scss/bootstrap/_forms.scss */
+  /* line 194, ../scss/bootstrap/_forms.scss */
   input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
   .input-group-lg > input[type="date"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="date"].btn, .input-group-lg input[type="date"],
@@ -3890,12 +3917,12 @@ input[type="search"] {
     line-height: 46px;
   }
 }
-/* line 202, ../scss/bootstrap/_forms.scss */
+/* line 206, ../scss/bootstrap/_forms.scss */
 .form-group {
   margin-bottom: 15px;
 }
 
-/* line 212, ../scss/bootstrap/_forms.scss */
+/* line 216, ../scss/bootstrap/_forms.scss */
 .radio,
 .checkbox {
   position: relative;
@@ -3903,7 +3930,7 @@ input[type="search"] {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 218, ../scss/bootstrap/_forms.scss */
+/* line 222, ../scss/bootstrap/_forms.scss */
 .radio label,
 .checkbox label {
   min-height: 20px;
@@ -3913,7 +3940,7 @@ input[type="search"] {
   cursor: pointer;
 }
 
-/* line 229, ../scss/bootstrap/_forms.scss */
+/* line 233, ../scss/bootstrap/_forms.scss */
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -3923,15 +3950,16 @@ input[type="search"] {
   margin-top: 4px \9;
 }
 
-/* line 236, ../scss/bootstrap/_forms.scss */
+/* line 240, ../scss/bootstrap/_forms.scss */
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
 
-/* line 242, ../scss/bootstrap/_forms.scss */
+/* line 246, ../scss/bootstrap/_forms.scss */
 .radio-inline,
 .checkbox-inline {
+  position: relative;
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 0;
@@ -3940,14 +3968,14 @@ input[type="search"] {
   cursor: pointer;
 }
 
-/* line 251, ../scss/bootstrap/_forms.scss */
+/* line 256, ../scss/bootstrap/_forms.scss */
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
 
-/* line 264, ../scss/bootstrap/_forms.scss */
+/* line 269, ../scss/bootstrap/_forms.scss */
 input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"],
 input[type="checkbox"][disabled],
 input[type="checkbox"].disabled, fieldset[disabled]
@@ -3955,27 +3983,28 @@ input[type="checkbox"] {
   cursor: not-allowed;
 }
 
-/* line 272, ../scss/bootstrap/_forms.scss */
+/* line 277, ../scss/bootstrap/_forms.scss */
 .radio-inline.disabled, fieldset[disabled] .radio-inline,
 .checkbox-inline.disabled, fieldset[disabled]
 .checkbox-inline {
   cursor: not-allowed;
 }
 
-/* line 281, ../scss/bootstrap/_forms.scss */
+/* line 286, ../scss/bootstrap/_forms.scss */
 .radio.disabled label, fieldset[disabled] .radio label,
 .checkbox.disabled label, fieldset[disabled]
 .checkbox label {
   cursor: not-allowed;
 }
 
-/* line 293, ../scss/bootstrap/_forms.scss */
+/* line 298, ../scss/bootstrap/_forms.scss */
 .form-control-static {
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
+  min-height: 34px;
 }
-/* line 301, ../scss/bootstrap/_forms.scss */
+/* line 307, ../scss/bootstrap/_forms.scss */
 .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
 .input-group-lg > .form-control-static.input-group-addon,
 .input-group-lg > .input-group-btn > .form-control-static.btn, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
@@ -4033,12 +4062,13 @@ select[multiple].input-sm,
 .form-group-sm select[multiple].form-control {
   height: auto;
 }
-/* line 321, ../scss/bootstrap/_forms.scss */
+/* line 327, ../scss/bootstrap/_forms.scss */
 .form-group-sm .form-control-static {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
+  min-height: 32px;
 }
 
 /* line 71, ../scss/bootstrap/mixins/_forms.scss */
@@ -4089,24 +4119,25 @@ select[multiple].input-lg,
 .form-group-lg select[multiple].form-control {
   height: auto;
 }
-/* line 334, ../scss/bootstrap/_forms.scss */
+/* line 341, ../scss/bootstrap/_forms.scss */
 .form-group-lg .form-control-static {
   height: 46px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
+  min-height: 38px;
 }
 
-/* line 347, ../scss/bootstrap/_forms.scss */
+/* line 355, ../scss/bootstrap/_forms.scss */
 .has-feedback {
   position: relative;
 }
-/* line 352, ../scss/bootstrap/_forms.scss */
+/* line 360, ../scss/bootstrap/_forms.scss */
 .has-feedback .form-control {
   padding-right: 42.5px;
 }
 
-/* line 357, ../scss/bootstrap/_forms.scss */
+/* line 365, ../scss/bootstrap/_forms.scss */
 .form-control-feedback {
   position: absolute;
   top: 0;
@@ -4120,7 +4151,7 @@ select[multiple].input-lg,
   pointer-events: none;
 }
 
-/* line 369, ../scss/bootstrap/_forms.scss */
+/* line 377, ../scss/bootstrap/_forms.scss */
 .input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback {
@@ -4129,7 +4160,7 @@ select[multiple].input-lg,
   line-height: 46px;
 }
 
-/* line 374, ../scss/bootstrap/_forms.scss */
+/* line 382, ../scss/bootstrap/_forms.scss */
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback {
@@ -4234,16 +4265,16 @@ select[multiple].input-lg,
   color: #a94442;
 }
 
-/* line 394, ../scss/bootstrap/_forms.scss */
+/* line 402, ../scss/bootstrap/_forms.scss */
 .has-feedback label ~ .form-control-feedback {
   top: 25px;
 }
-/* line 397, ../scss/bootstrap/_forms.scss */
+/* line 405, ../scss/bootstrap/_forms.scss */
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
 
-/* line 408, ../scss/bootstrap/_forms.scss */
+/* line 416, ../scss/bootstrap/_forms.scss */
 .help-block {
   display: block;
   margin-top: 5px;
@@ -4252,43 +4283,43 @@ select[multiple].input-lg,
 }
 
 @media (min-width: 768px) {
-  /* line 433, ../scss/bootstrap/_forms.scss */
+  /* line 441, ../scss/bootstrap/_forms.scss */
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 440, ../scss/bootstrap/_forms.scss */
+  /* line 448, ../scss/bootstrap/_forms.scss */
   .form-inline .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-  /* line 447, ../scss/bootstrap/_forms.scss */
+  /* line 455, ../scss/bootstrap/_forms.scss */
   .form-inline .form-control-static {
     display: inline-block;
   }
-  /* line 451, ../scss/bootstrap/_forms.scss */
+  /* line 459, ../scss/bootstrap/_forms.scss */
   .form-inline .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 457, ../scss/bootstrap/_forms.scss */
+  /* line 465, ../scss/bootstrap/_forms.scss */
   .form-inline .input-group .input-group-addon,
   .form-inline .input-group .input-group-btn,
   .form-inline .input-group .form-control {
     width: auto;
   }
-  /* line 463, ../scss/bootstrap/_forms.scss */
+  /* line 471, ../scss/bootstrap/_forms.scss */
   .form-inline .input-group > .form-control {
     width: 100%;
   }
-  /* line 467, ../scss/bootstrap/_forms.scss */
+  /* line 475, ../scss/bootstrap/_forms.scss */
   .form-inline .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 475, ../scss/bootstrap/_forms.scss */
+  /* line 483, ../scss/bootstrap/_forms.scss */
   .form-inline .radio,
   .form-inline .checkbox {
     display: inline-block;
@@ -4296,24 +4327,24 @@ select[multiple].input-lg,
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 481, ../scss/bootstrap/_forms.scss */
+  /* line 489, ../scss/bootstrap/_forms.scss */
   .form-inline .radio label,
   .form-inline .checkbox label {
     padding-left: 0;
   }
-  /* line 486, ../scss/bootstrap/_forms.scss */
+  /* line 494, ../scss/bootstrap/_forms.scss */
   .form-inline .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-  /* line 492, ../scss/bootstrap/_forms.scss */
+  /* line 500, ../scss/bootstrap/_forms.scss */
   .form-inline .has-feedback .form-control-feedback {
     top: 0;
   }
 }
 
-/* line 517, ../scss/bootstrap/_forms.scss */
+/* line 525, ../scss/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -4322,12 +4353,12 @@ select[multiple].input-lg,
   margin-bottom: 0;
   padding-top: 7px;
 }
-/* line 525, ../scss/bootstrap/_forms.scss */
+/* line 533, ../scss/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px;
 }
-/* line 530, ../scss/bootstrap/_forms.scss */
+/* line 538, ../scss/bootstrap/_forms.scss */
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px;
@@ -4342,25 +4373,25 @@ select[multiple].input-lg,
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 537, ../scss/bootstrap/_forms.scss */
+  /* line 545, ../scss/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
     padding-top: 7px;
   }
 }
-/* line 548, ../scss/bootstrap/_forms.scss */
+/* line 556, ../scss/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 558, ../scss/bootstrap/_forms.scss */
+  /* line 566, ../scss/bootstrap/_forms.scss */
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.33333px;
   }
 }
 @media (min-width: 768px) {
-  /* line 565, ../scss/bootstrap/_forms.scss */
+  /* line 573, ../scss/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
   }
@@ -4662,25 +4693,23 @@ input[type="button"].btn-block {
 /* line 18, ../scss/bootstrap/_component-animations.scss */
 .collapse {
   display: none;
-  visibility: hidden;
 }
-/* line 22, ../scss/bootstrap/_component-animations.scss */
+/* line 21, ../scss/bootstrap/_component-animations.scss */
 .collapse.in {
   display: block;
-  visibility: visible;
 }
 
-/* line 27, ../scss/bootstrap/_component-animations.scss */
+/* line 26, ../scss/bootstrap/_component-animations.scss */
 tr.collapse.in {
   display: table-row;
 }
 
-/* line 29, ../scss/bootstrap/_component-animations.scss */
+/* line 28, ../scss/bootstrap/_component-animations.scss */
 tbody.collapse.in {
   display: table-row-group;
 }
 
-/* line 31, ../scss/bootstrap/_component-animations.scss */
+/* line 30, ../scss/bootstrap/_component-animations.scss */
 .collapsing {
   position: relative;
   height: 0;
@@ -4700,7 +4729,7 @@ tbody.collapse.in {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px solid;
+  border-top: 4px dashed;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
@@ -5428,15 +5457,13 @@ tbody.collapse.in {
 /* line 224, ../scss/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
   display: none;
-  visibility: hidden;
 }
-/* line 228, ../scss/bootstrap/_navs.scss */
+/* line 227, ../scss/bootstrap/_navs.scss */
 .tab-content > .active {
   display: block;
-  visibility: visible;
 }
 
-/* line 239, ../scss/bootstrap/_navs.scss */
+/* line 237, ../scss/bootstrap/_navs.scss */
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-right-radius: 0;
@@ -5514,36 +5541,35 @@ tbody.collapse.in {
   /* line 68, ../scss/bootstrap/_navbar.scss */
   .navbar-collapse.collapse {
     display: block !important;
-    visibility: visible !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
   }
-  /* line 76, ../scss/bootstrap/_navbar.scss */
+  /* line 75, ../scss/bootstrap/_navbar.scss */
   .navbar-collapse.in {
     overflow-y: visible;
   }
-  /* line 84, ../scss/bootstrap/_navbar.scss */
+  /* line 83, ../scss/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 93, ../scss/bootstrap/_navbar.scss */
+/* line 92, ../scss/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
-  /* line 93, ../scss/bootstrap/_navbar.scss */
+  /* line 92, ../scss/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
 }
 
-/* line 110, ../scss/bootstrap/_navbar.scss */
+/* line 109, ../scss/bootstrap/_navbar.scss */
 .container > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -5552,7 +5578,7 @@ tbody.collapse.in {
   margin-left: -15px;
 }
 @media (min-width: 768px) {
-  /* line 110, ../scss/bootstrap/_navbar.scss */
+  /* line 109, ../scss/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-header,
@@ -5562,19 +5588,19 @@ tbody.collapse.in {
   }
 }
 
-/* line 129, ../scss/bootstrap/_navbar.scss */
+/* line 128, ../scss/bootstrap/_navbar.scss */
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
 }
 @media (min-width: 768px) {
-  /* line 129, ../scss/bootstrap/_navbar.scss */
+  /* line 128, ../scss/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
   }
 }
 
-/* line 140, ../scss/bootstrap/_navbar.scss */
+/* line 139, ../scss/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -5583,27 +5609,27 @@ tbody.collapse.in {
   z-index: 1030;
 }
 @media (min-width: 768px) {
-  /* line 140, ../scss/bootstrap/_navbar.scss */
+  /* line 139, ../scss/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
   }
 }
 
-/* line 151, ../scss/bootstrap/_navbar.scss */
+/* line 150, ../scss/bootstrap/_navbar.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
 }
 
-/* line 155, ../scss/bootstrap/_navbar.scss */
+/* line 154, ../scss/bootstrap/_navbar.scss */
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
 
-/* line 164, ../scss/bootstrap/_navbar.scss */
+/* line 163, ../scss/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
   padding: 15px 15px;
@@ -5611,22 +5637,22 @@ tbody.collapse.in {
   line-height: 20px;
   height: 50px;
 }
-/* line 172, ../scss/bootstrap/_navbar.scss */
+/* line 171, ../scss/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-/* line 176, ../scss/bootstrap/_navbar.scss */
+/* line 175, ../scss/bootstrap/_navbar.scss */
 .navbar-brand > img {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 182, ../scss/bootstrap/_navbar.scss */
+  /* line 181, ../scss/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
 
-/* line 194, ../scss/bootstrap/_navbar.scss */
+/* line 193, ../scss/bootstrap/_navbar.scss */
 .navbar-toggle {
   position: relative;
   float: right;
@@ -5639,40 +5665,40 @@ tbody.collapse.in {
   border: 1px solid transparent;
   border-radius: 4px;
 }
-/* line 207, ../scss/bootstrap/_navbar.scss */
+/* line 206, ../scss/bootstrap/_navbar.scss */
 .navbar-toggle:focus {
   outline: 0;
 }
-/* line 212, ../scss/bootstrap/_navbar.scss */
+/* line 211, ../scss/bootstrap/_navbar.scss */
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
 }
-/* line 218, ../scss/bootstrap/_navbar.scss */
+/* line 217, ../scss/bootstrap/_navbar.scss */
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
 @media (min-width: 768px) {
-  /* line 194, ../scss/bootstrap/_navbar.scss */
+  /* line 193, ../scss/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
   }
 }
 
-/* line 233, ../scss/bootstrap/_navbar.scss */
+/* line 232, ../scss/bootstrap/_navbar.scss */
 .navbar-nav {
   margin: 7.5px -15px;
 }
-/* line 236, ../scss/bootstrap/_navbar.scss */
+/* line 235, ../scss/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
-  /* line 244, ../scss/bootstrap/_navbar.scss */
+  /* line 243, ../scss/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -5682,38 +5708,38 @@ tbody.collapse.in {
     border: 0;
     box-shadow: none;
   }
-  /* line 253, ../scss/bootstrap/_navbar.scss */
+  /* line 252, ../scss/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
   }
-  /* line 256, ../scss/bootstrap/_navbar.scss */
+  /* line 255, ../scss/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
-  /* line 259, ../scss/bootstrap/_navbar.scss */
+  /* line 258, ../scss/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
 }
 @media (min-width: 768px) {
-  /* line 233, ../scss/bootstrap/_navbar.scss */
+  /* line 232, ../scss/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
     margin: 0;
   }
-  /* line 271, ../scss/bootstrap/_navbar.scss */
+  /* line 270, ../scss/bootstrap/_navbar.scss */
   .navbar-nav > li {
     float: left;
   }
-  /* line 273, ../scss/bootstrap/_navbar.scss */
+  /* line 272, ../scss/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
 }
 
-/* line 287, ../scss/bootstrap/_navbar.scss */
+/* line 286, ../scss/bootstrap/_navbar.scss */
 .navbar-form {
   margin-left: -15px;
   margin-right: -15px;
@@ -5726,43 +5752,43 @@ tbody.collapse.in {
   margin-bottom: 8px;
 }
 @media (min-width: 768px) {
-  /* line 433, ../scss/bootstrap/_forms.scss */
+  /* line 441, ../scss/bootstrap/_forms.scss */
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 440, ../scss/bootstrap/_forms.scss */
+  /* line 448, ../scss/bootstrap/_forms.scss */
   .navbar-form .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-  /* line 447, ../scss/bootstrap/_forms.scss */
+  /* line 455, ../scss/bootstrap/_forms.scss */
   .navbar-form .form-control-static {
     display: inline-block;
   }
-  /* line 451, ../scss/bootstrap/_forms.scss */
+  /* line 459, ../scss/bootstrap/_forms.scss */
   .navbar-form .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 457, ../scss/bootstrap/_forms.scss */
+  /* line 465, ../scss/bootstrap/_forms.scss */
   .navbar-form .input-group .input-group-addon,
   .navbar-form .input-group .input-group-btn,
   .navbar-form .input-group .form-control {
     width: auto;
   }
-  /* line 463, ../scss/bootstrap/_forms.scss */
+  /* line 471, ../scss/bootstrap/_forms.scss */
   .navbar-form .input-group > .form-control {
     width: 100%;
   }
-  /* line 467, ../scss/bootstrap/_forms.scss */
+  /* line 475, ../scss/bootstrap/_forms.scss */
   .navbar-form .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 475, ../scss/bootstrap/_forms.scss */
+  /* line 483, ../scss/bootstrap/_forms.scss */
   .navbar-form .radio,
   .navbar-form .checkbox {
     display: inline-block;
@@ -5770,34 +5796,34 @@ tbody.collapse.in {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 481, ../scss/bootstrap/_forms.scss */
+  /* line 489, ../scss/bootstrap/_forms.scss */
   .navbar-form .radio label,
   .navbar-form .checkbox label {
     padding-left: 0;
   }
-  /* line 486, ../scss/bootstrap/_forms.scss */
+  /* line 494, ../scss/bootstrap/_forms.scss */
   .navbar-form .radio input[type="radio"],
   .navbar-form .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-  /* line 492, ../scss/bootstrap/_forms.scss */
+  /* line 500, ../scss/bootstrap/_forms.scss */
   .navbar-form .has-feedback .form-control-feedback {
     top: 0;
   }
 }
 @media (max-width: 767px) {
-  /* line 299, ../scss/bootstrap/_navbar.scss */
+  /* line 298, ../scss/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
-  /* line 303, ../scss/bootstrap/_navbar.scss */
+  /* line 302, ../scss/bootstrap/_navbar.scss */
   .navbar-form .form-group:last-child {
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
-  /* line 287, ../scss/bootstrap/_navbar.scss */
+  /* line 286, ../scss/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
     border: 0;
@@ -5810,14 +5836,14 @@ tbody.collapse.in {
   }
 }
 
-/* line 328, ../scss/bootstrap/_navbar.scss */
+/* line 327, ../scss/bootstrap/_navbar.scss */
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 333, ../scss/bootstrap/_navbar.scss */
+/* line 332, ../scss/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
   border-top-right-radius: 4px;
@@ -5826,29 +5852,29 @@ tbody.collapse.in {
   border-bottom-left-radius: 0;
 }
 
-/* line 344, ../scss/bootstrap/_navbar.scss */
+/* line 343, ../scss/bootstrap/_navbar.scss */
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-/* line 347, ../scss/bootstrap/_navbar.scss */
+/* line 346, ../scss/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 350, ../scss/bootstrap/_navbar.scss */
+/* line 349, ../scss/bootstrap/_navbar.scss */
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
   margin-top: 14px;
   margin-bottom: 14px;
 }
 
-/* line 360, ../scss/bootstrap/_navbar.scss */
+/* line 359, ../scss/bootstrap/_navbar.scss */
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 @media (min-width: 768px) {
-  /* line 360, ../scss/bootstrap/_navbar.scss */
+  /* line 359, ../scss/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
     margin-left: 15px;
@@ -5857,227 +5883,227 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  /* line 380, ../scss/bootstrap/_navbar.scss */
+  /* line 379, ../scss/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
   }
 
-  /* line 383, ../scss/bootstrap/_navbar.scss */
+  /* line 382, ../scss/bootstrap/_navbar.scss */
   .navbar-right {
     float: right !important;
     margin-right: -15px;
   }
-  /* line 387, ../scss/bootstrap/_navbar.scss */
+  /* line 386, ../scss/bootstrap/_navbar.scss */
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
 }
-/* line 398, ../scss/bootstrap/_navbar.scss */
+/* line 397, ../scss/bootstrap/_navbar.scss */
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
-/* line 402, ../scss/bootstrap/_navbar.scss */
+/* line 401, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
   color: #777777;
 }
-/* line 405, ../scss/bootstrap/_navbar.scss */
+/* line 404, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
-/* line 411, ../scss/bootstrap/_navbar.scss */
+/* line 410, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
   color: #777777;
 }
-/* line 416, ../scss/bootstrap/_navbar.scss */
+/* line 415, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #777777;
 }
-/* line 420, ../scss/bootstrap/_navbar.scss */
+/* line 419, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
 }
-/* line 428, ../scss/bootstrap/_navbar.scss */
+/* line 427, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
   background-color: #e7e7e7;
 }
-/* line 436, ../scss/bootstrap/_navbar.scss */
+/* line 435, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
   color: #cccccc;
   background-color: transparent;
 }
-/* line 443, ../scss/bootstrap/_navbar.scss */
+/* line 442, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
   border-color: #dddddd;
 }
-/* line 446, ../scss/bootstrap/_navbar.scss */
+/* line 445, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #dddddd;
 }
-/* line 449, ../scss/bootstrap/_navbar.scss */
+/* line 448, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888888;
 }
-/* line 455, ../scss/bootstrap/_navbar.scss */
+/* line 454, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
-/* line 465, ../scss/bootstrap/_navbar.scss */
+/* line 464, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   background-color: #e7e7e7;
   color: #555555;
 }
 @media (max-width: 767px) {
-  /* line 474, ../scss/bootstrap/_navbar.scss */
+  /* line 473, ../scss/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
-  /* line 477, ../scss/bootstrap/_navbar.scss */
+  /* line 476, ../scss/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333333;
     background-color: transparent;
   }
-  /* line 485, ../scss/bootstrap/_navbar.scss */
+  /* line 484, ../scss/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
     background-color: #e7e7e7;
   }
-  /* line 493, ../scss/bootstrap/_navbar.scss */
+  /* line 492, ../scss/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #cccccc;
     background-color: transparent;
   }
 }
-/* line 507, ../scss/bootstrap/_navbar.scss */
+/* line 506, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
   color: #777777;
 }
-/* line 509, ../scss/bootstrap/_navbar.scss */
+/* line 508, ../scss/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
   color: #333333;
 }
-/* line 514, ../scss/bootstrap/_navbar.scss */
+/* line 513, ../scss/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
   color: #777777;
 }
-/* line 517, ../scss/bootstrap/_navbar.scss */
+/* line 516, ../scss/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
   color: #333333;
 }
-/* line 523, ../scss/bootstrap/_navbar.scss */
+/* line 522, ../scss/bootstrap/_navbar.scss */
 .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 
-/* line 532, ../scss/bootstrap/_navbar.scss */
+/* line 531, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #222222;
   border-color: #090909;
 }
-/* line 536, ../scss/bootstrap/_navbar.scss */
+/* line 535, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
 }
-/* line 539, ../scss/bootstrap/_navbar.scss */
+/* line 538, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: white;
   background-color: transparent;
 }
-/* line 545, ../scss/bootstrap/_navbar.scss */
+/* line 544, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
   color: #9d9d9d;
 }
-/* line 550, ../scss/bootstrap/_navbar.scss */
+/* line 549, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
 }
-/* line 554, ../scss/bootstrap/_navbar.scss */
+/* line 553, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: white;
   background-color: transparent;
 }
-/* line 562, ../scss/bootstrap/_navbar.scss */
+/* line 561, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: white;
   background-color: #090909;
 }
-/* line 570, ../scss/bootstrap/_navbar.scss */
+/* line 569, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444444;
   background-color: transparent;
 }
-/* line 578, ../scss/bootstrap/_navbar.scss */
+/* line 577, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle {
   border-color: #333333;
 }
-/* line 581, ../scss/bootstrap/_navbar.scss */
+/* line 580, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #333333;
 }
-/* line 584, ../scss/bootstrap/_navbar.scss */
+/* line 583, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: white;
 }
-/* line 590, ../scss/bootstrap/_navbar.scss */
+/* line 589, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
 }
-/* line 599, ../scss/bootstrap/_navbar.scss */
+/* line 598, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #090909;
   color: white;
 }
 @media (max-width: 767px) {
-  /* line 608, ../scss/bootstrap/_navbar.scss */
+  /* line 607, ../scss/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
-  /* line 611, ../scss/bootstrap/_navbar.scss */
+  /* line 610, ../scss/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #090909;
   }
-  /* line 614, ../scss/bootstrap/_navbar.scss */
+  /* line 613, ../scss/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #9d9d9d;
   }
-  /* line 617, ../scss/bootstrap/_navbar.scss */
+  /* line 616, ../scss/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: white;
     background-color: transparent;
   }
-  /* line 625, ../scss/bootstrap/_navbar.scss */
+  /* line 624, ../scss/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: white;
     background-color: #090909;
   }
-  /* line 633, ../scss/bootstrap/_navbar.scss */
+  /* line 632, ../scss/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444444;
     background-color: transparent;
   }
 }
-/* line 642, ../scss/bootstrap/_navbar.scss */
+/* line 641, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
   color: #9d9d9d;
 }
-/* line 644, ../scss/bootstrap/_navbar.scss */
+/* line 643, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
   color: white;
 }
-/* line 649, ../scss/bootstrap/_navbar.scss */
+/* line 648, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
   color: #9d9d9d;
 }
-/* line 652, ../scss/bootstrap/_navbar.scss */
+/* line 651, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
   color: white;
 }
-/* line 658, ../scss/bootstrap/_navbar.scss */
+/* line 657, ../scss/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
 }
@@ -6096,7 +6122,7 @@ tbody.collapse.in {
 }
 /* line 16, ../scss/bootstrap/_breadcrumbs.scss */
 .breadcrumb > li + li:before {
-  content: /\00a0;
+  content: "/\00a0";
   padding: 0 5px;
   color: #cccccc;
 }
@@ -6375,30 +6401,30 @@ a.label:hover, a.label:focus {
   position: relative;
   top: -1px;
 }
-/* line 32, ../scss/bootstrap/_badges.scss */
-.btn-xs .badge, .btn-group-xs > .btn .badge {
+/* line 33, ../scss/bootstrap/_badges.scss */
+.btn-xs .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .btn .badge {
   top: 0;
   padding: 1px 5px;
 }
-/* line 41, ../scss/bootstrap/_badges.scss */
+/* line 42, ../scss/bootstrap/_badges.scss */
 .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   color: #337ab7;
   background-color: white;
 }
-/* line 46, ../scss/bootstrap/_badges.scss */
+/* line 47, ../scss/bootstrap/_badges.scss */
 .list-group-item > .badge {
   float: right;
 }
-/* line 50, ../scss/bootstrap/_badges.scss */
+/* line 51, ../scss/bootstrap/_badges.scss */
 .list-group-item > .badge + .badge {
   margin-right: 5px;
 }
-/* line 54, ../scss/bootstrap/_badges.scss */
+/* line 55, ../scss/bootstrap/_badges.scss */
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
 
-/* line 62, ../scss/bootstrap/_badges.scss */
+/* line 63, ../scss/bootstrap/_badges.scss */
 a.badge:hover, a.badge:focus {
   color: white;
   text-decoration: none;
@@ -7416,12 +7442,14 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   width: 100%;
   border: 0;
 }
-/* line 27, ../scss/bootstrap/_responsive-embed.scss */
-.embed-responsive.embed-responsive-16by9 {
+
+/* line 28, ../scss/bootstrap/_responsive-embed.scss */
+.embed-responsive-16by9 {
   padding-bottom: 56.25%;
 }
-/* line 32, ../scss/bootstrap/_responsive-embed.scss */
-.embed-responsive.embed-responsive-4by3 {
+
+/* line 33, ../scss/bootstrap/_responsive-embed.scss */
+.embed-responsive-4by3 {
   padding-bottom: 75%;
 }
 
@@ -7497,7 +7525,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -7548,48 +7576,50 @@ button.close {
 
 /* line 64, ../scss/bootstrap/_modals.scss */
 .modal-backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  bottom: 0;
   left: 0;
+  z-index: 1040;
   background-color: black;
 }
-/* line 71, ../scss/bootstrap/_modals.scss */
+/* line 73, ../scss/bootstrap/_modals.scss */
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 72, ../scss/bootstrap/_modals.scss */
+/* line 74, ../scss/bootstrap/_modals.scss */
 .modal-backdrop.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-/* line 77, ../scss/bootstrap/_modals.scss */
+/* line 79, ../scss/bootstrap/_modals.scss */
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857px;
 }
 
-/* line 83, ../scss/bootstrap/_modals.scss */
+/* line 85, ../scss/bootstrap/_modals.scss */
 .modal-header .close {
   margin-top: -2px;
 }
 
-/* line 88, ../scss/bootstrap/_modals.scss */
+/* line 90, ../scss/bootstrap/_modals.scss */
 .modal-title {
   margin: 0;
   line-height: 1.42857;
 }
 
-/* line 95, ../scss/bootstrap/_modals.scss */
+/* line 97, ../scss/bootstrap/_modals.scss */
 .modal-body {
   position: relative;
   padding: 15px;
 }
 
-/* line 101, ../scss/bootstrap/_modals.scss */
+/* line 103, ../scss/bootstrap/_modals.scss */
 .modal-footer {
   padding: 15px;
   text-align: right;
@@ -7604,21 +7634,21 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
-/* line 108, ../scss/bootstrap/_modals.scss */
+/* line 110, ../scss/bootstrap/_modals.scss */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-/* line 113, ../scss/bootstrap/_modals.scss */
+/* line 115, ../scss/bootstrap/_modals.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-/* line 117, ../scss/bootstrap/_modals.scss */
+/* line 119, ../scss/bootstrap/_modals.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 123, ../scss/bootstrap/_modals.scss */
+/* line 125, ../scss/bootstrap/_modals.scss */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -7628,25 +7658,25 @@ button.close {
 }
 
 @media (min-width: 768px) {
-  /* line 134, ../scss/bootstrap/_modals.scss */
+  /* line 136, ../scss/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
 
-  /* line 138, ../scss/bootstrap/_modals.scss */
+  /* line 140, ../scss/bootstrap/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 143, ../scss/bootstrap/_modals.scss */
+  /* line 145, ../scss/bootstrap/_modals.scss */
   .modal-sm {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
-  /* line 147, ../scss/bootstrap/_modals.scss */
+  /* line 149, ../scss/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
   }
@@ -7656,7 +7686,6 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  visibility: visible;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
@@ -7664,33 +7693,33 @@ button.close {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 19, ../scss/bootstrap/_tooltip.scss */
+/* line 18, ../scss/bootstrap/_tooltip.scss */
 .tooltip.in {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-/* line 20, ../scss/bootstrap/_tooltip.scss */
+/* line 19, ../scss/bootstrap/_tooltip.scss */
 .tooltip.top {
   margin-top: -3px;
   padding: 5px 0;
 }
-/* line 21, ../scss/bootstrap/_tooltip.scss */
+/* line 20, ../scss/bootstrap/_tooltip.scss */
 .tooltip.right {
   margin-left: 3px;
   padding: 0 5px;
 }
-/* line 22, ../scss/bootstrap/_tooltip.scss */
+/* line 21, ../scss/bootstrap/_tooltip.scss */
 .tooltip.bottom {
   margin-top: 3px;
   padding: 5px 0;
 }
-/* line 23, ../scss/bootstrap/_tooltip.scss */
+/* line 22, ../scss/bootstrap/_tooltip.scss */
 .tooltip.left {
   margin-left: -3px;
   padding: 0 5px;
 }
 
-/* line 27, ../scss/bootstrap/_tooltip.scss */
+/* line 26, ../scss/bootstrap/_tooltip.scss */
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -7701,7 +7730,7 @@ button.close {
   border-radius: 4px;
 }
 
-/* line 38, ../scss/bootstrap/_tooltip.scss */
+/* line 37, ../scss/bootstrap/_tooltip.scss */
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -7710,7 +7739,7 @@ button.close {
   border-style: solid;
 }
 
-/* line 47, ../scss/bootstrap/_tooltip.scss */
+/* line 46, ../scss/bootstrap/_tooltip.scss */
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -7718,7 +7747,7 @@ button.close {
   border-width: 5px 5px 0;
   border-top-color: black;
 }
-/* line 54, ../scss/bootstrap/_tooltip.scss */
+/* line 53, ../scss/bootstrap/_tooltip.scss */
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   right: 5px;
@@ -7726,7 +7755,7 @@ button.close {
   border-width: 5px 5px 0;
   border-top-color: black;
 }
-/* line 61, ../scss/bootstrap/_tooltip.scss */
+/* line 60, ../scss/bootstrap/_tooltip.scss */
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   left: 5px;
@@ -7734,7 +7763,7 @@ button.close {
   border-width: 5px 5px 0;
   border-top-color: black;
 }
-/* line 68, ../scss/bootstrap/_tooltip.scss */
+/* line 67, ../scss/bootstrap/_tooltip.scss */
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
@@ -7742,7 +7771,7 @@ button.close {
   border-width: 5px 5px 5px 0;
   border-right-color: black;
 }
-/* line 75, ../scss/bootstrap/_tooltip.scss */
+/* line 74, ../scss/bootstrap/_tooltip.scss */
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
@@ -7750,7 +7779,7 @@ button.close {
   border-width: 5px 0 5px 5px;
   border-left-color: black;
 }
-/* line 82, ../scss/bootstrap/_tooltip.scss */
+/* line 81, ../scss/bootstrap/_tooltip.scss */
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
@@ -7758,7 +7787,7 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: black;
 }
-/* line 89, ../scss/bootstrap/_tooltip.scss */
+/* line 88, ../scss/bootstrap/_tooltip.scss */
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   right: 5px;
@@ -7766,7 +7795,7 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: black;
 }
-/* line 96, ../scss/bootstrap/_tooltip.scss */
+/* line 95, ../scss/bootstrap/_tooltip.scss */
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   left: 5px;
@@ -8238,10 +8267,9 @@ button.close {
 /* line 45, ../scss/bootstrap/_utilities.scss */
 .hidden {
   display: none !important;
-  visibility: hidden !important;
 }
 
-/* line 54, ../scss/bootstrap/_utilities.scss */
+/* line 53, ../scss/bootstrap/_utilities.scss */
 .affix {
   position: fixed;
 }
@@ -8641,6 +8669,107 @@ a img.aligncenter {
   padding: 0 4px 5px;
 }
 
+/* line 2, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa {
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 6, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-brand {
+  color: white;
+}
+/* line 9, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-brand:hover, .navbar-sherpa .navbar-brand:focus {
+  color: white;
+  background-color: transparent;
+}
+/* line 15, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-text {
+  color: black;
+}
+/* line 20, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-nav > li > a {
+  color: black;
+}
+/* line 24, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-nav > li > a:hover, .navbar-sherpa .navbar-nav > li > a:focus {
+  color: white;
+  background-color: black;
+}
+/* line 32, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-nav > .active > a, .navbar-sherpa .navbar-nav > .active > a:hover, .navbar-sherpa .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: black;
+}
+/* line 40, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-nav > .disabled > a, .navbar-sherpa .navbar-nav > .disabled > a:hover, .navbar-sherpa .navbar-nav > .disabled > a:focus {
+  color: white;
+  background-color: #1a1a1a;
+}
+/* line 47, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-toggle {
+  border-color: white;
+}
+/* line 50, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-toggle:hover, .navbar-sherpa .navbar-toggle:focus {
+  background-color: transparent;
+}
+/* line 53, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-toggle .icon-bar {
+  background-color: white;
+}
+/* line 59, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-collapse,
+.navbar-sherpa .navbar-form {
+  border-color: transparent;
+}
+/* line 69, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-nav > .open > a, .navbar-sherpa .navbar-nav > .open > a:hover, .navbar-sherpa .navbar-nav > .open > a:focus {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 767px) {
+  /* line 78, ../scss/_sherpa-navbar.scss */
+  .navbar-sherpa .navbar-nav .open .dropdown-menu > li > a {
+    color: black;
+  }
+  /* line 81, ../scss/_sherpa-navbar.scss */
+  .navbar-sherpa .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-sherpa .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: white;
+    background-color: black;
+  }
+  /* line 89, ../scss/_sherpa-navbar.scss */
+  .navbar-sherpa .navbar-nav .open .dropdown-menu > .active > a, .navbar-sherpa .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-sherpa .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: white;
+    background-color: black;
+  }
+  /* line 97, ../scss/_sherpa-navbar.scss */
+  .navbar-sherpa .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-sherpa .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-sherpa .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: white;
+    background-color: #1a1a1a;
+  }
+}
+/* line 111, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-link {
+  color: black;
+}
+/* line 113, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .navbar-link:hover {
+  color: white;
+}
+/* line 118, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .btn-link {
+  color: black;
+}
+/* line 121, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .btn-link:hover, .navbar-sherpa .btn-link:focus {
+  color: white;
+}
+/* line 127, ../scss/_sherpa-navbar.scss */
+.navbar-sherpa .btn-link[disabled]:hover, .navbar-sherpa .btn-link[disabled]:focus, fieldset[disabled] .navbar-sherpa .btn-link:hover, fieldset[disabled] .navbar-sherpa .btn-link:focus {
+  color: white;
+}
+
 /* line 3, ../scss/_sherpa-buttons.scss */
 .btn-read-more {
   color: white;
@@ -8669,12 +8798,88 @@ a img.aligncenter {
 }
 
 /* line 3, ../scss/_sherpa-general.scss */
+img {
+  max-width: 100%;
+}
+
+@media screen, print {
+  /* line 8, ../scss/_sherpa-general.scss */
+  i.fa span {
+    display: none;
+  }
+}
+
+/* line 24, ../scss/_sherpa-general.scss */
+.social-media-button {
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+/* line 31, ../scss/_sherpa-general.scss */
+.social-media-button:hover, .social-media-button:active, .social-media-button:focus {
+  color: white;
+  text-decoration: none;
+}
+/* line 35, ../scss/_sherpa-general.scss */
+.social-media-button.lg {
+  height: 40px;
+  line-height: 2.4;
+  width: 40px;
+}
+/* line 40, ../scss/_sherpa-general.scss */
+.social-media-button.sm {
+  height: 25px;
+  line-height: 1.5;
+  width: 25px;
+}
+/* line 45, ../scss/_sherpa-general.scss */
+.social-media-button.facebook-button {
+  background-color: #3b5998;
+}
+/* line 19, ../scss/_sherpa-general.scss */
+.social-media-button.facebook-button:hover, .social-media-button.facebook-button:active, .social-media-button.facebook-button:focus {
+  background-color: #4c70ba;
+}
+/* line 48, ../scss/_sherpa-general.scss */
+.social-media-button.twitter-button {
+  background-color: #4099ff;
+}
+/* line 19, ../scss/_sherpa-general.scss */
+.social-media-button.twitter-button:hover, .social-media-button.twitter-button:active, .social-media-button.twitter-button:focus {
+  background-color: #73b4ff;
+}
+/* line 51, ../scss/_sherpa-general.scss */
+.social-media-button.google-plus-button {
+  background-color: #dd4b39;
+}
+/* line 19, ../scss/_sherpa-general.scss */
+.social-media-button.google-plus-button:hover, .social-media-button.google-plus-button:active, .social-media-button.google-plus-button:focus {
+  background-color: #e47365;
+}
+/* line 54, ../scss/_sherpa-general.scss */
+.social-media-button.pinterest-button {
+  background-color: #bc061c;
+}
+/* line 19, ../scss/_sherpa-general.scss */
+.social-media-button.pinterest-button:hover, .social-media-button.pinterest-button:active, .social-media-button.pinterest-button:focus {
+  background-color: #ed0823;
+}
+/* line 57, ../scss/_sherpa-general.scss */
+.social-media-button.linkedin-button {
+  background-color: #0077b5;
+}
+/* line 19, ../scss/_sherpa-general.scss */
+.social-media-button.linkedin-button:hover, .social-media-button.linkedin-button:active, .social-media-button.linkedin-button:focus {
+  background-color: #0099e8;
+}
+
+/* line 63, ../scss/_sherpa-general.scss */
 .add-extra-padding {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 12, ../scss/_sherpa-general.scss */
+/* line 72, ../scss/_sherpa-general.scss */
 blockquote.testimonial {
   background-color: black;
   border: 0;
@@ -8686,7 +8891,7 @@ blockquote.testimonial {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 12, ../scss/_sherpa-general.scss */
+  /* line 72, ../scss/_sherpa-general.scss */
   blockquote.testimonial {
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
@@ -8695,19 +8900,19 @@ blockquote.testimonial {
     border-radius: 1em;
   }
 }
-/* line 24, ../scss/_sherpa-general.scss */
+/* line 84, ../scss/_sherpa-general.scss */
 blockquote.testimonial:nth-of-type(2n) {
   background-color: white;
 }
-/* line 26, ../scss/_sherpa-general.scss */
+/* line 86, ../scss/_sherpa-general.scss */
 blockquote.testimonial:nth-of-type(2n) .profile-pic {
   border-color: #e6e6e6;
 }
-/* line 31, ../scss/_sherpa-general.scss */
+/* line 91, ../scss/_sherpa-general.scss */
 blockquote.testimonial:nth-of-type(2n) .quote:before, blockquote.testimonial:nth-of-type(2n) .quote:after {
   color: #e6e6e6;
 }
-/* line 36, ../scss/_sherpa-general.scss */
+/* line 96, ../scss/_sherpa-general.scss */
 blockquote.testimonial .profile-pic {
   border: 5px solid black;
   left: 1em;
@@ -8715,20 +8920,20 @@ blockquote.testimonial .profile-pic {
   top: 1em;
   width: 8em;
 }
-/* line 43, ../scss/_sherpa-general.scss */
+/* line 103, ../scss/_sherpa-general.scss */
 blockquote.testimonial .star-rating {
   left: 1em;
   position: absolute;
   top: 10em;
   width: 8em;
 }
-/* line 49, ../scss/_sherpa-general.scss */
+/* line 109, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote {
   color: white;
   padding: 0 1em 0 2em;
   position: relative;
 }
-/* line 54, ../scss/_sherpa-general.scss */
+/* line 114, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote:before, blockquote.testimonial .quote:after {
   color: black;
   display: inline-block;
@@ -8737,28 +8942,28 @@ blockquote.testimonial .quote:before, blockquote.testimonial .quote:after {
   position: absolute;
   z-index: 1;
 }
-/* line 62, ../scss/_sherpa-general.scss */
+/* line 122, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote:before {
   content: "\201C";
   left: 0;
   top: -0.2em;
 }
-/* line 67, ../scss/_sherpa-general.scss */
+/* line 127, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote:after {
   content: "\201D";
   bottom: -0.85em;
   right: 0;
 }
-/* line 72, ../scss/_sherpa-general.scss */
+/* line 132, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote > * {
   position: relative;
   z-index: 100;
 }
-/* line 76, ../scss/_sherpa-general.scss */
+/* line 136, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote h3 {
   margin-top: 0;
 }
-/* line 78, ../scss/_sherpa-general.scss */
+/* line 138, ../scss/_sherpa-general.scss */
 blockquote.testimonial .quote h3 .post-edit-link {
   display: inline-block;
   font-size: 0.5em;

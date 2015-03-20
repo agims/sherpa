@@ -5,7 +5,9 @@ function agi_register_settings() {
 	register_setting('default', 'twitter_url');
 	register_setting('default', 'google_plus_url');
 	register_setting('default', 'pinterest_url');
+	register_setting('default', 'linkedin_url');
 	register_setting('default', 'home_page_slider');
+	register_setting('default', 'typekit');
 }
 
 add_action( 'admin_init', 'agi_register_settings');
@@ -60,6 +62,14 @@ function agi_option_page() {
 							<input name="pinterest_url" type="text" value="<?=get_option('pinterest_url')?>" class="regular-text">
 						</td>
 					</tr>
+					<tr>
+						<th scope="row">
+							<label for="linkedin_url">LinkedIn URL</label>
+						</th>
+						<td>
+							<input name="linkedin_url" type="text" value="<?=get_option('linkedin_url')?>" class="regular-text">
+						</td>
+					</tr>
 				</tbody>
 			</table>
 			<h3>Home Page Slider</h3>
@@ -71,6 +81,19 @@ function agi_option_page() {
 						</th>
 						<td>
 							<input name="home_page_slider" type="text" value="<?=get_option('home_page_slider')?>" class="regular-text">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Typekit</h3>
+			<table class="form-table">
+				<tbody>
+					<tr>
+						<th scope="row">
+							<label for="typekit">Kit ID</label>
+						</th>
+						<td>
+							<input name="typekit" type="text" value="<?=get_option('typekit')?>" class="regular-text">
 						</td>
 					</tr>
 				</tbody>

@@ -12,6 +12,15 @@ i.fa {
 	}
 }
 
+@mixin social-media-button($color) {
+	background-color: $color;
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: lighten($color, 10%);
+	}
+}
+
 .social-media-button {
 	@extend .img-circle;
 	color: $white;
@@ -34,36 +43,19 @@ i.fa {
 		width: 25px;
 	}
 	&.facebook-button {
-		background-color: $color-facebook;
-		&:hover,
-		&:active,
-		&:focus {
-			background-color: lighten($color-facebook, 10%);
-		}
+		@include social-media-button($color-facebook);
 	}
 	&.twitter-button {
-		background-color: $color-twitter;
-		&:hover,
-		&:active,
-		&:focus {
-			background-color: lighten($color-twitter, 10%);
-		}
+		@include social-media-button($color-twitter);
 	}
 	&.google-plus-button {
-		background-color: $color-google-plus;
-		&:hover,
-		&:active,
-		&:focus {
-			background-color: lighten($color-google-plus, 10%);
-		}
+		@include social-media-button($color-google-plus);
 	}
 	&.pinterest-button {
-		background-color: $color-pinterest;
-		&:hover,
-		&:active,
-		&:focus {
-			background-color: lighten($color-pinterest, 10%);
-		}
+		@include social-media-button($color-pinterest);
+	}
+	&.linkedin-button {
+		@include social-media-button($color-linkedin);
 	}
 }
 

@@ -1,6 +1,6 @@
 <?php
-	$Path=$_SERVER['REQUEST_URI'];
-	$URI='http://www.example.com'.$Path;
+	$path=$_SERVER['REQUEST_URI'];
+	$URI=get_site_url().$path;
 
 	echo "<h1><a href=\"$URI\">Blog</a></h1>\n";
 

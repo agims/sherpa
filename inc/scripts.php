@@ -1,13 +1,16 @@
 <?php
 
 function agi_front_and_backend_scripts() {
+
+	$typekit = get_option('typekit');
 	
-	// DON'T FORGET TO CHANGE WHICH KIT!!!
-	wp_register_script( 'typekit', '//use.typekit.net/vfh6shm.js', false, false, false );
-	wp_enqueue_script( 'typekit' );
-	
-	wp_register_script( 'typekit_init', get_template_directory_uri() . '/js/typekit-init.js', array('typekit'), '1', false);
-	wp_enqueue_script( 'typekit_init' );	
+	if(!empty($typekit)) {
+		wp_register_script( 'typekit', '//use.typekit.net/' . $typekit . '.js', false, false, false );
+		wp_enqueue_script( 'typekit' );
+		
+		wp_register_script( 'typekit_init', get_template_directory_uri() . '/js/typekit-init.js', array('typekit'), '1', false);
+		wp_enqueue_script( 'typekit_init' );	
+	}
 }
 
 function agi_frontend_scripts() {

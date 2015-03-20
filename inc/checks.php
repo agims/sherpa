@@ -6,7 +6,10 @@
 		'twitter_url'		=> 'http://twitter.com/',
 		'google_plus_url'	=> 'http://plus.google.com/',
 		'pinterest_url'		=> 'http://pinterest.com/',
-		'home_page_slider'	=> ''
+		'linkedin_url'		=> 'http://linkedin.com/',
+		'telephone_number'	=> '',
+		'home_page_slider'	=> '',
+		'typekit'			=> '',
 	);
 	
 	foreach($social_media_options as $key => $value) {

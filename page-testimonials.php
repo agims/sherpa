@@ -3,10 +3,17 @@
 		Template Name: Testimonials	
 	*/
 	
-	get_header();
+	get_header(); ?>
+
+<section id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<?php get_template_part('content', 'page'); ?>
+				<?php get_template_part('content', 'testimonials'); ?>
+			</div>
+		</div>
+	</div>
+</section>
 	
-	get_template_part('content', 'page');
-
-	get_template_part('content', 'testimonials');
-
-	get_footer();
+<?php get_footer(); ?>
