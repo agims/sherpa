@@ -8,7 +8,7 @@
 		} else {
 			$to_return = "
 			<div id=\"no-ss\">
-				<img src=\"http://placehold.it/1040x385/0640aa/FFFFFF/&text=Slider+to+go+here\" />
+				<img src=\"http://placehold.it/1140x385/0640aa/FFFFFF/&text=Slider+to+go+here\" />
 			</div>
 			";
 		}
