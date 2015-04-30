@@ -33,7 +33,7 @@
 		}
 		if($google_plus === TRUE) {
 			$google_plus_url = GOOGLEPLUS;
-			$to_return .= "<li><a href=\"$facebook_url\" class=\"google-plus-button social-media-button $size $button_style\"><i class=\"fa fa-google-plus $size_class\"><span>Google Plus</span></i></a></li>\n";
+			$to_return .= "<li><a href=\"$google_plus_url\" class=\"google-plus-button social-media-button $size $button_style\"><i class=\"fa fa-google-plus $size_class\"><span>Google Plus</span></i></a></li>\n";
 		}
 		if($pinterest === TRUE) {
 			$pinterest_url = PINTEREST;
