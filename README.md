@@ -1,6 +1,9 @@
 # Sherpa Boilerplate
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
+## Current Version
+2.1
+
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
 

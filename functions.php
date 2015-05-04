@@ -7,7 +7,7 @@
 		'scripts.php', 					// Enqueue our scripts
 		'sidebars.php',					// Set up our sidebar
 		'agi-excerpt.php',				// Special excerpt so that includes a read more button
-		'agi-options-page.php',			// Create our options page - Settings => AGI Options
+		'sherpa-theme-options-page.php',// Create our options page - Settings => Theme Options
 		'do-shortcode-widget.php',		// Create a widget to do a single shortcode
 		'menus.php',					// Set up our menus
 		'paging-nav.php',				// Set up our paging nav
@@ -17,6 +17,9 @@
 		'prevent-image-size-attr.php',	// Prevent WP from adding Height and Width to images
 		'social-media.php',				// Set up social media function
 		'rev-slider-call.php',			// Set up slider (needs Slider Revolution)
+		'open-web-analytics.php',		// Include Open Web Analytics
+		'google-analytics.php',			// Include Google Analytics
+		'stat-counter.php',				// Include Stat Counter
 	);
 	
 	$prefix = 'inc/';
