@@ -22,7 +22,6 @@ i.fa {
 }
 
 .social-media-button {
-	@extend .img-circle;
 	color: $white;
 	display: inline-block;
 	text-align: center;
@@ -41,6 +40,15 @@ i.fa {
 		height: 25px;
 		line-height: 1.5;
 		width: 25px;
+	}
+	&.circle {
+		@extend .img-circle;
+	}
+	&.rounded {
+		@extend .img-rounded;
+	}
+	&.square {
+		@include border-radius(0px);
 	}
 	&.facebook-button {
 		@include social-media-button($color-facebook);
