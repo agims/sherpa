@@ -19,4 +19,5 @@ Sherpa is not meant to be an end-all; it is meant to be a start-all.
 ## Frameworks and Dependencies
 * Twitter Bootstrap (SCSS) - v3.3.4
 * FontAwesome - v4.3.0
+* WooCommerce - v2.3.10
 
