@@ -32,9 +32,15 @@
 		        <div class="row">
 			        <div class="col-xs-12">
 				        <?php
-					        // If non-responsive, use the second option here
-					        get_template_part('nav', 'responsive');
-					        // get_template_part('nav', 'non-responsive');
+							// Call either the responsive_bs_menu() or the non_responsive_bs_menu() here
+							// If you are using a menu besides 'primary', use this as the first argument in the function.
+							// If you are using a second menu (for the right side), send the theme location of that as the second argument.
+							// i.e. responsive_bs_menu($primary_menu_location, $secondary_menu_location);
+							
+							// If you don't send a second argument, it will default to no menu on the right side.
+
+							responsive_bs_menu('primary');
+							
 				        ?>
 			        </div>
 		        </div>

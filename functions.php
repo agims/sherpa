@@ -10,6 +10,7 @@
 		'sherpa-theme-options-page.php',// Create our options page - Settings => Theme Options
 		'do-shortcode-widget.php',		// Create a widget to do a single shortcode
 		'menus.php',					// Set up our menus
+		'navs.php',						// Include our navs functions
 		'paging-nav.php',				// Set up our paging nav
 		'theme-features.php',			// Set up our theme features
 		'testimonials-cpt.php',			// Set up our Testimonials Custom Post Type
@@ -20,6 +21,7 @@
 		'open-web-analytics.php',		// Include Open Web Analytics
 		'google-analytics.php',			// Include Google Analytics
 		'stat-counter.php',				// Include Stat Counter
+		'woocommerce-support.php',		// Declare WooCommerce Support
 	);
 	
 	$prefix = 'inc/';
