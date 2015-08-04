@@ -21,3 +21,5 @@ Sherpa is not meant to be an end-all; it is meant to be a start-all.
 * FontAwesome - v4.3.0
 * WooCommerce - v2.3.10
 
+## Documentation
+We have started working on documentation [in the wiki area](https://github.com/agims/sherpa/wiki).
