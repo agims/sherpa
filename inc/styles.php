@@ -13,7 +13,7 @@ function sherpa_styles() {
 	wp_register_style( 'main_css', get_stylesheet_directory_uri() . '/css/style.css', $main_css_deps, '1.0', 'all' );
 	wp_enqueue_style( 'main_css' );
 
-	wp_register_style( 'font_awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', false, '4.3', 'all' );
+	wp_register_style( 'font_awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', false, '4.5.0', 'all' );
 	wp_enqueue_style( 'font_awesome' );
 
 }

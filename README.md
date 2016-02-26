@@ -2,7 +2,7 @@
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-2.2
+2.3
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -17,8 +17,8 @@ Sherpa was originally intended to be used with [Codekit](https://incident57.com/
 Sherpa is not meant to be an end-all; it is meant to be a start-all.
 
 ## Frameworks and Dependencies
-* Twitter Bootstrap (SCSS) - v3.3.4
-* FontAwesome - v4.3.0
+* Twitter Bootstrap (SCSS) - v3.3.6
+* FontAwesome - v4.5.0
 * WooCommerce - v2.3.10
 
 ## Documentation
