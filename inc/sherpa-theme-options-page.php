@@ -8,7 +8,6 @@ function sherpa_register_settings() {
 	register_setting('default', 'linkedin_url');
 	register_setting('default', 'home_page_slider');
 	register_setting('default', 'typekit');
-	register_setting('default', 'sherpa_owa');
 	register_setting('default', 'sherpa_google_analytics');
 	register_setting('default', 'sherpa_stat_counter_project');
 	register_setting('default', 'sherpa_stat_counter_security');
@@ -105,15 +104,6 @@ function sherpa_theme_option_page() {
 			<h3>Analytics</h3>
 			<table class="form-table">
 				<tbody>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_owa">Open Web Analytics - Site ID</label><br />
-							<small>If you are not using this theme for AGI's analytics, make sure to change the owaBaseURL in <code>inc/open-web-analytics.php</code></small>
-						</th>
-						<td>
-							<input name="sherpa_owa" type="text" value="<?=get_option('sherpa_owa')?>" class="regular-text">
-						</td>
-					</tr>
 					<tr>
 						<th scope="row">
 							<label for="sherpa_google_analytics">Google Analytics - Kit ID</label><br />

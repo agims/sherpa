@@ -18,7 +18,6 @@
 		'prevent-image-size-attr.php',	// Prevent WP from adding Height and Width to images
 		'social-media.php',				// Set up social media function
 		'rev-slider-call.php',			// Set up slider (needs Slider Revolution)
-		'open-web-analytics.php',		// Include Open Web Analytics
 		'google-analytics.php',			// Include Google Analytics
 		'stat-counter.php',				// Include Stat Counter
 		'woocommerce-support.php',		// Declare WooCommerce Support
