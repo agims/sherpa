@@ -16,7 +16,7 @@ Sherpa was originally intended to be used with [Codekit](https://incident57.com/
 
 We are now including a gulp file so that if you are using gulp and all its goodness you can use Sherpa without a hitch.  Note that it does require [Compass](http://compass-style.org) to be installed (as well as [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/), and [gulp-compass](https://www.npmjs.com/package/gulp-compass)).
 
-Sherpa is not meant to be an end-all; it is meant to be a start-all.
+**Sherpa is not meant to be an end-all; it is meant to be a start-all.**
 
 ## Frameworks and Dependencies
 * Twitter Bootstrap (SCSS) - v3.3.6
