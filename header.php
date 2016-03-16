@@ -25,12 +25,12 @@
         <section id="header">
 	        <div class="container">
 		        <div class="row">
-			        <div class="col-xs-12">
+			        <div class="<?=FULLWIDTH?>">
 				        Header
 			        </div>
 		        </div>
 		        <div class="row">
-			        <div class="col-xs-12">
+			        <div class="<?=FULLWIDTH?>">
 				        <?php
 							// Call either the responsive_bs_menu() or the non_responsive_bs_menu() here
 							// If you are using a menu besides 'primary', use this as the first argument in the function.

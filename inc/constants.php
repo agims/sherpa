@@ -8,3 +8,6 @@
 	define('LINKEDIN',		get_option('linkedin_url')		);
 	define('TELEPHONE',		get_option('telephone_number')	);
 	define('SLIDER', 		get_option('home_page_slider')	);
+	
+	define('COLBASE',		12);
+	define('FULLWIDTH',		'col-xs-' . COLBASE);
