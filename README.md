@@ -1,3 +1,4 @@
+![Sherpa](https://raw.githubusercontent.com/agims/sherpa/master/screenshot.png)
 # Sherpa Boilerplate
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
