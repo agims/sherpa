@@ -6,7 +6,7 @@
 		'styles.php', 					// Enqueue our styles
 		'scripts.php', 					// Enqueue our scripts
 		'sidebars.php',					// Set up our sidebar
-		'agi-excerpt.php',				// Special excerpt so that includes a read more button
+		'sherpa-excerpt.php',			// Special excerpt so that includes a read more button
 		'sherpa-theme-options-page.php',// Create our options page - Settings => Theme Options
 		'do-shortcode-widget.php',		// Create a widget to do a single shortcode
 		'menus.php',					// Set up our menus
