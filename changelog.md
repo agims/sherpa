@@ -1,4 +1,13 @@
 # Changelog
+## Version 2.5
+* Changed how social media is called, now Class-based.  See inc/SocialMedia.php for more info.
+* Bumped FontAwesome to v4.6.3
+* Removed agi-excerpt.php (should have done that before)
+* Removed social-media.php
+
+## Version 2.4.3
+* Moved to FontAwesome v4.6.1
+
 ## Version 2.4.2
 * Removed link from title on pages
 * Changed text in edit link on pages from "Edit Post" to "Edit Page"
