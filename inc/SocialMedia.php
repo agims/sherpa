@@ -10,7 +10,7 @@ This is a class for showing social media.  It can be used to show a single socia
 To define which social media links are shown, the easiest way is to send an array when the class is instantiated.
 You would do that like this:
 
-$sm = new SocialMedia(array('facebook','twitter','pinterest');
+$sm = new SocialMedia(array('facebook','twitter','pinterest'));
 $sm->showNetworkButtons();
 
 This will not only set which ones are used but also the order in which they are shown when showing them all.
