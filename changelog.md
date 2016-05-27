@@ -1,4 +1,7 @@
 # Changelog
+## Version 2.5.2
+* Bump Bootstrap to v3.3.6
+
 ## Version 2.5.1
 * Updated the styling for social media buttons
 * Updated bug in inc/SocialMedia.php
