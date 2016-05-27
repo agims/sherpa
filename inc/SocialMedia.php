@@ -129,8 +129,17 @@ class SocialMedia {
 		
 	}
 	
-	private function setupSingle($networkName) {
-		extract $this->$networkName;
+	private function setupSingle($bob = string) {
+		
+		//print_r($this->$bob);
+		extract($this->$bob);
+		//$robert = $this->$bob;
+		//explode $robert;
+/*
+		$url = $this->$networkName['url'];
+		$icon = $this->$networkName['icon'];
+		$name = $this->$networkName['name'];
+*/		
 
 		if($this->size == 'sm') {
 			$size_class = '';
@@ -138,7 +147,7 @@ class SocialMedia {
 			$size_class = 'fa-lg';
 		}
 
-		return "<a href=\"$url\" class=\"facebook-button social-media-button " . $this->size . ' ' . $this->style . "external\"><i class=\"fa fa-" . $icon . " $size_class\"><span>" . $name . "</span></i></a>";
+		return "<a href=\"$url\" class=\"$bob-button social-media-button " . $this->size . ' ' . $this->style . "external\"><i class=\"fa fa-" . $icon . " $size_class\"><span>" . $name . "</span></i></a>";
 	}
 	
 	public function showSingle($networkName) {

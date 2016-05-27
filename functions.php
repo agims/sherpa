@@ -20,7 +20,7 @@
 		'rev-slider-call.php',			// Set up slider (needs Slider Revolution)
 		'google-analytics.php',			// Include Google Analytics
 		'stat-counter.php',				// Include Stat Counter
-		'woocommerce-support.php',		// Declare WooCommerce Support
+		//'woocommerce-support.php',		// Declare WooCommerce Support
 	);
 	
 	$prefix = 'inc/';

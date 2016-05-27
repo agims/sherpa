@@ -23,8 +23,9 @@ i.fa {
 
 .social-media-button {
 	color: $white;
-	display: inline-block;
+	display: table-cell;
 	text-align: center;
+	vertical-align: middle;
 	&:hover,
 	&:active,
 	&:focus {
@@ -33,12 +34,10 @@ i.fa {
 	}
 	&.lg {
 		height: 40px;
-		line-height: 2.4;
 		width: 40px;
 	}
 	&.sm {
 		height: 25px;
-		line-height: 1.5;
 		width: 25px;
 	}
 	&.circle {
@@ -56,7 +55,7 @@ i.fa {
 	&.twitter-button {
 		@include social-media-button($color-twitter);
 	}
-	&.google-plus-button {
+	&.googleplus-button {
 		@include social-media-button($color-google-plus);
 	}
 	&.pinterest-button {

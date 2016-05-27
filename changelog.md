@@ -1,4 +1,9 @@
 # Changelog
+## Version 2.5.1
+* Updated the styling for social media buttons
+* Updated bug in inc/SocialMedia.php
+* Removing WooCommerce support (Not used very much, not updated enough)
+
 ## Version 2.5
 * Changed how social media is called, now Class-based.  See inc/SocialMedia.php for more info.
 * Bumped FontAwesome to v4.6.3
