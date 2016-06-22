@@ -11,6 +11,7 @@ function sherpa_register_settings() {
 	register_setting('default', 'sherpa_google_analytics');
 	register_setting('default', 'sherpa_stat_counter_project');
 	register_setting('default', 'sherpa_stat_counter_security');
+	register_setting('default', 'sherpa_google_site_verification');
 }
 
 add_action( 'admin_init', 'sherpa_register_settings');
@@ -104,6 +105,15 @@ function sherpa_theme_option_page() {
 			<h3>Analytics</h3>
 			<table class="form-table">
 				<tbody>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_google_analytics">Google Site Verification</label><br />
+							<small>This usually looks like <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (You just want the <strong>xxxx</strong> part)</small>
+						</th>
+						<td>
+							<input name="sherpa_google_analytics" type="text" value="<?=get_option('sherpa_google_analytics')?>" class="regular-text">
+						</td>
+					</tr>
 					<tr>
 						<th scope="row">
 							<label for="sherpa_google_analytics">Google Analytics - Kit ID</label><br />

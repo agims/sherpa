@@ -131,15 +131,7 @@ class SocialMedia {
 	
 	private function setupSingle($bob = string) {
 		
-		//print_r($this->$bob);
 		extract($this->$bob);
-		//$robert = $this->$bob;
-		//explode $robert;
-/*
-		$url = $this->$networkName['url'];
-		$icon = $this->$networkName['icon'];
-		$name = $this->$networkName['name'];
-*/		
 
 		if($this->size == 'sm') {
 			$size_class = '';

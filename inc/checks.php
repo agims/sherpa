@@ -2,18 +2,18 @@
 	
 	// Check to see if social media options have been created
 	$social_media_options = array(
-		'facebook_url'					=> 'http://facebook.com/',
-		'twitter_url'					=> 'http://twitter.com/',
-		'google_plus_url'				=> 'http://plus.google.com/',
-		'pinterest_url'					=> 'http://pinterest.com/',
-		'linkedin_url'					=> 'http://linkedin.com/',
-		'telephone_number'				=> '',
-		'home_page_slider'				=> '',
-		'typekit'						=> '',
-		'sherpa_owa'					=> '',
-		'sherpa_google_analytics'		=> '',
-		'sherpa_stat_counter_project'	=> '',
-		'sherpa_stat_counter_security'	=> ''
+		'facebook_url'						=> 'http://facebook.com/',
+		'twitter_url'						=> 'http://twitter.com/',
+		'google_plus_url'					=> 'http://plus.google.com/',
+		'pinterest_url'						=> 'http://pinterest.com/',
+		'linkedin_url'						=> 'http://linkedin.com/',
+		'telephone_number'					=> '',
+		'home_page_slider'					=> '',
+		'typekit'							=> '',
+		'sherpa_google_analytics'			=> '',
+		'sherpa_stat_counter_project'		=> '',
+		'sherpa_stat_counter_security'		=> '',
+		'sherpa_google_site_verification'	=> '',
 	);
 	
 	foreach($social_media_options as $key => $value) {

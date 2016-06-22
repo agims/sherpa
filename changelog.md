@@ -1,4 +1,7 @@
 # Changelog
+## Version 2.6
+* Added Google Site Verification
+
 ## Version 2.5.2
 * Bump Bootstrap to v3.3.6
 
