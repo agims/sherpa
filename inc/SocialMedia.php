@@ -139,7 +139,7 @@ class SocialMedia {
 			$size_class = 'fa-lg';
 		}
 
-		return "<a href=\"$url\" class=\"$bob-button social-media-button " . $this->size . ' ' . $this->style . "external\"><i class=\"fa fa-" . $icon . " $size_class\"><span>" . $name . "</span></i></a>";
+		return "<a href=\"$url\" class=\"$bob-button social-media-button " . $this->size . ' ' . $this->style . " external\"><i class=\"fa fa-" . $icon . " $size_class\"><span>" . $name . "</span></i></a>";
 	}
 	
 	public function showSingle($networkName) {

@@ -1,4 +1,7 @@
 # Changelog
+## Version 2.6.1
+* Bug fix in inc/SocialMedia.php
+
 ## Version 2.6
 * Added Google Site Verification
 
