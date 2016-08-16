@@ -49,13 +49,19 @@ class SocialMedia {
 		'name' => 'LinkedIn',
 		'icon' => 'linkedin'
 	);
+	private $youtube = array(
+		'url' => YOUTUBE,
+		'name' => 'YouTube',
+		'icon' => 'youtube-play'
+	);
 	private $showNetworks = array();
 	private $networkNames = array(
 		'facebook',
 		'twitter',
 		'googleplus',
 		'pinterest',
-		'linkedin'
+		'linkedin',
+		'youtube'
 	);
 
 	private $size = 'lg';

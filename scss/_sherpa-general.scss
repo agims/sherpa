@@ -64,6 +64,9 @@ i.fa {
 	&.linkedin-button {
 		@include social-media-button($color-linkedin);
 	}
+	&.youtube-button {
+		@include social-media-button($color-youtube);
+	}
 }
 
 

@@ -1,4 +1,7 @@
 # Changelog
+## Version 2.6.3
+* Added Youtube back in as an option in the SocialMedia class
+
 ## Version 2.6.2
 * Fixed order of social networks to be whatever order is given at instantiation rather than the order of the networks given in the class
 
