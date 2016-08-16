@@ -22,6 +22,8 @@ $sm->showSingle('facebook');
 
 */
 class SocialMedia {
+    
+    // Private vars
 	private $facebook = array(
 		'url' => FACEBOOK,
 		'name' => "Facebook",
@@ -72,7 +74,7 @@ class SocialMedia {
 	);
 	
 	
-
+    // Public functions
 	public function __construct($val) {
 		if(empty($val)) {
 			return FALSE;
@@ -118,11 +120,12 @@ class SocialMedia {
 		if(is_array($networks)) {
 			$this->showNetworks = array();
 			
-			foreach($this->networkNames as $name) {
-				if(in_array($name, $networks)) {
-					$this->showNetworks[] = $name;
-				}
+			foreach($networks as $network) {
+    			if(in_array($network, $this->networkNames)) {
+        			$this->showNetworks[] = $network;
+    			}
 			}
+
 		} else {
 			return false;
 		}
@@ -159,7 +162,7 @@ class SocialMedia {
 			?>
 			<ul class="list-inline social-media">
 			<?php
-				
+
 			foreach($this->showNetworks as $network) {
 				?><li><?php
 					echo $this->setupSingle($network);
