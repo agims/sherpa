@@ -3,7 +3,7 @@
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-2.6.1
+2.6.4
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -15,7 +15,7 @@ Sherpa is based on Twitter Bootstrap with some FontAwesome thrown in.  It's also
 
 Sherpa was originally intended to be used with [Codekit](https://incident57.com/codekit/), an excellent compiler for SCSS as well as Javascript, among other things.  If you are not going to be using Codekit, you will need to adjust inc/scripts.php to reflect the fact that you are not using main-ck.js.
 
-We are now including a gulp file so that if you are using gulp and all its goodness you can use Sherpa without a hitch.  Note that it does require [Compass](http://compass-style.org) to be installed (as well as [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/), and [gulp-compass](https://www.npmjs.com/package/gulp-compass)).
+We are now including a gulp file so that if you are using gulp and all its goodness you can use Sherpa without a hitch.  Note that it does require [Compass](http://compass-style.org) to be installed (as well as [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/), and [gulp-compass](https://www.npmjs.com/package/gulp-compass)).  (We are working on removing any requirement for compass, though you can still use it if you so desire.)
 
 **Sherpa is not meant to be an end-all; it is meant to be a start-all.**
 

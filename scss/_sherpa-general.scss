@@ -24,7 +24,7 @@ i.fa {
 .social-media-button {
 	color: $white;
 	display: table-cell;
-	text-align: center;
+    text-align: center;
 	vertical-align: middle;
 	&:hover,
 	&:active,
@@ -33,6 +33,7 @@ i.fa {
 		text-decoration: none;
 	}
 	&.lg {
+    	font-size: 17px;
 		height: 40px;
 		width: 40px;
 	}
@@ -47,7 +48,7 @@ i.fa {
 		@extend .img-rounded;
 	}
 	&.square {
-		@include border-radius(0px);
+		border-radius: 0px;
 	}
 	&.facebook-button {
 		@include social-media-button($color-facebook);

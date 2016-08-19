@@ -1,4 +1,8 @@
 # Changelog
+## Version 2.6.4
+* Convert the default location for minified version of main.js to /js/min/main-min.js instead of /js/main-ck.js
+* Added in the color for YouTube
+
 ## Version 2.6.3
 * Added Youtube back in as an option in the SocialMedia class
 
