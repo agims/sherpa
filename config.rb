@@ -8,7 +8,7 @@ images_dir = "img"
 javascripts_dir = "js"
 fonts_dir = "fonts"
 
-output_style = :expanded
+output_style = :compressed
 #### Don't forget to change this to :compressed before you go live! ####
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
