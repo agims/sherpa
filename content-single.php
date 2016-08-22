@@ -17,7 +17,7 @@
 				
 			
 			echo "<article>";
-			the_title("<h1><a href=\"$permalink\">", "</a>$edit_link</h1>");
+			the_title("<h1>", "$edit_link</h1>");
 			the_date($date_format, '<div class="post-date">','</div>');
 			the_content();
 			

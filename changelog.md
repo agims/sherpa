@@ -1,4 +1,7 @@
 # Changelog
+## Version 2.7.2
+* Removed link from title on content-single.php
+
 ## Version 2.7.1
 * Bumped to jQuery 2.x
 * Bumped to Modernizr 3.3.1
