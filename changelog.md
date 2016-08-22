@@ -1,4 +1,8 @@
 # Changelog
+## Version 2.7.1
+* Bumped to jQuery 2.x
+* Bumped to Modernizr 3.3.1
+
 ## Version 2.7
 * Added 404.php
 * Added archive.php
