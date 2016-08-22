@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="<?=FULLWIDTH?>">
-    			<h1>Blog</h1>
+    			<?php the_archive_title('<h1>','</h1>'); ?>
 				<?php get_template_part('content', 'archive'); ?>
 			</div>
 		</div>

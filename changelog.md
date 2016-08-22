@@ -1,4 +1,9 @@
 # Changelog
+## Version 2.7
+* Added 404.php
+* Added archive.php
+* Updated home.php to be a little more generic so that we can co-opt what was content-home.php into content-archive.php
+
 ## Version 2.6.4
 * Convert the default location for minified version of main.js to /js/min/main-min.js instead of /js/main-ck.js
 * Added in the color for YouTube
