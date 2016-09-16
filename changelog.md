@@ -1,4 +1,10 @@
 # Changelog
+## Version 2.7.3
+* Rollback Modernizr back to 2.8.3 to fix the "hidden" issue
+* Remove the last mixin that needs compass
+* Comment out the import for compass
+* Fix the options page issue for google site verification
+
 ## Version 2.7.2
 * Removed link from title on content-single.php
 

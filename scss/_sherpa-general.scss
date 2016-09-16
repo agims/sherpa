@@ -90,7 +90,7 @@ blockquote.testimonial {
 	padding: 1em 3.1428571429em 1em 10em;
 	position: relative;
 	@media (min-width: $screen-sm-min) {
-		@include border-radius(1em);
+		border-radius: 1em;
 	}
 	&:nth-of-type(2n) {
 		background-color: $sherpa-secondary-color;

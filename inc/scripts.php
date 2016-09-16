@@ -13,7 +13,7 @@ function sherpa_front_and_backend_scripts() {
 }
 
 function sherpa_frontend_scripts() {
-	wp_register_script( 'modernizr', get_stylesheet_directory_uri() . '/js/vendor/modernizr-3.3.1.js', false, '3.3.1', false );
+	wp_register_script( 'modernizr', get_stylesheet_directory_uri() . '/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js', false, '2.8.3', false );
 	wp_enqueue_script( 'modernizr' );
 
 	wp_deregister_script( 'jquery' );

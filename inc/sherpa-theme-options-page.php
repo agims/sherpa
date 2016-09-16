@@ -107,11 +107,11 @@ function sherpa_theme_option_page() {
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_google_analytics">Google Site Verification</label><br />
+							<label for="sherpa_google_site_verification">Google Site Verification</label><br />
 							<small>This usually looks like <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (You just want the <strong>xxxx</strong> part)</small>
 						</th>
 						<td>
-							<input name="sherpa_google_analytics" type="text" value="<?=get_option('sherpa_google_analytics')?>" class="regular-text">
+							<input name="sherpa_google_site_verification" type="text" value="<?=get_option('sherpa_google_site_verification')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
