@@ -1,4 +1,17 @@
 # Changelog
+## Version 2.8
+#### Big update!
+* Add schema.php
+* Add Address into admin
+* Set up constants for the address fields
+* Return phone to admin
+* Create "Home" and "Blog" pages upon activation
+* Set "Home" as the Home page and "Blog" and the posts page
+* Add address.php
+* Add the get_the_address and get_the_address_inline functions
+* Removed Revolution Slider stuff
+* Removed requirements for Compass
+
 ## Version 2.7.3
 * Rollback Modernizr back to 2.8.3 to fix the "hidden" issue
 * Remove the last mixin that needs compass

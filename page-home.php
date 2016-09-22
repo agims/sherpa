@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="<?=FULLWIDTH?>">
-				<?php put_rev_slider(TRUE); ?>
+				<img src="http://placehold.it/1140x385/0640aa/FFFFFF/&text=Slider+to+go+here" />
 			</div>
 		</div>
 	</div>

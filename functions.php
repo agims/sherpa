@@ -21,6 +21,9 @@
 		'google-analytics.php',			// Include Google Analytics
 		'stat-counter.php',				// Include Stat Counter
 		'google-site-verification.php',	// Include Google Site Verification
+		'schema.php',                   // Include Schema Function (www.schema.org)
+		'create-pages.php',             // Create the home page and the blog page upon activation
+		'address.php',                  // Address and their related functions
 	);
 	
 	$prefix = 'inc/';

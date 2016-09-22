@@ -7,13 +7,18 @@
 		'google_plus_url'					=> 'http://plus.google.com/',
 		'pinterest_url'						=> 'http://pinterest.com/',
 		'linkedin_url'						=> 'http://linkedin.com/',
-		'telephone_number'					=> '',
+		'youtube_url'                       => 'https://www.youtube.com',
 		'home_page_slider'					=> '',
 		'typekit'							=> '',
 		'sherpa_google_analytics'			=> '',
 		'sherpa_stat_counter_project'		=> '',
 		'sherpa_stat_counter_security'		=> '',
 		'sherpa_google_site_verification'	=> '',
+		'business_address'                  => '',
+		'business_city'                     => '',
+		'business_state'                    => '',
+		'business_zip'                      => '',
+		'telephone_number'					=> '',
 	);
 	
 	foreach($social_media_options as $key => $value) {

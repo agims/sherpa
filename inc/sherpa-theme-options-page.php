@@ -6,8 +6,14 @@ function sherpa_register_settings() {
 	register_setting('default', 'google_plus_url');
 	register_setting('default', 'pinterest_url');
 	register_setting('default', 'linkedin_url');
-	register_setting('default', 'home_page_slider');
 	register_setting('default', 'typekit');
+	
+	register_setting('default', 'business_address');
+	register_setting('default', 'business_city');
+	register_setting('default', 'business_state');
+	register_setting('default', 'business_zip');
+	register_setting('default', 'telephone_number');
+
 	register_setting('default', 'sherpa_google_analytics');
 	register_setting('default', 'sherpa_stat_counter_project');
 	register_setting('default', 'sherpa_stat_counter_security');
@@ -76,15 +82,47 @@ function sherpa_theme_option_page() {
 					</tr>
 				</tbody>
 			</table>
-			<h3>Home Page Slider</h3>
+			<h3>Business Address</h3>
 			<table class="form-table">
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="home_page_slider">Alias for the home page slider</label>
+							<label for="business_address">Address</label>
 						</th>
 						<td>
-							<input name="home_page_slider" type="text" value="<?=get_option('home_page_slider')?>" class="regular-text">
+							<input name="business_address" type="text" value="<?=get_option('business_address')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="business_city">City</label>
+						</th>
+						<td>
+							<input name="business_city" type="text" value="<?=get_option('business_city')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="business_state">State</label>
+						</th>
+						<td>
+							<input name="business_state" type="text" value="<?=get_option('business_state')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="business_zip">Zip</label>
+						</th>
+						<td>
+							<input name="business_zip" type="text" value="<?=get_option('business_zip')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="telephone_number">Phone Number</label>
+						</th>
+						<td>
+							<input name="telephone_number" type="text" value="<?=get_option('telephone_number')?>" class="regular-text">
 						</td>
 					</tr>
 				</tbody>
