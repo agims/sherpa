@@ -14,11 +14,14 @@
 		'sherpa_stat_counter_project'		=> '',
 		'sherpa_stat_counter_security'		=> '',
 		'sherpa_google_site_verification'	=> '',
+		'business_name'                     => get_bloginfo('name'),
 		'business_address'                  => '',
 		'business_city'                     => '',
 		'business_state'                    => '',
 		'business_zip'                      => '',
 		'telephone_number'					=> '',
+		'business_days'                     => '',
+		'business_hours'                    => '',
 	);
 	
 	foreach($social_media_options as $key => $value) {

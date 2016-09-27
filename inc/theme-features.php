@@ -12,7 +12,7 @@ if ( ! function_exists('sherpa_theme_features') ) {
 		add_theme_support( 'post-thumbnails' );
 	
 		// Add theme support for HTML5 Semantic Markup
-		add_theme_support( 'html5', array( 'search-form', 'comment-form', 'caption' ) );
+		add_theme_support( 'html5', array( 'search-form', 'comment-form', 'caption', 'gallery' ) );
 	
 		// Add theme support for document Title tag
 		add_theme_support( 'title-tag' );

@@ -1,4 +1,8 @@
 # Changelog
+## Version 2.9
+* Change gallery shortcode to work with colorbox
+* Add Colorbox to javascript
+
 ## Version 2.8
 #### Big update!
 * Add schema.php

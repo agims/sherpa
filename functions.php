@@ -24,6 +24,7 @@
 		'schema.php',                   // Include Schema Function (www.schema.org)
 		'create-pages.php',             // Create the home page and the blog page upon activation
 		'address.php',                  // Address and their related functions
+		'sherpa-gallery.php',           // Make gallery shortcode work with colorbox
 	);
 	
 	$prefix = 'inc/';
