@@ -1,4 +1,7 @@
 # Changelog
+## Version 2.9.1
+* Bugfix:  remove call to removed rev_slider file
+
 ## Version 2.9
 * Change gallery shortcode to work with colorbox
 * Add Colorbox to javascript

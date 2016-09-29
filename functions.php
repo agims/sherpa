@@ -17,7 +17,6 @@
 		'wp_bootstrap_navwalker.php',	// Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
 		'prevent-image-size-attr.php',	// Prevent WP from adding Height and Width to images
 		'SocialMedia.php',				// Set up social media function
-		'rev-slider-call.php',			// Set up slider (needs Slider Revolution)
 		'google-analytics.php',			// Include Google Analytics
 		'stat-counter.php',				// Include Stat Counter
 		'google-site-verification.php',	// Include Google Site Verification
