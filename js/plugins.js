@@ -1,2 +1,2 @@
 // @codekit-prepend "bootstrap.min.js";
-// @codekit-prepend "jquery.colorbox.js";
+// @codekit-prepend "vendor/jquery.colorbox.js";

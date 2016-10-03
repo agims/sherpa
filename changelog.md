@@ -1,4 +1,8 @@
 # Changelog
+## Version 2.9.2
+* Bugfix:  Fix the prepend call for the colorbox call
+* Bugfix:  Add the css for the HTML5 gallery
+
 ## Version 2.9.1
 * Bugfix:  remove call to removed rev_slider file
 

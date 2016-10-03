@@ -155,6 +155,90 @@ blockquote.testimonial {
 	}
 }
 
+.text-xs-center {
+    text-align: center;
+}
+
+.text-xs-left {
+    text-align: left;
+}
+
+.text-xs-right {
+    text-align: right;
+}
+
+
+
+.text-sm-center {
+    @media (min-width: $screen-sm-min) {
+        text-align: center;
+    }
+}
+
+.text-sm-left {
+    @media (min-width: $screen-sm-min) {
+        text-align: left;
+    }
+}
+
+.text-sm-right {
+    @media (min-width: $screen-sm-min) {
+        text-align: right;
+    }
+}
+
+
+
+.text-md-center {
+    @media (min-width: $screen-md-min) {
+        text-align: center;
+    }
+}
+
+.text-md-left {
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+}
+
+.text-md-right {
+    @media (min-width: $screen-md-min) {
+        text-align: right;
+    }
+}
+
+
+
+.text-lg-center {
+    @media (min-width: $screen-lg-min) {
+        text-align: center;
+    }
+}
+
+.text-lg-left {
+    @media (min-width: $screen-lg-min) {
+        text-align: left;
+    }
+}
+
+.text-lg-right {
+    @media (min-width: $screen-lg-min) {
+        text-align: right;
+    }
+}
+
+figure.gallery-item {
+    border: 3px solid rgba(200,200,200,0.8);
+    float: left;
+    margin: 15px;
+    transition: all 250ms;
+    &:active,
+    &:focus,
+    &:hover {
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    }
+}
+
 /*
     Colorbox Core Style:
     The following CSS is consistent between example themes and should not be altered.
