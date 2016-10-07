@@ -1,4 +1,24 @@
 # Changelog
+## Version 3.0 *Big Update!*
+* Add mobile-detect in case we need a JS mobile redirect
+* Add Responsive option
+* Add Javascript additions in case JS hasn't been minified and combined
+* Update video for the 404 page
+* Remove 'rincon' references
+* Prefix all options with 'sherpa_' to reduce the likelihood of conflicts
+* Create Testimonials Page
+* Set more options upon activation 
+  * timezone
+  * time format
+  * start of week
+  * make site private
+  * prevent comments
+  * permalink structure
+* Fix URL for Font Awesome
+* Add image size for testimonials
+* Update Bootstrap to 3.3.7
+* Update plugins.js to include the bootstrap parts rather than the full bootstrap.min.js so that it's easier to pick and choose the plugins you want
+
 ## Version 2.9.2
 * Bugfix:  Fix the prepend call for the colorbox call
 * Bugfix:  Add the css for the HTML5 gallery

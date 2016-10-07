@@ -8,13 +8,20 @@
 if (isset($_GET['activated']) && is_admin()){
     sherpa_create_page('Home', '', 'page-home.php');
     sherpa_create_page('Blog', '', '');
+    sherpa_create_page('Testimonials', '', 'page-testimonials.php');
     
     $home = get_page_by_title( 'Home');
     $blog = get_page_by_title( 'Blog');
     
-    update_option( 'page_on_front', $home->ID);
-    update_option( 'page_for_posts', $blog->ID);
-    update_option('show_on_front','page');
+    update_option( 'page_on_front', $home->ID );
+    update_option( 'page_for_posts', $blog->ID );
+    update_option( 'show_on_front','page' );
+    update_option( 'timezone_string','America/Denver' );
+    update_option( 'time_format', 'g:i A' );
+    update_option( 'start_of_week', '0' );
+    update_option( 'blog_public', '0' );
+    update_option( 'default_comment_status', '0' );
+    update_option( 'permalink_structure', '/%year%/%monthnum%/%postname%/' );
 }
 
 function sherpa_create_page($new_page_title, $new_page_content, $new_page_template) {

@@ -4,11 +4,36 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
     <head>
+        <?php
+            if(HASMOBILESITE == 'y' && MOBILESITE != NULL && is_front_page() && $_GET['desktop'] != 'true') {
+                ?>
+        <script src="<?=THEMEURL?>/js/vendor/mobile-detect.min.js"></script>
+        <script>
+            var md = new MobileDetect(window.navigator.userAgent);
+            if(md.phone()) {
+                window.location = '<?=MOBILESITE?>';
+            }
+        </script>
+                <?php
+            }
+        ?>
+        
+        
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-        <!-- If non-responsive, comment out the next line -->
+        <?php
+            if(ISRESPONSIVE == 'y') {
+                ?>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
+                <?php
+            } else {
+                ?>
+        
+        <meta name="viewport" content="width=1100">
+                <?php
+            }
+        ?>
 
         <title><?php wp_title( '|', true, 'right' ); ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -39,7 +64,11 @@
 							
 							// If you don't send a second argument, it will default to no menu on the right side.
 
-							responsive_bs_menu('primary');
+                            if(ISRESPONSIVE == 'y') {
+                                responsive_bs_menu('primary');
+                            } else {
+                                non_responsive_bs_menu('primary');
+                            }
 							
 				        ?>
 			        </div>

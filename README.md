@@ -3,7 +3,7 @@
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-2.9.2
+3.0
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -20,10 +20,11 @@ We are now including a gulp file so that if you are using gulp and all its goodn
 **Sherpa is not meant to be an end-all; it is meant to be a start-all.**
 
 ## Frameworks and Dependencies
-* Twitter Bootstrap (SCSS) - v3.3.6
+* Twitter Bootstrap (SCSS) - v3.3.7
 * FontAwesome - v4.6.3
 * jQuery - v2.2.4
 * Colorbox - v1.6.4
+* MobileDetect.js - v1.3.3
 
 ## Documentation
 We have started working on documentation [in the wiki area](https://github.com/agims/sherpa/wiki), though it is **very much** still under construction.

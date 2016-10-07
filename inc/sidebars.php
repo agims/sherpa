@@ -4,7 +4,7 @@
 function main_sidebar() {
 
 	$args = array(
-		'name'          => __( 'Main Sidebar', 'rincon' ),
+		'name'          => __( 'Main Sidebar', 'sherpa' ),
 		'id'			=> 'main-sidebar',
 		'description'   => __( 'This is the main sidebar that is on the left side of every page.', 'rincon' ),
 		'before_title'  => '<h3 class="widgettitle">',
@@ -18,5 +18,3 @@ function main_sidebar() {
 
 // Hook into the 'widgets_init' action
 add_action( 'widgets_init', 'main_sidebar' );
-
-?>

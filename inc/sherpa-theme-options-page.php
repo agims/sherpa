@@ -1,18 +1,22 @@
 <?php
 
 function sherpa_register_settings() {
-	register_setting('default', 'facebook_url');
-	register_setting('default', 'twitter_url');
-	register_setting('default', 'google_plus_url');
-	register_setting('default', 'pinterest_url');
-	register_setting('default', 'linkedin_url');
-	register_setting('default', 'typekit');
+	register_setting('default', 'sherpa_facebook_url');
+	register_setting('default', 'sherpa_twitter_url');
+	register_setting('default', 'sherpa_google_plus_url');
+	register_setting('default', 'sherpa_pinterest_url');
+	register_setting('default', 'sherpa_linkedin_url');
+	register_setting('default', 'sherpa_typekit');
 	
-	register_setting('default', 'business_address');
-	register_setting('default', 'business_city');
-	register_setting('default', 'business_state');
-	register_setting('default', 'business_zip');
-	register_setting('default', 'telephone_number');
+	register_setting('default', 'sherpa_is_responsive');
+	register_setting('default', 'sherpa_has_separate_mobile');
+	register_setting('default', 'sherpa_mobile_redirect');
+	
+	register_setting('default', 'sherpa_business_address');
+	register_setting('default', 'sherpa_business_city');
+	register_setting('default', 'sherpa_business_state');
+	register_setting('default', 'sherpa_business_zip');
+	register_setting('default', 'sherpa_telephone_number');
 
 	register_setting('default', 'sherpa_google_analytics');
 	register_setting('default', 'sherpa_stat_counter_project');
@@ -42,104 +46,181 @@ function sherpa_theme_option_page() {
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="facebook_url">Facebook URL</label>
+							<label for="sherpa_facebook_url">Facebook URL</label>
 						</th>
 						<td>
-							<input name="facebook_url" type="text" value="<?=get_option('facebook_url')?>" class="regular-text">
+							<input name="sherpa_facebook_url" type="text" value="<?=get_option('sherpa_facebook_url')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="google_plus_url">Google Plus URL</label>
+							<label for="sherpa_google_plus_url">Google Plus URL</label>
 						</th>
 						<td>
-							<input name="google_plus_url" type="text" value="<?=get_option('google_plus_url')?>" class="regular-text">
+							<input name="sherpa_google_plus_url" type="text" value="<?=get_option('sherpa_google_plus_url')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="twitter_url">Twitter URL</label>
+							<label for="sherpa_twitter_url">Twitter URL</label>
 						</th>
 						<td>
-							<input name="twitter_url" type="text" value="<?=get_option('twitter_url')?>" class="regular-text">
+							<input name="sherpa_twitter_url" type="text" value="<?=get_option('sherpa_twitter_url')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="pinterest_url">Pinterest URL</label>
+							<label for="sherpa_pinterest_url">Pinterest URL</label>
 						</th>
 						<td>
-							<input name="pinterest_url" type="text" value="<?=get_option('pinterest_url')?>" class="regular-text">
+							<input name="sherpa_pinterest_url" type="text" value="<?=get_option('sherpa_pinterest_url')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="linkedin_url">LinkedIn URL</label>
+							<label for="sherpa_linkedin_url">LinkedIn URL</label>
 						</th>
 						<td>
-							<input name="linkedin_url" type="text" value="<?=get_option('linkedin_url')?>" class="regular-text">
+							<input name="sherpa_linkedin_url" type="text" value="<?=get_option('sherpa_linkedin_url')?>" class="regular-text">
 						</td>
 					</tr>
 				</tbody>
 			</table>
+			
+			<hr />
+			
+			<h3>Options</h3>
+			<table class="form-table">
+    			<tbody>
+ 					<tr>
+						<th scope="row">
+							<label for="sherpa_is_responsive">Responsive?</label>
+						</th>
+						<td>
+    						<select name="sherpa_is_responsive" id="sherpa_is_responsive">
+        						<?php
+            					    $responsive_options = array(
+                					    'y' => 'Yup!',
+                					    'n' => 'Nope!',
+            					    );
+            					    
+            					    foreach($responsive_options as $option => $text) {
+                					    if($option == get_option('sherpa_is_responsive')) {
+                    					    $selected = " selected";
+                					    } else {
+                    					    $selected = NULL;
+                					    }
+                					    ?>
+                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
+                					    <?php
+            					    }
+            				    ?>
+    						</select>
+						</td>
+					</tr>
+ 					<tr>
+						<th scope="row">
+							<label for="sherpa_has_separate_mobile">Does the site have a separate mobile site?</label>
+						</th>
+						<td>
+    						<select name="sherpa_has_separate_mobile" id="sherpa_has_separate_mobile">
+        						<?php
+            					    $responsive_options = array(
+                					    'y' => 'Yup!',
+                					    'n' => 'Nope!',
+            					    );
+            					    
+            					    foreach($responsive_options as $option => $text) {
+                					    if($option == get_option('sherpa_has_separate_mobile')) {
+                    					    $selected = " selected";
+                					    } else {
+                    					    $selected = NULL;
+                					    }
+                					    ?>
+                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
+                					    <?php
+            					    }
+            				    ?>
+    						</select>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_mobile_redirect">What is the URL for the separate mobile site?</label>
+						</th>
+						<td>
+							<input name="sherpa_mobile_redirect" type="text" value="<?=get_option('sherpa_mobile_redirect')?>" class="regular-text" placeholder="http://www.agims.com/m/">
+						</td>
+					</tr>
+                </tbody>
+			</table>
+			
+			<hr />
+			
 			<h3>Business Address</h3>
 			<table class="form-table">
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="business_address">Address</label>
+							<label for="sherpa_business_address">Address</label>
 						</th>
 						<td>
-							<input name="business_address" type="text" value="<?=get_option('business_address')?>" class="regular-text">
+							<input name="sherpa_business_address" type="text" value="<?=get_option('sherpa_business_address')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="business_city">City</label>
+							<label for="sherpa_business_city">City</label>
 						</th>
 						<td>
-							<input name="business_city" type="text" value="<?=get_option('business_city')?>" class="regular-text">
+							<input name="sherpa_business_city" type="text" value="<?=get_option('sherpa_business_city')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="business_state">State</label>
+							<label for="sherpa_business_state">State</label>
 						</th>
 						<td>
-							<input name="business_state" type="text" value="<?=get_option('business_state')?>" class="regular-text">
+							<input name="sherpa_business_state" type="text" value="<?=get_option('sherpa_business_state')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="business_zip">Zip</label>
+							<label for="sherpa_business_zip">Zip</label>
 						</th>
 						<td>
-							<input name="business_zip" type="text" value="<?=get_option('business_zip')?>" class="regular-text">
+							<input name="sherpa_business_zip" type="text" value="<?=get_option('sherpa_business_zip')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="telephone_number">Phone Number</label>
+							<label for="sherpa_telephone_number">Phone Number</label>
 						</th>
 						<td>
-							<input name="telephone_number" type="text" value="<?=get_option('telephone_number')?>" class="regular-text">
+							<input name="sherpa_telephone_number" type="text" value="<?=get_option('sherpa_telephone_number')?>" class="regular-text">
 						</td>
 					</tr>
 				</tbody>
 			</table>
+			
+			<hr />
+			
 			<h3>Typekit</h3>
 			<table class="form-table">
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="typekit">Kit ID</label>
+							<label for="sherpa_typekit">Kit ID</label>
 						</th>
 						<td>
-							<input name="typekit" type="text" value="<?=get_option('typekit')?>" class="regular-text">
+							<input name="sherpa_typekit" type="text" value="<?=get_option('sherpa_typekit')?>" class="regular-text">
 						</td>
 					</tr>
 				</tbody>
 			</table>
+			
+			<hr />
+			
 			<h3>Analytics</h3>
 			<table class="form-table">
 				<tbody>

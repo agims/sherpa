@@ -7,10 +7,10 @@
 				<h1>Oh no!</h1>
 				<h2>We looked really hard but we couldn't find it!</h2>
 				
-				<p>In the meanwhile, we've found this cute cat video for you to watch.  Enjoy!</p>
+				<p>In the meanwhile, we've found this funny animal video for you to watch.  Enjoy!</p>
 				
 				<div class="embed-responsive embed-responsive-16by9">
-    				<iframe src="https://www.youtube.com/embed/FAH0IgMo0sU" allowfullscreen class="embed-responsive-item"></iframe>
+    				<iframe src="https://www.youtube.com/embed/EQ1HKCYJM5U" allowfullscreen class="embed-responsive-item"></iframe>
 				</div>
 			</div>
 		</div>

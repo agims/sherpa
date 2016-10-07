@@ -17,12 +17,10 @@ if ( ! function_exists('sherpa_theme_features') ) {
 		// Add theme support for document Title tag
 		add_theme_support( 'title-tag' );
 		
-	
+        add_image_size( 'testimonial-profile-pic', 450, 450, TRUE );
 	}
 	
 	// Hook into the 'after_setup_theme' action
 	add_action( 'after_setup_theme', 'sherpa_theme_features' );
 
 }
-	
-?>
