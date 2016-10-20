@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.0.1 - Nanga Parbat
+* Fix Typekit issue
+* Add size class to ul for Social Media
+
 ## Version 3.0 *Big Update!*
 * Add mobile-detect in case we need a JS mobile redirect
 * Add Responsive option

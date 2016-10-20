@@ -1,7 +1,7 @@
 <?php
 
 function sherpa_front_and_backend_scripts() {
-	$typekit = get_option('typekit');
+	$typekit = get_option('sherpa_typekit');
 	
 	if(!empty($typekit)) {
 		wp_register_script( 'typekit', '//use.typekit.net/' . $typekit . '.js', false, false, false );
