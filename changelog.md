@@ -1,4 +1,9 @@
 # Changelog
+## Version 3.0.2 - Nanga Parbat
+* Move stat-counter from header to footer
+* Set Typekit to load asynchronously
+* No longer loading Modernizr by default.  To enable, uncomment out the line in inc/scripts.php
+
 ## Version 3.0.1 - Nanga Parbat
 * Fix Typekit issue
 * Add size class to ul for Social Media

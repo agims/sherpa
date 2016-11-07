@@ -34,4 +34,4 @@
 		}
 	}
 	
-	add_action('wp_head', 'sherpa_stat_counter');
+	add_action('wp_footer', 'sherpa_stat_counter');

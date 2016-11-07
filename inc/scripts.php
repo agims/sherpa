@@ -13,8 +13,9 @@ function sherpa_front_and_backend_scripts() {
 }
 
 function sherpa_frontend_scripts() {
+    // As of v3.0.2, making modernizr available but not automatically loaded.
 	wp_register_script( 'modernizr', THEMEURL . '/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js', false, '2.8.3', false );
-	wp_enqueue_script( 'modernizr' );
+	//wp_enqueue_script( 'modernizr' );
 
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', false, '2.2.4', false );
