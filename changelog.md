@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.0.3 - Nanga Parbat
+* Bump FontAwesome to 4.7.0
+
 ## Version 3.0.2 - Nanga Parbat
 * Move stat-counter from header to footer
 * Set Typekit to load asynchronously
