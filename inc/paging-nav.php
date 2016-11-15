@@ -39,7 +39,7 @@ function agi_paging_nav() {
 
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h4 class="screen-reader-text"><?php _e( 'Posts navigation', 'kalesa' ); ?></h4>
+		<h4 class="screen-reader-text"><?php _e( 'Posts navigation', 'sherpa' ); ?></h4>
 		<div class="pagination loop-pagination pull-right">
 			<?php echo $links; ?>
 		</div><!-- .pagination -->

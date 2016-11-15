@@ -6,7 +6,7 @@ function main_sidebar() {
 	$args = array(
 		'name'          => __( 'Main Sidebar', 'sherpa' ),
 		'id'			=> 'main-sidebar',
-		'description'   => __( 'This is the main sidebar that is on the left side of every page.', 'rincon' ),
+		'description'   => __( 'This is the main sidebar that is on the left side of every page.', 'sherpa' ),
 		'before_title'  => '<h3 class="widgettitle">',
 		'after_title'   => '</h3>',
 		'before_widget' => '<div id="%1$s"class="widget %2$s">',

@@ -9,6 +9,11 @@ function sherpa_styles() {
 	} else {
 		$main_css_deps = FALSE;
 	}
+	
+	if(!empty(get_option('sherpa_google_font_family'))) {
+    	wp_register_style( 'sherpa_google_fonts', 'https://fonts.googleapis.com/css?family=' . get_option( 'sherpa_google_font_family' ), false, '', 'all' );
+    	wp_enqueue_style('sherpa_google_fonts');
+	}
 
 	wp_register_style( 'font_awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.7.0', 'all' );
 	wp_enqueue_style( 'font_awesome' );

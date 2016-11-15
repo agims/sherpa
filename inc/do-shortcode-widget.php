@@ -9,10 +9,10 @@ class wpb_widget extends WP_Widget {
 		'agi_shortcode_widget', 
 		
 		// Widget name will appear in UI
-		__('Shortcode Widget', 'rincon'), 
+		__('Shortcode Widget', 'sherpa'), 
 		
 		// Widget description
-		array( 'description' => __( 'A widget that will do a single shortcode', 'rincon' ), ) 
+		array( 'description' => __( 'A widget that will do a single shortcode', 'sherpa' ), ) 
 		);
 	}
 

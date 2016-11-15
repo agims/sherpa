@@ -1,4 +1,10 @@
 # Changelog
+## Version 3.1.0 - Lhotse
+* Required and Suggested Plugins! (Thank you [TGM Plugin Activation](http://tgmpluginactivation.com/))
+* Options page updated with styling and formatting
+* Added Schema to options page (for LD+JSON format)
+* Added ability to easily add in Google Fonts
+
 ## Version 3.0.3 - Nanga Parbat
 * Bump FontAwesome to 4.7.0
 

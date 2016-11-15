@@ -40,6 +40,13 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
         <?php wp_head(); ?>
+        
+        <?php if(!empty(get_option( 'sherpa_schema' ))): ?>
+
+<?=get_option('sherpa_schema')?>
+            
+        <?php endif; ?>
+
     </head>
     <body <?php body_class(); ?>>
         <!--[if lt IE 7]>
