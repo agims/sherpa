@@ -6,7 +6,7 @@
 
 function schema($property,$value) {
 
-    return '<span itemprop="' . $property . '>' . $value . '</span>';
+    return '<span itemprop="' . $property . '">' . $value . '</span>';
 
 }
 

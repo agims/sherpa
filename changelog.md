@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.1.1 - Lhotse
+* Fix issue with schema.php
+
 ## Version 3.1.0 - Lhotse
 * Required and Suggested Plugins! (Thank you [TGM Plugin Activation](http://tgmpluginactivation.com/))
 * Options page updated with styling and formatting
