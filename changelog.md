@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.2.0 - Makalu
+* Disable Emoji from theme
+
 ## Version 3.1.1 - Lhotse
 * Fix issue with schema.php
 

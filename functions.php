@@ -26,6 +26,7 @@
 		'sherpa-gallery.php',              // Make gallery shortcode work with colorbox
 		'class-tgm-plugin-activation.php', // Allow for required plugins
 		'required-plugins.php',            // Set up required plugins
+		'disable-emoji.php',               // Disable Emoji
 	);
 	
 	$prefix = 'inc/';

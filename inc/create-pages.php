@@ -22,6 +22,7 @@ if (isset($_GET['activated']) && is_admin()){
     update_option( 'blog_public', '0' );
     update_option( 'default_comment_status', '0' );
     update_option( 'permalink_structure', '/%year%/%monthnum%/%postname%/' );
+    update_option( 'use_smilies', '' );
 }
 
 function sherpa_create_page($new_page_title, $new_page_content, $new_page_template) {
