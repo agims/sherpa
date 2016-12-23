@@ -3,7 +3,7 @@
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-3.2.0 - Makalu
+3.2.1 - Makalu
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -19,7 +19,7 @@ We are now including a gulp file so that if you are using gulp and all its goodn
 
 **Sherpa is not meant to be an end-all; it is meant to be a start-all.**
 
-## Frameworks and Dependencies
+## Included Frameworks, Libraries, and Dependencies
 * Twitter Bootstrap (SCSS) - v3.3.7
 * FontAwesome - v4.7.0
 * jQuery - v2.2.4

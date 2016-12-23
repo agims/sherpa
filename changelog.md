@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.2.1 - Makalu
+* Clean out superfluous JS
+* Add ability to see testimonials in REST API
+
 ## Version 3.2.0 - Makalu
 * Disable Emoji from theme
 
