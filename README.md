@@ -29,3 +29,6 @@ We are now including a gulp file so that if you are using gulp and all its goodn
 
 ## Documentation
 We have started working on documentation [in the wiki area](https://github.com/agims/sherpa/wiki), though it is **very much** still under construction.
+
+## Changelog
+See what we've been doing - it's listed in the [changelog](https://github.com/agims/sherpa/blob/master/changelog.md)
