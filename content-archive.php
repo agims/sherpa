@@ -7,7 +7,7 @@
 			
 			if(current_user_can('edit_pages')) {
 				$edit_url = get_edit_post_link();
-				$edit_link = " <small><a href=\"$edit_url\" class=\"post-edit-link\">Edit Post</a></small>";
+				$edit_link = " <small><a href=\"$edit_url\" class=\"post-edit-link\">" . __('Edit Post','sherpa') . "</a></small>";
 			} else {
 				$edit_link = "";
 			}

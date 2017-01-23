@@ -2,7 +2,7 @@
 	        <div class="container">
 		        <div class="row">
 			        <div class="<?=FULLWIDTH?>">
-				        Footer
+				        <?=__('Footer','sherpa')?>
 			        </div>
 		        </div>
 	        </div>

@@ -58,7 +58,7 @@
 	        <div class="container">
 		        <div class="row">
 			        <div class="<?=FULLWIDTH?>">
-				        Header
+				        <?=__('Header','sherpa')?>
 			        </div>
 		        </div>
 		        <div class="row">

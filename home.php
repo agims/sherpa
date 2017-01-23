@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="<?=FULLWIDTH?>">
-    			<h1>Blog</h1>
+    			<h1><?=__('Blog','sherpa')?></h1>
 				<?php get_template_part('content', 'archive'); ?>
 			</div>
 		</div>

@@ -35,7 +35,7 @@
 									echo "\t<img src=\"$profile_url\" class=\"profile-pic img-circle\" />\n";
 									echo "\t<img src=\"$star_rating_url\" class=\"star-rating\" />\n";
 									echo "\t<div class=\"quote\">\n";
-									$edit_link = (get_edit_post_link()) ? "<a href=\"" . get_edit_post_link() . "\" class=\"post-edit-link\">Edit Testimonial</a>" : '';
+									$edit_link = (get_edit_post_link()) ? "<a href=\"" . get_edit_post_link() . "\" class=\"post-edit-link\">" . __('Edit Testimonial','sherpa') . "</a>" : '';
 									echo "\t\t<h3 itemprop=\"author\">" . get_the_title() . "$edit_link</h3>";
 									echo "<div itemprop=\"description\">\n";
 									echo "\t\t";

@@ -73,7 +73,7 @@ function sherpa_theme_option_page() {
 	
 	
 	<div class="wrap">
-		<h2>Sherpa Theme Options</h2>
+		<h2><?=__('Sherpa Theme Options','sherpa')?></h2>
 		<form method="post" action="options.php">
 			<?php settings_fields('default'); ?>
 			<table id="layout">
@@ -84,49 +84,49 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3>Business Address</h3>
+                            <h3><?=__('Business Address','sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_business_address">Address</label>
+							<label for="sherpa_business_address"><?=__("Address",'sherpa')?></label>
 						</th>
 						<td>
-							<input name="sherpa_business_address" type="text" value="<?=get_option('sherpa_business_address')?>" class="regular-text" placeholder="Example:  1370 Pullman Dr, Ste. G">
+							<input name="sherpa_business_address" type="text" value="<?=get_option('sherpa_business_address')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  1370 Pullman Dr, Ste. G">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_business_city">City</label>
+							<label for="sherpa_business_city"><?=__("City",'sherpa')?></label>
 						</th>
 						<td>
-							<input name="sherpa_business_city" type="text" value="<?=get_option('sherpa_business_city')?>" class="regular-text" placeholder="Example:  El Paso">
+							<input name="sherpa_business_city" type="text" value="<?=get_option('sherpa_business_city')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  El Paso">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_business_state">State</label>
+							<label for="sherpa_business_state"><?=__("State",'sherpa')?></label>
 						</th>
 						<td>
-							<input name="sherpa_business_state" type="text" value="<?=get_option('sherpa_business_state')?>" class="regular-text" placeholder="Example:  TX">
+							<input name="sherpa_business_state" type="text" value="<?=get_option('sherpa_business_state')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  TX">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_business_zip">Zip</label>
+							<label for="sherpa_business_zip"><?=__("Zip",'sherpa')?></label>
 						</th>
 						<td>
-							<input name="sherpa_business_zip" type="text" value="<?=get_option('sherpa_business_zip')?>" class="regular-text" placeholder="Example:  79936">
+							<input name="sherpa_business_zip" type="text" value="<?=get_option('sherpa_business_zip')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  79936">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_telephone_number">Phone Number</label>
+							<label for="sherpa_telephone_number"><?=__("Phone Number",'sherpa')?></label>
 						</th>
 						<td>
-							<input name="sherpa_telephone_number" type="text" value="<?=get_option('sherpa_telephone_number')?>" class="regular-text" placeholder="Example:  915-590-7420">
+							<input name="sherpa_telephone_number" type="text" value="<?=get_option('sherpa_telephone_number')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  915-590-7420">
 						</td>
 					</tr>
 					<tr>
@@ -143,14 +143,14 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3>Social Media URLs</h3>
+                            <h3><?=__("Social Media URLs",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_facebook_url">Facebook URL</label>
+							<label for="sherpa_facebook_url"><?=__("Facebook URL",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_facebook_url" type="text" value="<?=get_option('sherpa_facebook_url')?>" class="regular-text">
@@ -158,7 +158,7 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_google_plus_url">Google Plus URL</label>
+							<label for="sherpa_google_plus_url"><?=__("Google Plus URL",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_google_plus_url" type="text" value="<?=get_option('sherpa_google_plus_url')?>" class="regular-text">
@@ -166,7 +166,7 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_twitter_url">Twitter URL</label>
+							<label for="sherpa_twitter_url"><?=__("Twitter URL",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_twitter_url" type="text" value="<?=get_option('sherpa_twitter_url')?>" class="regular-text">
@@ -174,7 +174,7 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_pinterest_url">Pinterest URL</label>
+							<label for="sherpa_pinterest_url"><?=__("Pinterest URL",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_pinterest_url" type="text" value="<?=get_option('sherpa_pinterest_url')?>" class="regular-text">
@@ -182,7 +182,7 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_linkedin_url">LinkedIn URL</label>
+							<label for="sherpa_linkedin_url"><?=__("LinkedIn URL",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_linkedin_url" type="text" value="<?=get_option('sherpa_linkedin_url')?>" class="regular-text">
@@ -206,14 +206,14 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3>Fonts</h3>
+                            <h3><?=__("Fonts",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_typekit">Typekit - Kit ID</label>
+							<label for="sherpa_typekit"><?=__("Typekit",'sherpa')?> - <?=__("Kit ID",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_typekit" type="text" value="<?=get_option('sherpa_typekit')?>" class="regular-text">
@@ -221,11 +221,11 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_google_font_family">Google Fonts - Font Family</label><br />
-							<small>Within the standard "Embed Font" code <code>&lt;link href="https://fonts.googleapis.com/css?family=XXXXXXXXXX" rel="stylesheet"&gt;</code></small>
+							<label for="sherpa_google_font_family"><?=__("Google Fonts",'sherpa')?> - <?=__("Font Family",'sherpa')?></label><br />
+							<small><?=__('Within the standard "Embed Font" code','sherpa')?> <code>&lt;link href="https://fonts.googleapis.com/css?family=XXXXXXXXXX" rel="stylesheet"&gt;</code></small>
 						</th>
 						<td>
-							<input name="sherpa_google_font_family" type="text" value="<?=get_option('sherpa_google_font_family')?>" class="regular-text" placeholder="Example: Lato|Oswald:400,700">
+							<input name="sherpa_google_font_family" type="text" value="<?=get_option('sherpa_google_font_family')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>: Lato|Oswald:400,700">
 						</td>
 					</tr>
 					<tr>
@@ -244,21 +244,21 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3>Mobile Options</h3>
+                            <h3><?=__("Mobile Options",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
     			<tbody>
  					<tr>
 						<th scope="row">
-							<label for="sherpa_is_responsive">Is this site responsive?</label>
+							<label for="sherpa_is_responsive"><?=__("Is this site responsive?",'sherpa')?></label>
 						</th>
 						<td>
     						<select name="sherpa_is_responsive" id="sherpa_is_responsive">
         						<?php
             					    $responsive_options = array(
-                					    'y' => 'Yup!',
-                					    'n' => 'Nope!',
+                					    'y' => __('Yup!','sherpa'),
+                					    'n' => __('Nope!','sherpa'),
             					    );
             					    
             					    foreach($responsive_options as $option => $text) {
@@ -277,14 +277,14 @@ function sherpa_theme_option_page() {
 					</tr>
  					<tr>
 						<th scope="row">
-							<label for="sherpa_has_separate_mobile">Does the site have a separate mobile site?</label>
+							<label for="sherpa_has_separate_mobile"><?=__("Does the site have a separate mobile site?",'sherpa')?></label>
 						</th>
 						<td>
     						<select name="sherpa_has_separate_mobile" id="sherpa_has_separate_mobile">
         						<?php
             					    $responsive_options = array(
-                					    'y' => 'Yup!',
-                					    'n' => 'Nope!',
+                					    'y' => __('Yup!','sherpa'),
+                					    'n' => __('Nope!','sherpa'),
             					    );
             					    
             					    foreach($responsive_options as $option => $text) {
@@ -303,10 +303,10 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_mobile_redirect">What is the URL for the separate mobile site?</label>
+							<label for="sherpa_mobile_redirect"><?=__("What is the URL for the separate mobile site?",'sherpa')?></label>
 						</th>
 						<td>
-							<input name="sherpa_mobile_redirect" type="text" value="<?=get_option('sherpa_mobile_redirect')?>" class="regular-text" placeholder="Example:  http://www.agims.com/m/">
+							<input name="sherpa_mobile_redirect" type="text" value="<?=get_option('sherpa_mobile_redirect')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  http://www.agims.com/m/">
 						</td>
 					</tr>
 					<tr>
@@ -327,24 +327,24 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3>Analytics</h3>
+                            <h3><?=__("Analytics",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_google_analytics">Google Analytics - Kit ID</label><br />
-							<small>This is the ID that usually looks like <code>UA-XXXXXXXX-X</code>
+							<label for="sherpa_google_analytics"><?=__("Google Analytics",'sherpa')?> - <?=__("Kit ID",'sherpa')?></label><br />
+							<small><?=__("This is the ID that usually looks like",'sherpa')?> <code>UA-XXXXXXXX-X</code>
 						</th>
 						<td>
-							<input name="sherpa_google_analytics" type="text" value="<?=get_option('sherpa_google_analytics')?>" class="regular-text" placeholder="Example:  UA-XXXXXXXX-X">
+							<input name="sherpa_google_analytics" type="text" value="<?=get_option('sherpa_google_analytics')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  UA-XXXXXXXX-X">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_stat_counter_project">Stat Counter - Project</label><br />
-							<small>Within the Stat Counter code, this is the part that says <code>var sc_project=XXXXXXXX;</code></small>
+							<label for="sherpa_stat_counter_project"><?=__("Stat Counter",'sherpa')?> - <?=__("Project",'sherpa')?></label><br />
+							<small><?=__("Within the Stat Counter code, this is the part that says",'sherpa')?> <code>var sc_project=XXXXXXXX;</code></small>
 						</th>
 						<td>
 							<input name="sherpa_stat_counter_project" type="text" value="<?=get_option('sherpa_stat_counter_project')?>" class="regular-text">
@@ -352,8 +352,8 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_stat_counter_security">Stat Counter - Security</label><br />
-							<small>Within the Stat Counter code, this is the part that says <code>var sc_security="XXXXXXXX";</code></small>
+							<label for="sherpa_stat_counter_security"><?=__("Stat Counter",'sherpa')?> - <?=__("Security",'sherpa')?></label><br />
+							<small><?=__("Within the Stat Counter code, this is the part that says",'sherpa')?> <code>var sc_security="XXXXXXXX";</code></small>
 						</th>
 						<td>
 							<input name="sherpa_stat_counter_security" type="text" value="<?=get_option('sherpa_stat_counter_security')?>" class="regular-text">
@@ -372,15 +372,15 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3>Misc</h3>
+                            <h3><?=__("Misc",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
 				<tbody>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_google_site_verification">Google Site Verification</label><br />
-							<small>This usually looks like <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (You just want the <strong>xxxx</strong> part)</small>
+							<label for="sherpa_google_site_verification"><?=__("Google Site Verification",'sherpa')?></label><br />
+							<small><?=__("This usually looks like",'sherpa')?> <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (<?=__("You just want the",'sherpa')?> <strong>xxxx</strong> <?=__("part",'sherpa')?>)</small>
 						</th>
 						<td>
 							<input name="sherpa_google_site_verification" type="text" value="<?=get_option('sherpa_google_site_verification')?>" class="regular-text">
@@ -388,8 +388,8 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_schema">Schema</label><br />
-							<small>This is for the LD+JSON formatted Schema.  It will go in the head right before the <code>&lt;/head&gt;</code> tag.
+							<label for="sherpa_schema"><?=__("Schema",'sherpa')?></label><br />
+							<small><?=__("This is for the LD+JSON formatted Schema.  It will go in the head right before the",'sherpa')?> <code>&lt;/head&gt;</code> <?=_x("tag",'referring to an HTML tag','sherpa')?>.
 						</th>
 						<td>
 							<textarea name="sherpa_schema" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_schema')?></textarea>

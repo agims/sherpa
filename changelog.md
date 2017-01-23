@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.3.0 - Cho Oyu
+* Add i18n
+
 ## Version 3.2.1 - Makalu
 * Clean out superfluous JS
 * Add ability to see testimonials in REST API
