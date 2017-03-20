@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.3.1 - Cho Oyu
+* Fix issue caused by i18n conversion in SocialMedia.php
+* Fix backwards compatibility on an option call in styles.php
+
 ## Version 3.3.0 - Cho Oyu
 * Add i18n
 

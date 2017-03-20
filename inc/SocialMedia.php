@@ -26,22 +26,22 @@ class SocialMedia {
     // Private vars
 	private $facebook = array(
 		'url' => FACEBOOK,
-		'name' => __("Facebook",'sherpa'),
+		'name' => "Facebook",
 		'icon' => 'facebook'
 	);
 	private $twitter = array(
 		'url' => TWITTER,
-		'name' => __('Twitter','sherpa'),
+		'name' => 'Twitter',
 		'icon' => 'twitter'
 	);
 	private $googleplus = array(
 		'url' => GOOGLEPLUS,
-		'name' => __('Google Plus','sherpa'),
+		'name' => 'Google Plus',
 		'icon' => 'google-plus'
 	);
 	private $pinterest = array(
 		'url' => PINTEREST,
-		'name' => __('Pinterest','sherpa'),
+		'name' => 'Pinterest',
 		'icon' => 'pinterest-p'
 	);
 	private $linkedin = array(

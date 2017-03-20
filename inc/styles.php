@@ -10,7 +10,9 @@ function sherpa_styles() {
 		$main_css_deps = FALSE;
 	}
 	
-	if(!empty(get_option('sherpa_google_font_family'))) {
+	$sherpa_google_font_family = get_option('sherpa_google_font_family');
+	
+	if(!empty($sherpa_google_font_family)) {
     	wp_register_style( 'sherpa_google_fonts', 'https://fonts.googleapis.com/css?family=' . get_option( 'sherpa_google_font_family' ), false, '', 'all' );
     	wp_enqueue_style('sherpa_google_fonts');
 	}
