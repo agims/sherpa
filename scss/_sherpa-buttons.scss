@@ -1,4 +1,6 @@
 // This is for creating extra buttons
+// Mixin for creating additional buttons:
+//      button-variant($color, $background, $border)
 
 .btn-read-more {
   @include button-variant($sherpa-secondary-color, $sherpa-primary-color, $sherpa-primary-color);

@@ -67,6 +67,7 @@ class SocialMedia {
 	private $size = 'lg';
 	private $style = 'square';
 	private $echoed = TRUE;
+	private $listType = 'list-inline';
 	
 	private $sizeOpts = array(
 		'sm',
@@ -77,6 +78,11 @@ class SocialMedia {
 		'rounded',
 		'circle',
 		'square'
+	);
+	
+	private $listTypeOpts = array(
+    	'list-inline',
+    	'list-unstyled'
 	);
 	
 	
@@ -93,6 +99,7 @@ class SocialMedia {
 	public function getSize() { return $this->size; }
 	public function getStyle() { return $this->style; }
 	public function getEchoed() { return $this->echoed; }
+	public function getListType() { return $this->listType; }
 	
 	public function setSize($val) { 
 		if(in_array($val, $this->sizeOpts)) {
@@ -115,6 +122,15 @@ class SocialMedia {
 	public function setEchoed($val) {
 		if(is_bool($val)) {
 			$this->echoed = $val;
+			return $this;
+		} else {
+			return false;
+		}
+	}
+	
+	public function setListType($val) {
+		if(in_array($val, $this->listTypeOpts)) {
+			$this->listType = $val;
 			return $this;
 		} else {
 			return false;
@@ -166,7 +182,7 @@ class SocialMedia {
 		if(count($this->showNetworks) > 0) {
 			
 			?>
-			<ul class="list-inline social-media <?=$this->size?>">
+			<ul class="<?=$this->listType?> social-media <?=$this->size?>">
 			<?php
 
 			foreach($this->showNetworks as $network) {

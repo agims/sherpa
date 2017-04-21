@@ -10,15 +10,19 @@ function sherpa_styles() {
 		$main_css_deps = FALSE;
 	}
 	
+
 	$sherpa_google_font_family = get_option('sherpa_google_font_family');
 	
+
 	if(!empty($sherpa_google_font_family)) {
     	wp_register_style( 'sherpa_google_fonts', 'https://fonts.googleapis.com/css?family=' . get_option( 'sherpa_google_font_family' ), false, '', 'all' );
-    	wp_enqueue_style('sherpa_google_fonts');
+    	$main_css_deps[] = 'sherpa_google_fonts';
 	}
 
+
 	wp_register_style( 'font_awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.7.0', 'all' );
-	wp_enqueue_style( 'font_awesome' );
+	$main_css_deps[] = 'font_awesome';
+
 
 	wp_register_style( 'main_css', get_stylesheet_directory_uri() . '/css/style.css', $main_css_deps, '1.0', 'all' );
 	wp_enqueue_style( 'main_css' );

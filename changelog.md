@@ -1,4 +1,9 @@
 # Changelog
+## Version 3.3.2 - Cho Oyu
+* Update 404 page to remove video and add page listing
+* Add ability to have stacked social media icons in inc/SocialMedia.php
+* Updated the way styles are enqueued in inc/styles.php
+
 ## Version 3.3.1 - Cho Oyu
 * Fix issue caused by i18n conversion in SocialMedia.php
 * Fix backwards compatibility on an option call in styles.php
