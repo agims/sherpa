@@ -15,6 +15,8 @@ define('BUSCITY',       get_option('sherpa_business_city')      );
 define('BUSSTATE',      get_option('sherpa_business_state')     );
 define('BUSZIP',        get_option('sherpa_business_zip')       );
 define('TELEPHONE',		get_option('sherpa_telephone_number')	);
+define('MAPLINK',       get_option('sherpa_map_link')           );
+define('DIRECTIONS',    get_option('sherpa_map_directions_link'));
 
 define('ISRESPONSIVE',  get_option('sherpa_is_responsive')      );
 define('HASMOBILESITE', get_option('sherpa_has_separate_mobile'));

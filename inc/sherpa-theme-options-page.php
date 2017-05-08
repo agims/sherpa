@@ -19,6 +19,8 @@ function sherpa_register_settings() {
 	register_setting('default', 'sherpa_business_state');
 	register_setting('default', 'sherpa_business_zip');
 	register_setting('default', 'sherpa_telephone_number');
+	register_setting('default', 'sherpa_map_link');
+	register_setting('default', 'sherpa_map_directions_link');
 
 	register_setting('default', 'sherpa_google_analytics');
 	register_setting('default', 'sherpa_stat_counter_project');
@@ -127,6 +129,24 @@ function sherpa_theme_option_page() {
 						</th>
 						<td>
 							<input name="sherpa_telephone_number" type="text" value="<?=get_option('sherpa_telephone_number')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  915-590-7420">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_map_link"><?=__("Map Link",'sherpa')?></label><br />
+							<small><?=__("This is for the Google Map link",'sherpa')?>.
+						</th>
+						<td>
+							<textarea name="sherpa_map_link" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_map_link')?></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_map_directions_link"><?=__("Directions Link",'sherpa')?></label><br />
+							<small><?=__("This is for the Google Map directions link",'sherpa')?>.
+						</th>
+						<td>
+							<textarea name="sherpa_map_directions_link" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_map_directions_link')?></textarea>
 						</td>
 					</tr>
 					<tr>

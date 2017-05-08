@@ -1,4 +1,11 @@
 # Changelog
+## Version 3.4 - Manaslu
+* Remove config.rb
+* Add Map Link
+* Add Map Directions Link
+* Add Contstants - MAPLINK, DIRECTIONS
+* Add ability to use or not use schema with address functions
+
 ## Version 3.3.2 - Cho Oyu
 * Update 404 page to remove video and add page listing
 * Add ability to have stacked social media icons in inc/SocialMedia.php

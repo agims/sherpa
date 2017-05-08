@@ -11,18 +11,37 @@
   We've also created a special utility for creating phone links
 */
 
-function get_the_address($include_phone = TRUE) {
+function get_the_address($include_phone = TRUE, $use_schema = FALSE) {
     ob_start();
+    
+    if($use_schema == TRUE) {
+
     ?>
     <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <?=schema('streetAddress',BUSADDRESS)?><br />
         <?=schema('addressLocality',BUSCITY)?>, <?=schema('addressRegion',BUSSTATE)?> <?=schema('postalCode',BUSZIP)?>
         <?php if($include_phone == TRUE): ?><br />
-        <?=get_the_phone_link()?>
+        <?=get_the_phone_link(TELEPHONE, TRUE)?>
         <?php endif; ?>
     </address>
     <?php
-    return ob_get_clean();
+
+    } else {
+
+    ?>
+    <address>
+        <?=BUSADDRESS?><br />
+        <?=BUSCITY?>, <?=BUSSTATE?> <?=BUSZIP?>
+        <?php if($include_phone == TRUE): ?><br />
+        <?=get_the_phone_link(TELEPHONE, FALSE)?>
+        <?php endif; ?>
+    </address>
+    <?php    
+
+    }
+    
+    $to_return = ob_get_clean();
+    return $to_return;
 }
 
 function the_address($include_phone = TRUE) {
@@ -32,14 +51,25 @@ function the_address($include_phone = TRUE) {
 
 
 
-function get_the_address_inline($include_phone = TRUE, $sep = '|') {
+function get_the_address_inline($include_phone = TRUE, $sep = '|', $use_schema = FALSE) {
     ob_start();
+    
+    if($use_schema == TRUE) {
+
     ?>
     <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <?=schema('streetAddress',BUSADDRESS)?> <?=$sep?> <?=schema('addressLocality',BUSCITY)?>, <?=schema('addressRegion',BUSSTATE)?> <?=schema('postalCode',BUSZIP)?><?php if($include_phone == TRUE): ?> <?=$sep?> <?=get_the_phone_link()?><?php endif; ?>
+        <?=schema('streetAddress',BUSADDRESS)?> <?=$sep?> <?=schema('addressLocality',BUSCITY)?>, <?=schema('addressRegion',BUSSTATE)?> <?=schema('postalCode',BUSZIP)?><?php if($include_phone == TRUE): ?> <?=$sep?> <?=get_the_phone_link(TELEPHONE, TRUE)?><?php endif; ?>
     </address>
     <?php
-    return ob_get_clean();
+    } else {
+    ?>
+    <address>
+        <?=BUSADDRESS?> <?=$sep?> <?=BUSCITY?>, <?=BUSSTATE?> <?=BUSZIP?><?php if($include_phone == TRUE): ?> <?=$sep?> <?=get_the_phone_link(TELEPHONE, FALSE)?><?php endif; ?>
+    </address>
+    <?php 
+    }
+    $to_return = ob_get_clean();
+    return $to_return;
 }
 
 function the_address_inline($include_phone = TRUE, $sep = '|') {
@@ -50,10 +80,15 @@ function the_address_inline($include_phone = TRUE, $sep = '|') {
 
 
 
-function get_the_phone_link($phone = TELEPHONE) {
-    return '<a href="tel:' . $phone . '">' . schema('telephone',$phone) .  '</a>';
+function get_the_phone_link($phone = TELEPHONE, $use_schema = FALSE) {
+    if($use_schema == TRUE) {
+        $phone_text = schema('telephone',$phone);
+    } else {
+        $phone_text = $phone;
+    }
+    return '<a href="tel:' . $phone . '">' . $phone_text .  '</a>';
 }
 
-function the_phone_link($phone = TELEPHONE) {
+function the_phone_link($phone = TELEPHONE, $use_schema = FALSE) {
     echo get_the_phone_link($phone);
 }

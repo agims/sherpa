@@ -26,6 +26,8 @@
 		'sherpa_is_responsive'                      => 'y',
 		'sherpa_has_separate_mobile'                => 'n',
 		'sherpa_mobile_redirect'                    => '',
+		'sherpa_map_link'                           => '',
+		'sherpa_map_directions_link'                => '',
 	);
 	
 	foreach($social_media_options as $key => $value) {
