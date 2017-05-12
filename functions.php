@@ -27,6 +27,7 @@
 		'class-tgm-plugin-activation.php', // Allow for required plugins
 		'required-plugins.php',            // Set up required plugins
 		'disable-emoji.php',               // Disable Emoji
+		'add-to-any.php',                  // Add filter for 'the_content' to add Social Media sharing buttons
 	);
 	
 	$prefix = 'inc/';

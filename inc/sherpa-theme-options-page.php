@@ -13,6 +13,7 @@ function sherpa_register_settings() {
 	register_setting('default', 'sherpa_is_responsive');
 	register_setting('default', 'sherpa_has_separate_mobile');
 	register_setting('default', 'sherpa_mobile_redirect');
+	register_setting('default', 'sherpa_use_featured_in_post_filter');
 	
 	register_setting('default', 'sherpa_business_address');
 	register_setting('default', 'sherpa_business_city');
@@ -327,6 +328,32 @@ function sherpa_theme_option_page() {
 						</th>
 						<td>
 							<input name="sherpa_mobile_redirect" type="text" value="<?=get_option('sherpa_mobile_redirect')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  http://www.agims.com/m/">
+						</td>
+					</tr>
+ 					<tr>
+						<th scope="row">
+							<label for="sherpa_use_featured_in_post_filter"><?=__("Use Featured Image in Posts?",'sherpa')?></label>
+						</th>
+						<td>
+    						<select name="sherpa_use_featured_in_post_filter" id="sherpa_use_featured_in_post_filter">
+        						<?php
+            					    $use_featured_image = array(
+                					    'y' => __('Yup!','sherpa'),
+                					    'n' => __('Nope!','sherpa'),
+            					    );
+            					    
+            					    foreach($use_featured_image as $option => $text) {
+                					    if($option == get_option('sherpa_use_featured_in_post_filter')) {
+                    					    $selected = " selected";
+                					    } else {
+                    					    $selected = NULL;
+                					    }
+                					    ?>
+                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
+                					    <?php
+            					    }
+            				    ?>
+    						</select>
 						</td>
 					</tr>
 					<tr>

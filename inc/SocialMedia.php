@@ -85,6 +85,8 @@ class SocialMedia {
     	'list-unstyled'
 	);
 	
+	private $listId = '';
+	
 	
     // Public functions
 	public function __construct($val) {
@@ -100,6 +102,7 @@ class SocialMedia {
 	public function getStyle() { return $this->style; }
 	public function getEchoed() { return $this->echoed; }
 	public function getListType() { return $this->listType; }
+	public function getListId() { return $this->listId; }
 	
 	public function setSize($val) { 
 		if(in_array($val, $this->sizeOpts)) {
@@ -138,7 +141,6 @@ class SocialMedia {
 	}
 
 	public function setNetworks($networks = array()) {
-		
 		if(is_array($networks)) {
 			$this->showNetworks = array();
 			
@@ -151,7 +153,14 @@ class SocialMedia {
 		} else {
 			return false;
 		}
-		
+	}
+	
+	public function setListId($val) {
+    	if(is_string($val)) {
+        	$this->listId = $val;
+    	} else {
+        	return false;
+    	}
 	}
 	
 	private function setupSingle($bob = string) {
@@ -180,9 +189,15 @@ class SocialMedia {
 		ob_start();
 		
 		if(count($this->showNetworks) > 0) {
+    		
+    		if(!empty($this->listId)) {
+        		$id = ' id="' . $this->listId . '"';
+    		} else {
+        		$id = NULL;
+    		}
 			
 			?>
-			<ul class="<?=$this->listType?> social-media <?=$this->size?>">
+			<ul class="<?=$this->listType?> social-media <?=$this->size?>"<?=$id?>>
 			<?php
 
 			foreach($this->showNetworks as $network) {

@@ -1,9 +1,22 @@
 # Changelog
+## Version 3.5 - Kangchenjunga
+* Add flexbox styling and markup for blog index
+* Add custom thumbnail 'blog-featured-image' (inc/theme-features.php)
+* Add image to blog index
+* Rename MAPLINK to MAP (inc/constants.php)
+* Add ability to include an ID in the SocialMedia class (inc/SocialMedia.php)
+* Remove "Slideshow" stand-in from page-home.php
+* Simplify styling the colors on testimonials
+* Add social media sharing buttons through filter in "the_content" (inc/add-to-any.php)
+* Add ability to have the featured image included inside the post (inc/add-image-to-post.php)
+* Add custom thumbnail 'blog-interior-image' (inc/theme-features.php)
+* Add ability to turn on or off featured image in the post, defaulting to off
+
 ## Version 3.4 - Manaslu
 * Remove config.rb
 * Add Map Link
 * Add Map Directions Link
-* Add Contstants - MAPLINK, DIRECTIONS
+* Add Constants - MAPLINK, DIRECTIONS
 * Add ability to use or not use schema with address functions
 
 ## Version 3.3.2 - Cho Oyu

@@ -53,3 +53,17 @@ $sherpa-navbar-right-link-color:				$white;
 $sherpa-navbar-default-toggle-border-color:		$white;
 $sherpa-navbar-default-toggle-hover-bg:			transparent;
 $sherpa-navbar-default-toggle-icon-bar-bg:		$white;
+
+
+// Testimonials
+/// Testimonial A
+$testimonial-a: lighten($black, 45%);
+$testimonial-a-accent: lighten($testimonial-a, 10%);
+$testimonial-a-color: $black;
+$testimonial-a-border-color: $testimonial-a-accent;
+
+/// Testimonial B
+$testimonial-b: lighten($black, 75%);
+$testimonial-b-accent: lighten($testimonial-b, 10%);
+$testimonial-b-color: $black;
+$testimonial-b-border-color: $testimonial-b-accent;

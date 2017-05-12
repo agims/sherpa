@@ -81,31 +81,33 @@ i.fa {
 }
 
 blockquote.testimonial {
-	background-color: $sherpa-primary-color;
+	background-color: $testimonial-a;
 	border: 0;
+	border-top: 5px solid $testimonial-a-border-color;
 	font-size: 1em;
 	line-height: 1.4;
-	margin: 1em -1em;
+	margin: 0;
 	min-height: 12em;
 	padding: 1em 3.1428571429em 1em 10em;
 	position: relative;
-	@media (min-width: $screen-sm-min) {
-		border-radius: 1em;
-	}
 	&:nth-of-type(2n) {
-		background-color: $sherpa-secondary-color;
+		background-color: $testimonial-b;
+		border-top: 5px solid $testimonial-b-border-color;
 		.profile-pic {
-			border-color: darken($sherpa-secondary-color, 10%);
+			border-color: $testimonial-b-accent;
 		}
 		.quote {
+    		color: $testimonial-b-color;
+    		text-shadow: 1px 1px 0px transparentize($white, 0.9);
 			&:before,
 			&:after {
-				color: darken($sherpa-secondary-color, 10%);
+				color: $testimonial-b-accent;
+				text-shadow: 0 0 0 transparent;
 			}
 		}
 	}
 	.profile-pic {
-		border: 5px solid darken($sherpa-primary-color, 10%);
+		border: 5px solid $testimonial-a-accent;
 		left: 1em;
 		position: absolute;
 		top: 1em;
@@ -114,20 +116,22 @@ blockquote.testimonial {
 	.star-rating {
 		left: 1em;
 		position: absolute;
-		top: 10em;
+		top: 150px;
 		width: 8em;
 	}
 	.quote {
-		color: $white;
+		color: $testimonial-a-color;
 		padding: 0 1em 0 2em;
 		position: relative;
+		text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
 		&:before,
 		&:after {
-			color: darken($sherpa-primary-color, 10%);
+			color: $testimonial-a-accent;
 			display: inline-block;
 			font-family: "Georgia", serif;
 			font-size: 10em;
 			position: absolute;
+			text-shadow: 0 0 0 transparent;
 			z-index: 1;
 		}
 		&:before {
@@ -154,6 +158,7 @@ blockquote.testimonial {
 		}
 	}
 }
+
 
 .text-xs-center {
     text-align: center;
@@ -236,6 +241,22 @@ figure.gallery-item {
     &:focus,
     &:hover {
         box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    }
+}
+
+// Styling for the flexbox on the blog
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    article {
+        padding: 0 15px 30px;
+        width: 100%;
+        @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+            width: 50%;
+        }
+        @media (min-width: $screen-md-min) {
+            width: 33.33333333%;
+        }
     }
 }
 
