@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.5.1 - Kangchenjunga
+* Fix sherpa_excerpt to work with the flexbox styling
+
 ## Version 3.5 - Kangchenjunga
 * Add flexbox styling and markup for blog index
 * Add custom thumbnail 'blog-featured-image' (inc/theme-features.php)
