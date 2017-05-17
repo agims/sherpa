@@ -65,16 +65,20 @@
 			        <div class="<?=FULLWIDTH?>">
 				        <?php
 							// Call either the responsive_bs_menu() or the non_responsive_bs_menu() here
-							// If you are using a menu besides 'primary', use this as the first argument in the function.
-							// If you are using a second menu (for the right side), send the theme location of that as the second argument.
-							// i.e. responsive_bs_menu($primary_menu_location, $secondary_menu_location);
+							//  If you are using a menu besides 'primary', use this as the first argument in the function.
+							//  You can control whether the menu is right- or left-aligned with $menu_side.  It will be left-aligned unless you set
+							//      $menu_side = 'right'
+							//  You can also set up what the text is on the left-hand side of the mobile menu with $brand.
+							//  Lastly, the menu now returns rather than echoing out, so make sure to echo out the menu.
+                            //
+							//  responsive_bs_menu($primary_menu_location, $menu_side, $brand);
 							
 							// If you don't send a second argument, it will default to no menu on the right side.
 
                             if(ISRESPONSIVE == 'y') {
-                                responsive_bs_menu('primary');
+                                echo responsive_bs_menu('primary');
                             } else {
-                                non_responsive_bs_menu('primary');
+                                echo non_responsive_bs_menu('primary');
                             }
 							
 				        ?>

@@ -12,6 +12,29 @@ i.fa {
 	}
 }
 
+.has-subtitle {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
+img.alignright {
+    width: 100%;
+    @media (min-width: 640px) {
+        max-width: 40%;
+        width: auto;
+    }
+}
+
+.dark {
+    color: $white;
+    a:not(.btn) {
+        color: $white;
+    }
+}
+
 @mixin social-media-button($color) {
 	background-color: $color;
 	&:hover,

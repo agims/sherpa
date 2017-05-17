@@ -90,5 +90,22 @@ function get_the_phone_link($phone = TELEPHONE, $use_schema = FALSE) {
 }
 
 function the_phone_link($phone = TELEPHONE, $use_schema = FALSE) {
-    echo get_the_phone_link($phone);
+    echo get_the_phone_link($phone, $use_schema);
+}
+
+
+
+
+
+function get_the_phone_btn($btnclasses = "btn-primary", $text = TELEPHONE, $phone = TELEPHONE, $use_schema = FALSE) {
+    if($use_schema == TRUE) {
+        $phone_text = schema('telephone',$phone);
+    } else {
+        $phone_text = $text;
+    }
+    return '<a href="tel:' . $phone . '" class="btn ' . $btnclasses . '">' . $phone_text .  '</a>';
+}
+
+function the_phone_btn($btnclasses = "btn-primary", $text = TELEPHONE, $phone = TELEPHONE, $use_schema = FALSE) {
+    echo get_the_phone_btn($btnclasses, $text, $phone, $use_schema);
 }

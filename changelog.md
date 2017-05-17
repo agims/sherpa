@@ -1,4 +1,14 @@
 # Changelog
+## Version 3.5.2 - Kangchenjunga
+* Fix default pic size
+* Fix get_the_phone_link to allow for the use of schema
+* Add get_the_phone_btn so that you can create buttons with the phone as well as custom text
+* Add classes to scss/_sherpa-general.scss
+* Update inc/navs.php to take out secondary menu and add multiple other options
+* Remove bottom margin on the navbar in scss/_sherpa-navbar.scss
+* Simplify styling of navbar in scss/_sherpa-variables.scss
+* Add cache-busting to CSS by setting version to time() in inc/styles.php (change back when going live)
+
 ## Version 3.5.1 - Kangchenjunga
 * Fix sherpa_excerpt to work with the flexbox styling
 

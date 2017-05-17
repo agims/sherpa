@@ -2,7 +2,7 @@
 .navbar-sherpa {
   background-color: $sherpa-navbar-default-bg;
   border-color: $sherpa-navbar-default-border;
-
+  margin-bottom: 0;
   .navbar-brand {
     color: $sherpa-navbar-default-brand-color;
     &:hover,
