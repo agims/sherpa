@@ -1,0 +1,26 @@
+@mixin sm-lighten($color) {
+	background-color: $color;
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: lighten($color, 10%);
+	}
+}
+
+@mixin sm-darken($color) {
+	background-color: $color;
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: darken($color, 10%);
+	}
+}
+
+@mixin sm-single-color($scolor, $color) {
+	background-color: $scolor;
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $color;
+	}
+}

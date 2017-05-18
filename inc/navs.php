@@ -55,9 +55,9 @@
 	}
 	
 	function responsive_bs_menu($theme_location = 'primary', $menu_side = 'left', $brand = NULL) {
-		bs_menu(TRUE, $theme_location, $menu_side, $brand);
+		return bs_menu(TRUE, $theme_location, $menu_side, $brand);
 	}
 	
 	function non_responsive_bs_menu($theme_location = 'primary', $menu_side = 'left', $brand = NULL) {
-		bs_menu(FALSE, $theme_location, $menu_side, $brand);
+		return bs_menu(FALSE, $theme_location, $menu_side, $brand);
 	}

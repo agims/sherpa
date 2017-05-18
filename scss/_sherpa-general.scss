@@ -35,24 +35,16 @@ img.alignright {
     }
 }
 
-@mixin social-media-button($color) {
-	background-color: $color;
-	&:hover,
-	&:active,
-	&:focus {
-		background-color: lighten($color, 10%);
-	}
-}
-
 .social-media-button {
-	color: $white;
+	color: $sm-color;
 	display: table-cell;
     text-align: center;
+    transition: all 250ms;
 	vertical-align: middle;
 	&:hover,
 	&:active,
 	&:focus {
-		color: $white;
+		color: $sm-hover-color;
 		text-decoration: none;
 	}
 	&.lg {
@@ -73,26 +65,70 @@ img.alignright {
 	&.square {
 		border-radius: 0px;
 	}
-	&.facebook-button {
-		@include social-media-button($color-facebook);
+
+	&.facebook-button.lighten {
+		@include sm-lighten($color-facebook);
 	}
-	&.twitter-button {
-		@include social-media-button($color-twitter);
+	&.twitter-button.lighten {
+		@include sm-lighten($color-twitter);
 	}
-	&.googleplus-button {
-		@include social-media-button($color-google-plus);
+	&.googleplus-button.lighten {
+		@include sm-lighten($color-google-plus);
 	}
-	&.pinterest-button {
-		@include social-media-button($color-pinterest);
+	&.pinterest-button.lighten {
+		@include sm-lighten($color-pinterest);
 	}
-	&.linkedin-button {
-		@include social-media-button($color-linkedin);
+	&.linkedin-button.lighten {
+		@include sm-lighten($color-linkedin);
 	}
-	&.youtube-button {
-		@include social-media-button($color-youtube);
+	&.youtube-button.lighten {
+		@include sm-lighten($color-youtube);
+	}
+
+	&.facebook-button.darken {
+		@include sm-darken($color-facebook);
+	}
+	&.twitter-button.darken {
+		@include sm-darken($color-twitter);
+	}
+	&.googleplus-button.darken {
+		@include sm-darken($color-google-plus);
+	}
+	&.pinterest-button.darken {
+		@include sm-darken($color-pinterest);
+	}
+	&.linkedin-button.darken {
+		@include sm-darken($color-linkedin);
+	}
+	&.youtube-button.darken {
+		@include sm-darken($color-youtube);
+	}
+
+	&.facebook-button.singlecolor {
+		@include sm-single-color($singlecolor, $color-facebook);
+	}
+	&.twitter-button.singlecolor {
+		@include sm-single-color($singlecolor, $color-twitter);
+	}
+	&.googleplus-button.singlecolor {
+		@include sm-single-color($singlecolor, $color-google-plus);
+	}
+	&.pinterest-button.singlecolor {
+		@include sm-single-color($singlecolor, $color-pinterest);
+	}
+	&.linkedin-button.singlecolor {
+		@include sm-single-color($singlecolor, $color-linkedin);
+	}
+	&.youtube-button.singlecolor {
+		@include sm-single-color($singlecolor, $color-youtube);
 	}
 }
 
+#sm-top {
+    li {
+        padding: 0 2px;
+    }
+}
 
 .add-extra-padding {
 	padding-left: 15px;

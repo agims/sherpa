@@ -68,6 +68,7 @@ class SocialMedia {
 	private $style = 'square';
 	private $echoed = TRUE;
 	private $listType = 'list-inline';
+	private $colorType = 'lighten';
 	
 	private $sizeOpts = array(
 		'sm',
@@ -83,6 +84,12 @@ class SocialMedia {
 	private $listTypeOpts = array(
     	'list-inline',
     	'list-unstyled'
+	);
+	
+	private $colorTypeOpts = array(
+    	'lighten',
+    	'darken',
+    	'singlecolor'
 	);
 	
 	private $listId = '';
@@ -103,6 +110,7 @@ class SocialMedia {
 	public function getEchoed() { return $this->echoed; }
 	public function getListType() { return $this->listType; }
 	public function getListId() { return $this->listId; }
+	public function getColorType() { return $this->colorType; }
 	
 	public function setSize($val) { 
 		if(in_array($val, $this->sizeOpts)) {
@@ -149,6 +157,8 @@ class SocialMedia {
         			$this->showNetworks[] = $network;
     			}
 			}
+			
+			return $this;
 
 		} else {
 			return false;
@@ -158,10 +168,22 @@ class SocialMedia {
 	public function setListId($val) {
     	if(is_string($val)) {
         	$this->listId = $val;
+        	
+        	return $this;
     	} else {
         	return false;
     	}
 	}
+
+	public function setColorType($val) {
+		if(in_array($val, $this->colorTypeOpts)) {
+			$this->colorType = $val;
+			return $this;
+		} else {
+			return false;
+		}
+	}
+
 	
 	private function setupSingle($bob = string) {
 		
@@ -173,7 +195,7 @@ class SocialMedia {
 			$size_class = 'fa-lg';
 		}
 
-		return "<a href=\"$url\" class=\"$bob-button social-media-button " . $this->size . ' ' . $this->style . " external\"><i class=\"fa fa-" . $icon . " fa-fw $size_class\"><span>" . $name . "</span></i></a>";
+		return "<a href=\"$url\" class=\"$bob-button social-media-button " . $this->getSize() . ' ' . $this->getStyle() . ' ' . $this->getColorType() . " external\"><i class=\"fa fa-" . $icon . " fa-fw $size_class\"><span>" . $name . "</span></i></a>";
 	}
 	
 	public function showSingle($networkName) {

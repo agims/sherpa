@@ -1,4 +1,12 @@
 # Changelog
+## Version 3.5.3 - Kangchenjunga
+* Add color options for social media buttons so you don't have to modify the mixins
+* Add scss/_sherpa-mixins.scss
+* Add options for social media buttons into scss/_sherpa-variables.scss
+* Fix "set" methods in inc/SocialMedia.php so that they return `$this` upon success so that you can chain methods 
+* Remove excerpt from Testimonials Custom Post Type (inc/testimonials-cpt.php)
+* Fix secondary functions in inc/navs.php as they were expecting things to be echoed rather than returned
+
 ## Version 3.5.2 - Kangchenjunga
 * Fix default pic size
 * Fix get_the_phone_link to allow for the use of schema
