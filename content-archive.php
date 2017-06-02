@@ -45,5 +45,13 @@
 		
         	</div>
     	</div>
+    	<div class="row">
+        	<div class="col-sm-6 text-sm-left text-xs-center">
+            	<?php previous_posts_link( 'Newer posts' ); ?>
+        	</div>
+        	<div class="col-sm-6 text-sm-right text-xs-center">
+            	<?php next_posts_link( 'Older posts' ); ?>
+        	</div>
+    	</div>
 		<?php
 	}

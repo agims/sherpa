@@ -17,6 +17,7 @@ function add_to_any($content)
         </div>
         <script async src="https://static.addtoany.com/menu/page.js"></script>
         <!-- AddToAny END -->
+        <br />
     <?php
     endif;
     

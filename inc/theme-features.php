@@ -20,6 +20,9 @@ if ( ! function_exists('sherpa_theme_features') ) {
         add_image_size( 'testimonial-profile-pic', 450, 450, TRUE );
         add_image_size( 'blog-featured-image', 737, 414, TRUE );
         add_image_size( 'blog-interior-image', 1170, 200, TRUE );
+        
+        // Remove Responsive Images
+        add_filter( 'wp_calculate_image_srcset', '__return_false' );
 	}
 	
 	// Hook into the 'after_setup_theme' action

@@ -1,4 +1,14 @@
 # Changelog
+## Version 3.5.4 - Kangchenjunga
+* Remove responsive images (inc/theme-features.php)
+* Add a shortcode for sherpavembed
+* Fix:  forgot to add call to inc/add-image-to-post.php in functions.php; fixed now
+* Add extra `<br />` in inc/add-to-any.php
+* Add links to next and previous posts in content-single.php
+* Add categories to single posts in content-single.php
+* Add tags to single posts through content filter (inc/add-tags-to-single.php)
+* Add paging for blog on content-archive.php
+
 ## Version 3.5.3 - Kangchenjunga
 * Add color options for social media buttons so you don't have to modify the mixins
 * Add scss/_sherpa-mixins.scss

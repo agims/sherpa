@@ -319,6 +319,18 @@ figure.gallery-item {
     }
 }
 
+// styling for the meta information
+.article-meta,
+.single-tagged-as {
+    border-bottom: 1px solid $sherpa-primary-color;
+    border-top: 1px solid $sherpa-primary-color;
+    margin: 5px 0;
+    padding: 5px 0;
+    a {
+        text-transform: capitalize;
+    }
+}
+
 /*
     Colorbox Core Style:
     The following CSS is consistent between example themes and should not be altered.
