@@ -5,6 +5,7 @@
 * Make blog_interior_image sizes an option in the options page
 * Add ability to add classes to the blog_interior_image
 * Add "Advanced Custom Fields" plugin to recommended plugins
+* Add function to get the stars for a testimonial rating
 
 ## Version 3.5.4 - Kangchenjunga
 * Remove responsive images (inc/theme-features.php)

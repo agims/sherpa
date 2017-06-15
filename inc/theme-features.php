@@ -19,7 +19,21 @@ if ( ! function_exists('sherpa_theme_features') ) {
 		
         add_image_size( 'testimonial_profile_pic', 450, 450, TRUE );
         add_image_size( 'blog_featured_image', 737, 414, TRUE );
-        add_image_size( 'blog_interior_image', 1170, 200, TRUE );
+        
+        $width = get_option('sherpa_blog_interior_image_width');
+        $height = get_option('sherpa_blog_interior_image_height');
+        
+        if(!is_integer($width))
+        {
+            $width = 1170;
+        }
+        
+        if(!is_integer($height))
+        {
+            $height = 200;
+        }
+        
+        add_image_size( 'blog_interior_image', $width, $height, TRUE );
         
         // Remove Responsive Images
         add_filter( 'wp_calculate_image_srcset', '__return_false' );
