@@ -6,7 +6,7 @@ if(get_option( 'sherpa_use_featured_in_post_filter') == 'y'):
     {
         if(is_single()):
             $thumb_id = get_post_thumbnail_id();
-            $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'blog-interior-image', true);
+            $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'blog_interior_image', true);
             $thumb_url = $thumb_url_array[0];
         
             if(empty($thumb_url) || $thumb_url == SITEURL . '/wp-includes/images/media/default.png')  {
@@ -14,9 +14,19 @@ if(get_option( 'sherpa_use_featured_in_post_filter') == 'y'):
             }
         
         endif;
+        
+        $classes = get_option('sherpa_blog_interior_image_classes');
+        if(!empty($classes))
+        {
+            $classes = ' class="' . $classes . '"';
+        }
+        else
+        {
+            $classes = NULL;
+        }
     
         if(!empty($thumb_url)):
-            $img = "\n\n" . '<img src="' . $thumb_url . '" alt="' . get_the_title() . '" />' . "<br /><br />";
+            $img = "\n\n" . '<img src="' . $thumb_url . '" alt="' . get_the_title() . '"' . $classes .' />' . "<br /><br />";
         else:
             $img = "\n";
         endif;

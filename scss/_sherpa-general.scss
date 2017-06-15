@@ -139,6 +139,12 @@ img.alignright {
 	@extend .clearfix;
 }
 
+label.required {
+    &::after {
+        content: ' *';
+    }
+}
+
 blockquote.testimonial {
 	background-color: $testimonial-a;
 	border: 0;

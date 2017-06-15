@@ -14,6 +14,9 @@ function sherpa_register_settings() {
 	register_setting('default', 'sherpa_has_separate_mobile');
 	register_setting('default', 'sherpa_mobile_redirect');
 	register_setting('default', 'sherpa_use_featured_in_post_filter');
+	register_setting('default', 'sherpa_blog_interior_image_width');
+	register_setting('default', 'sherpa_blog_interior_image_height');
+	register_setting('default', 'sherpa_blog_interior_image_classes');
 	
 	register_setting('default', 'sherpa_business_address');
 	register_setting('default', 'sherpa_business_city');
@@ -354,6 +357,33 @@ function sherpa_theme_option_page() {
             					    }
             				    ?>
     						</select>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_blog_interior_image_width"><?=__("Blog Interior Image Width",'sherpa')?></label><br />
+							<small><?=__('How many pixels wide?','sherpa')?></small>
+						</th>
+						<td>
+							<input name="sherpa_blog_interior_image_width" type="text" value="<?=get_option('sherpa_blog_interior_image_width')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_blog_interior_image_height"><?=__("Blog Interior Image Height",'sherpa')?></label><br />
+							<small><?=__('How many pixels tall?','sherpa')?></small>
+						</th>
+						<td>
+							<input name="sherpa_blog_interior_image_height" type="text" value="<?=get_option('sherpa_blog_interior_image_height')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_blog_interior_image_classes"><?=__("Blog Interior Image - Additional Classes",'sherpa')?></label><br />
+							<small><?=__('If the image is being included in posts, what additional classes do you want on the image?','sherpa')?></small>
+						</th>
+						<td>
+							<input name="sherpa_blog_interior_image_classes" type="text" value="<?=get_option('sherpa_blog_interior_image_classes')?>" class="regular-text" placeholder="<?=__('e.g. alignleft', 'sherpa')?>">
 						</td>
 					</tr>
 					<tr>

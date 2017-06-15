@@ -1,4 +1,11 @@
 # Changelog
+## Version 3.5.5 - Kangchenjunga
+* Add class for required fields that adds asterisk at the end of a label - `<label class="required">Label Name</label>`
+* Change names of added image sizes to use underscores `_` rather than hyphens `-` to play nicer with REST API
+* Make blog_interior_image sizes an option in the options page
+* Add ability to add classes to the blog_interior_image
+* Add "Advanced Custom Fields" plugin to recommended plugins
+
 ## Version 3.5.4 - Kangchenjunga
 * Remove responsive images (inc/theme-features.php)
 * Add a shortcode for sherpavembed

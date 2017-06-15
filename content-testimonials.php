@@ -19,7 +19,7 @@
 									$star_rating_url = get_template_directory_uri() . "/img/$star_rating-star-rating.png";
 									
 									if(has_post_thumbnail(get_the_ID())) {
-										$profile = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'testimonial-profile-pic');
+										$profile = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'testimonial_profile_pic');
 										$profile_url = $profile[0];
 									} else {
 										$profile_url = $no_pic;

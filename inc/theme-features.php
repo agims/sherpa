@@ -17,9 +17,9 @@ if ( ! function_exists('sherpa_theme_features') ) {
 		// Add theme support for document Title tag
 		add_theme_support( 'title-tag' );
 		
-        add_image_size( 'testimonial-profile-pic', 450, 450, TRUE );
-        add_image_size( 'blog-featured-image', 737, 414, TRUE );
-        add_image_size( 'blog-interior-image', 1170, 200, TRUE );
+        add_image_size( 'testimonial_profile_pic', 450, 450, TRUE );
+        add_image_size( 'blog_featured_image', 737, 414, TRUE );
+        add_image_size( 'blog_interior_image', 1170, 200, TRUE );
         
         // Remove Responsive Images
         add_filter( 'wp_calculate_image_srcset', '__return_false' );

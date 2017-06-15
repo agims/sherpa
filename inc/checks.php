@@ -29,6 +29,9 @@
 		'sherpa_map_link'                           => '',
 		'sherpa_map_directions_link'                => '',
 		'sherpa_use_featured_in_post_filter'        => 'n',
+		'sherpa_blog_interior_image_width'          => '1170',
+		'sherpa_blog_interior_image_height'         => '200',
+		'sherpa_blog_interior_image_classes'        => '',
 	);
 	
 	foreach($social_media_options as $key => $value) {
