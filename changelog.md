@@ -1,4 +1,11 @@
 # Changelog
+## Version 3.5.6 - Kangchenjunga
+* Make "Add to Any" header translatable
+* Add font smoothing
+* Add ability to use (or not use) the title as the H1 on pages
+* Add bx_slider (YAY!)
+* Moved styling for Colorbox from _sherpa-general.scss to _jquery.colorbox.scss
+
 ## Version 3.5.5 - Kangchenjunga
 * Add class for required fields that adds asterisk at the end of a label - `<label class="required">Label Name</label>`
 * Change names of added image sizes to use underscores `_` rather than hyphens `-` to play nicer with REST API

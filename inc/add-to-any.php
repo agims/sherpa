@@ -7,7 +7,7 @@ function add_to_any($content)
     if(((is_page() && !is_front_page()) || is_single()) && !empty($content)):
     ?>
         <br />
-        <h4>Like this content?  Share it here!</h4>
+        <h4><?=__('Like this content?  Share it here!', 'sherpa')?></h4>
             <!-- AddToAny BEGIN -->
         <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
             <a class="a2a_dd" href="https://www.addtoany.com/share"></a>

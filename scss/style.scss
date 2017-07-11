@@ -11,6 +11,10 @@
 // Non-responsiveness Setup - uncomment if this is going to be a non-responsive site
 //@import 'non-responsive';
 
+// Are you not using one of these plugins?  Just comment the import out.
+@import 'jquery.bxslider';
+@import 'jquery.colorbox';
+
 // Special components
 @import 'sherpa-mixins';
 @import 'sherpa-navbar';

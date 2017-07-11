@@ -26,6 +26,7 @@
 		'sherpa_is_responsive'                      => 'y',
 		'sherpa_has_separate_mobile'                => 'n',
 		'sherpa_mobile_redirect'                    => '',
+		'sherpa_automatic_h1'                       => 'y',
 		'sherpa_map_link'                           => '',
 		'sherpa_map_directions_link'                => '',
 		'sherpa_use_featured_in_post_filter'        => 'n',

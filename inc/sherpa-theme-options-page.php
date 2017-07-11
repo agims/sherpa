@@ -13,6 +13,7 @@ function sherpa_register_settings() {
 	register_setting('default', 'sherpa_is_responsive');
 	register_setting('default', 'sherpa_has_separate_mobile');
 	register_setting('default', 'sherpa_mobile_redirect');
+	register_setting('default', 'sherpa_automatic_h1');
 	register_setting('default', 'sherpa_use_featured_in_post_filter');
 	register_setting('default', 'sherpa_blog_interior_image_width');
 	register_setting('default', 'sherpa_blog_interior_image_height');
@@ -331,6 +332,32 @@ function sherpa_theme_option_page() {
 						</th>
 						<td>
 							<input name="sherpa_mobile_redirect" type="text" value="<?=get_option('sherpa_mobile_redirect')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  http://www.agims.com/m/">
+						</td>
+					</tr>
+ 					<tr>
+						<th scope="row">
+							<label for="sherpa_automatic_h1"><?=__("Use the title for the H1 on pages?",'sherpa')?></label>
+						</th>
+						<td>
+    						<select name="sherpa_automatic_h1" id="sherpa_automatic_h1">
+        						<?php
+            					    $options = array(
+                					    'y' => __('Yup!','sherpa'),
+                					    'n' => __('Nope!','sherpa'),
+            					    );
+            					    
+            					    foreach($options as $option => $text) {
+                					    if($option == get_option('sherpa_automatic_h1')) {
+                    					    $selected = " selected";
+                					    } else {
+                    					    $selected = NULL;
+                					    }
+                					    ?>
+                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
+                					    <?php
+            					    }
+            				    ?>
+    						</select>
 						</td>
 					</tr>
  					<tr>
