@@ -16,7 +16,10 @@
 		'testimonials-cpt.php',			      // Set up our Testimonials Custom Post Type
 		'wp_bootstrap_navwalker.php',	      // Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
 		'prevent-image-size-attr.php',	      // Prevent WP from adding Height and Width to images
-		'SocialMedia.php',				      // Set up social media function
+		'SocialMedia.php',				      // Set up social media class
+		'SherpaIcon.php',                     // Set up Sherpa Icon class
+		'SherpaMapMarker.php',                // Set up Sherpa Map Marker Class
+		'SherpaMap.php',                      // Set up Sherpa Map class
 		'google-analytics.php',		          // Include Google Analytics
 		'stat-counter.php',				      // Include Stat Counter
 		'google-site-verification.php',	      // Include Google Site Verification
