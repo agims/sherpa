@@ -1,38 +1,45 @@
 <?php
 
 function sherpa_register_settings() {
+
+    // General Business Info
+	register_setting('default', 'sherpa_business_name');
+	register_setting('default', 'sherpa_business_address');
+	register_setting('default', 'sherpa_business_city');
+	register_setting('default', 'sherpa_business_state');
+	register_setting('default', 'sherpa_business_zip');
+	register_setting('default', 'sherpa_telephone_number');
+
+    // Map Stuff
+	register_setting('default', 'sherpa_map_link');
+	register_setting('default', 'sherpa_map_directions_link');
+
+    // Social Media
 	register_setting('default', 'sherpa_facebook_url');
 	register_setting('default', 'sherpa_twitter_url');
 	register_setting('default', 'sherpa_google_plus_url');
 	register_setting('default', 'sherpa_pinterest_url');
 	register_setting('default', 'sherpa_linkedin_url');
 	
+	// Fonts
 	register_setting('default', 'sherpa_typekit');
 	register_setting('default', 'sherpa_google_font_family');
 	
-	register_setting('default', 'sherpa_is_responsive');
-	register_setting('default', 'sherpa_has_separate_mobile');
-	register_setting('default', 'sherpa_mobile_redirect');
+    // General Theme Options
 	register_setting('default', 'sherpa_automatic_h1');
+	register_setting('default', 'sherpa_use_title');
 	register_setting('default', 'sherpa_use_featured_in_post_filter');
 	register_setting('default', 'sherpa_blog_interior_image_width');
 	register_setting('default', 'sherpa_blog_interior_image_height');
 	register_setting('default', 'sherpa_blog_interior_image_classes');
-	
-	register_setting('default', 'sherpa_business_address');
-	register_setting('default', 'sherpa_business_city');
-	register_setting('default', 'sherpa_business_state');
-	register_setting('default', 'sherpa_business_zip');
-	register_setting('default', 'sherpa_telephone_number');
-	register_setting('default', 'sherpa_map_link');
-	register_setting('default', 'sherpa_map_directions_link');
 
+	// Analytics and SEO
 	register_setting('default', 'sherpa_google_analytics');
 	register_setting('default', 'sherpa_stat_counter_project');
 	register_setting('default', 'sherpa_stat_counter_security');
-	
 	register_setting('default', 'sherpa_google_site_verification');
 	register_setting('default', 'sherpa_schema');
+	
 }
 
 add_action( 'admin_init', 'sherpa_register_settings');
@@ -87,6 +94,9 @@ function sherpa_theme_option_page() {
 
     			<tr>
         			<td>
+
+
+            <!-- General Business Info -->
 			<table class="form-table">
     			<thead>
         			<tr>
@@ -96,6 +106,17 @@ function sherpa_theme_option_page() {
         			</tr>
     			</thead>
 				<tbody>
+    				<!-- Business Name -->
+					<tr>
+						<th scope="row">
+							<label for="sherpa_business_name"><?=__("Business Name",'sherpa')?></label>
+						</th>
+						<td>
+							<input name="sherpa_business_name" type="text" value="<?=get_option('sherpa_business_name')?>" class="regular-text">
+						</td>
+					</tr>
+					
+					<!-- Business Name -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_business_address"><?=__("Address",'sherpa')?></label>
@@ -104,6 +125,8 @@ function sherpa_theme_option_page() {
 							<input name="sherpa_business_address" type="text" value="<?=get_option('sherpa_business_address')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  1370 Pullman Dr, Ste. G">
 						</td>
 					</tr>
+					
+					<!-- Business City -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_business_city"><?=__("City",'sherpa')?></label>
@@ -112,6 +135,8 @@ function sherpa_theme_option_page() {
 							<input name="sherpa_business_city" type="text" value="<?=get_option('sherpa_business_city')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  El Paso">
 						</td>
 					</tr>
+					
+					<!-- Business State -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_business_state"><?=__("State",'sherpa')?></label>
@@ -120,6 +145,8 @@ function sherpa_theme_option_page() {
 							<input name="sherpa_business_state" type="text" value="<?=get_option('sherpa_business_state')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  TX">
 						</td>
 					</tr>
+					
+					<!-- Business Zip -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_business_zip"><?=__("Zip",'sherpa')?></label>
@@ -128,6 +155,8 @@ function sherpa_theme_option_page() {
 							<input name="sherpa_business_zip" type="text" value="<?=get_option('sherpa_business_zip')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  79936">
 						</td>
 					</tr>
+					
+					<!-- Business Phone -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_telephone_number"><?=__("Phone Number",'sherpa')?></label>
@@ -136,6 +165,8 @@ function sherpa_theme_option_page() {
 							<input name="sherpa_telephone_number" type="text" value="<?=get_option('sherpa_telephone_number')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  915-590-7420">
 						</td>
 					</tr>
+					
+					<!-- Business Map Link -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_map_link"><?=__("Map Link",'sherpa')?></label><br />
@@ -145,6 +176,8 @@ function sherpa_theme_option_page() {
 							<textarea name="sherpa_map_link" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_map_link')?></textarea>
 						</td>
 					</tr>
+					
+					<!-- Business Directions Link -->
 					<tr>
 						<th scope="row">
 							<label for="sherpa_map_directions_link"><?=__("Directions Link",'sherpa')?></label><br />
@@ -276,66 +309,6 @@ function sherpa_theme_option_page() {
     			<tbody>
  					<tr>
 						<th scope="row">
-							<label for="sherpa_is_responsive"><?=__("Is this site responsive?",'sherpa')?></label>
-						</th>
-						<td>
-    						<select name="sherpa_is_responsive" id="sherpa_is_responsive">
-        						<?php
-            					    $responsive_options = array(
-                					    'y' => __('Yup!','sherpa'),
-                					    'n' => __('Nope!','sherpa'),
-            					    );
-            					    
-            					    foreach($responsive_options as $option => $text) {
-                					    if($option == get_option('sherpa_is_responsive')) {
-                    					    $selected = " selected";
-                					    } else {
-                    					    $selected = NULL;
-                					    }
-                					    ?>
-                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
-                					    <?php
-            					    }
-            				    ?>
-    						</select>
-						</td>
-					</tr>
- 					<tr>
-						<th scope="row">
-							<label for="sherpa_has_separate_mobile"><?=__("Does the site have a separate mobile site?",'sherpa')?></label>
-						</th>
-						<td>
-    						<select name="sherpa_has_separate_mobile" id="sherpa_has_separate_mobile">
-        						<?php
-            					    $responsive_options = array(
-                					    'y' => __('Yup!','sherpa'),
-                					    'n' => __('Nope!','sherpa'),
-            					    );
-            					    
-            					    foreach($responsive_options as $option => $text) {
-                					    if($option == get_option('sherpa_has_separate_mobile')) {
-                    					    $selected = " selected";
-                					    } else {
-                    					    $selected = NULL;
-                					    }
-                					    ?>
-                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
-                					    <?php
-            					    }
-            				    ?>
-    						</select>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_mobile_redirect"><?=__("What is the URL for the separate mobile site?",'sherpa')?></label>
-						</th>
-						<td>
-							<input name="sherpa_mobile_redirect" type="text" value="<?=get_option('sherpa_mobile_redirect')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  http://www.agims.com/m/">
-						</td>
-					</tr>
- 					<tr>
-						<th scope="row">
 							<label for="sherpa_automatic_h1"><?=__("Use the title for the H1 on pages?",'sherpa')?></label>
 						</th>
 						<td>
@@ -348,6 +321,32 @@ function sherpa_theme_option_page() {
             					    
             					    foreach($options as $option => $text) {
                 					    if($option == get_option('sherpa_automatic_h1')) {
+                    					    $selected = " selected";
+                					    } else {
+                    					    $selected = NULL;
+                					    }
+                					    ?>
+                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
+                					    <?php
+            					    }
+            				    ?>
+    						</select>
+						</td>
+					</tr>
+ 					<tr>
+						<th scope="row">
+							<label for="sherpa_use_title"><?=__("Use the title tag?",'sherpa')?></label>
+						</th>
+						<td>
+    						<select name="sherpa_use_title" id="sherpa_use_title">
+        						<?php
+            					    $options = array(
+                					    'y' => __('Yup!','sherpa'),
+                					    'n' => __('Nope!','sherpa'),
+            					    );
+            					    
+            					    foreach($options as $option => $text) {
+                					    if($option == get_option('sherpa_use_title')) {
                     					    $selected = " selected";
                 					    } else {
                     					    $selected = NULL;
@@ -431,7 +430,7 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3><?=__("Analytics",'sherpa')?></h3>
+                            <h3><?=__("Analytics and SEO",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
@@ -464,24 +463,6 @@ function sherpa_theme_option_page() {
 						</td>
 					</tr>
 					<tr>
-    					<td colspan="2">
-        					<?php submit_button(); ?>
-    					</td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-			<td>
-			<table class="form-table">
-    			<thead>
-        			<tr>
-            			<th colspan="2">
-                            <h3><?=__("Misc",'sherpa')?></h3>
-            			</th>
-        			</tr>
-    			</thead>
-				<tbody>
-					<tr>
 						<th scope="row">
 							<label for="sherpa_google_site_verification"><?=__("Google Site Verification",'sherpa')?></label><br />
 							<small><?=__("This usually looks like",'sherpa')?> <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (<?=__("You just want the",'sherpa')?> <strong>xxxx</strong> <?=__("part",'sherpa')?>)</small>
@@ -499,6 +480,24 @@ function sherpa_theme_option_page() {
 							<textarea name="sherpa_schema" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_schema')?></textarea>
 						</td>
 					</tr>
+					<tr>
+    					<td colspan="2">
+        					<?php submit_button(); ?>
+    					</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<table class="form-table">
+    			<thead>
+        			<tr>
+            			<th colspan="2">
+                            <h3><?=__("Misc",'sherpa')?></h3>
+            			</th>
+        			</tr>
+    			</thead>
+				<tbody>
 					<tr>
     					<td colspan="2">
         					<?php submit_button(); ?>

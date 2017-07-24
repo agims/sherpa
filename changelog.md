@@ -1,4 +1,11 @@
 # Changelog
+## Version 3.6.0 - Nuptse
+* Add ability to hide social media icons when a URL has not been set for that network
+* Add smooth scrolling to internal links (hashtag links)
+* Removed compiled versions of main.js and style.css so that it will work better with non-[codekit](https://codekitapp.com/) users
+* Remove responsive settings (presuming that all sites are going to be responsive from this point on)
+* Add ability to turn off the title tag (Yoast adds its own title tag, option prevents duplicate title tag)
+
 ## Version 3.5.6 - Kangchenjunga
 * Make "Add to Any" header translatable
 * Add font smoothing

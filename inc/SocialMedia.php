@@ -27,32 +27,38 @@ class SocialMedia {
 	private $facebook = array(
 		'url' => FACEBOOK,
 		'name' => "Facebook",
-		'icon' => 'facebook'
+		'icon' => 'facebook',
+		'default' => 'http://facebook.com/',
 	);
 	private $twitter = array(
 		'url' => TWITTER,
 		'name' => 'Twitter',
-		'icon' => 'twitter'
+		'icon' => 'twitter',
+		'default' => 'http://twitter.com/',
 	);
 	private $googleplus = array(
 		'url' => GOOGLEPLUS,
 		'name' => 'Google Plus',
-		'icon' => 'google-plus'
+		'icon' => 'google-plus',
+		'default' => 'http://plus.google.com/',
 	);
 	private $pinterest = array(
 		'url' => PINTEREST,
 		'name' => 'Pinterest',
-		'icon' => 'pinterest-p'
+		'icon' => 'pinterest-p',
+		'default' => 'http://pinterest.com/',
 	);
 	private $linkedin = array(
 		'url' => LINKEDIN,
 		'name' => 'LinkedIn',
-		'icon' => 'linkedin'
+		'icon' => 'linkedin',
+		'default' => 'http://linkedin.com/',
 	);
 	private $youtube = array(
 		'url' => YOUTUBE,
 		'name' => 'YouTube',
-		'icon' => 'youtube-play'
+		'icon' => 'youtube-play',
+		'default' => 'https://www.youtube.com',
 	);
 	private $showNetworks = array();
 	private $networkNames = array(
@@ -69,6 +75,7 @@ class SocialMedia {
 	private $echoed = TRUE;
 	private $listType = 'list-inline';
 	private $colorType = 'lighten';
+	private $showEmpty = TRUE;
 	
 	private $sizeOpts = array(
 		'sm',
@@ -111,6 +118,7 @@ class SocialMedia {
 	public function getListType() { return $this->listType; }
 	public function getListId() { return $this->listId; }
 	public function getColorType() { return $this->colorType; }
+	public function getShowEmpty() { return $this->showEmpty; }
 	
 	public function setSize($val) { 
 		if(in_array($val, $this->sizeOpts)) {
@@ -184,10 +192,24 @@ class SocialMedia {
 		}
 	}
 
+	public function setShowEmpty($val) {
+		if(is_bool($val)) {
+			$this->showEmpty = $val;
+			return $this;
+		} else {
+			return false;
+		}
+	}
+
 	
 	private function setupSingle($bob = string) {
 		
 		extract($this->$bob);
+		
+		if($this->getShowEmpty() == FALSE && $url == $default)
+		{
+    		return FALSE;
+		}
 
 		if($this->size == 'sm') {
 			$size_class = '';
@@ -223,9 +245,14 @@ class SocialMedia {
 			<?php
 
 			foreach($this->showNetworks as $network) {
-				?><li><?php
-					echo $this->setupSingle($network);
-				?></li><?php
+    			$single = $this->setupSingle($network);
+    			
+    			if($single != FALSE)
+    			{
+				?>
+				<li><?=$single?></li>
+				<?php
+    			}
 			}
 			
 			?>
