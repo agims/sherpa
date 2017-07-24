@@ -21,15 +21,17 @@ class SherpaMap
     
     /// Styles for the map
     private $mapStyles = '';
-    
+
+    /// Set up icon for the map
+    public $icon = new SherpaIcon();
+
     /// This is going to be an array of SherpaMapMarkers
     private $markers = array();
     
-    ///
+    /// Misc for error checking
     private $tfcheckVals = array('true', 'false');
     
     
-    public $icon = new SherpaIcon();
 
 
 
