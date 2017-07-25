@@ -216,18 +216,18 @@ function sherpa_theme_option_page() {
 					</tr>
 					<tr>
 						<th scope="row">
-							<label for="sherpa_google_plus_url"><?=__("Google Plus URL",'sherpa')?></label>
-						</th>
-						<td>
-							<input name="sherpa_google_plus_url" type="text" value="<?=get_option('sherpa_google_plus_url')?>" class="regular-text">
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
 							<label for="sherpa_twitter_url"><?=__("Twitter URL",'sherpa')?></label>
 						</th>
 						<td>
 							<input name="sherpa_twitter_url" type="text" value="<?=get_option('sherpa_twitter_url')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_google_plus_url"><?=__("Google Plus URL",'sherpa')?></label>
+						</th>
+						<td>
+							<input name="sherpa_google_plus_url" type="text" value="<?=get_option('sherpa_google_plus_url')?>" class="regular-text">
 						</td>
 					</tr>
 					<tr>
@@ -253,13 +253,6 @@ function sherpa_theme_option_page() {
 					</tr>
 				</tbody>
 			</table>
-        			</td>
-    			</tr>
-
-
-
-    			<tr>
-        			<td>
 			<table class="form-table">
     			<thead>
         			<tr>
@@ -294,6 +287,74 @@ function sherpa_theme_option_page() {
 				</tbody>
 			</table>
         			</td>
+    			</tr>
+
+
+
+    			<tr>
+        			<td>
+			<table class="form-table">
+    			<thead>
+        			<tr>
+            			<th colspan="2">
+                            <h3><?=__("Analytics and SEO",'sherpa')?></h3>
+            			</th>
+        			</tr>
+    			</thead>
+				<tbody>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_google_analytics"><?=__("Google Analytics",'sherpa')?> - <?=__("Kit ID",'sherpa')?></label><br />
+							<small><?=__("This is the ID that usually looks like",'sherpa')?> <code>UA-XXXXXXXX-X</code>
+						</th>
+						<td>
+							<input name="sherpa_google_analytics" type="text" value="<?=get_option('sherpa_google_analytics')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  UA-XXXXXXXX-X">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_stat_counter_project"><?=__("Stat Counter",'sherpa')?> - <?=__("Project",'sherpa')?></label><br />
+							<small><?=__("Within the Stat Counter code, this is the part that says",'sherpa')?> <code>var sc_project=XXXXXXXX;</code></small>
+						</th>
+						<td>
+							<input name="sherpa_stat_counter_project" type="text" value="<?=get_option('sherpa_stat_counter_project')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_stat_counter_security"><?=__("Stat Counter",'sherpa')?> - <?=__("Security",'sherpa')?></label><br />
+							<small><?=__("Within the Stat Counter code, this is the part that says",'sherpa')?> <code>var sc_security="XXXXXXXX";</code></small>
+						</th>
+						<td>
+							<input name="sherpa_stat_counter_security" type="text" value="<?=get_option('sherpa_stat_counter_security')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_google_site_verification"><?=__("Google Site Verification",'sherpa')?></label><br />
+							<small><?=__("This usually looks like",'sherpa')?> <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (<?=__("You just want the",'sherpa')?> <strong>xxxx</strong> <?=__("part",'sherpa')?>)</small>
+						</th>
+						<td>
+							<input name="sherpa_google_site_verification" type="text" value="<?=get_option('sherpa_google_site_verification')?>" class="regular-text">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<label for="sherpa_schema"><?=__("Schema",'sherpa')?></label><br />
+							<small><?=__("This is for the LD+JSON formatted Schema.  It will go in the head right before the",'sherpa')?> <code>&lt;/head&gt;</code> <?=_x("tag",'referring to an HTML tag','sherpa')?>.
+						</th>
+						<td>
+							<textarea name="sherpa_schema" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_schema')?></textarea>
+						</td>
+					</tr>
+					<tr>
+    					<td colspan="2">
+        					<?php submit_button(); ?>
+    					</td>
+					</tr>
+				</tbody>
+			</table>
+        			</td>
 
 
 
@@ -302,7 +363,7 @@ function sherpa_theme_option_page() {
     			<thead>
         			<tr>
             			<th colspan="2">
-                            <h3><?=__("Mobile Options",'sherpa')?></h3>
+                            <h3><?=__("Misc Options",'sherpa')?></h3>
             			</th>
         			</tr>
     			</thead>
@@ -422,91 +483,6 @@ function sherpa_theme_option_page() {
         			</td>
     			</tr>
 
-
-
-    			<tr>
-        			<td>
-			<table class="form-table">
-    			<thead>
-        			<tr>
-            			<th colspan="2">
-                            <h3><?=__("Analytics and SEO",'sherpa')?></h3>
-            			</th>
-        			</tr>
-    			</thead>
-				<tbody>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_google_analytics"><?=__("Google Analytics",'sherpa')?> - <?=__("Kit ID",'sherpa')?></label><br />
-							<small><?=__("This is the ID that usually looks like",'sherpa')?> <code>UA-XXXXXXXX-X</code>
-						</th>
-						<td>
-							<input name="sherpa_google_analytics" type="text" value="<?=get_option('sherpa_google_analytics')?>" class="regular-text" placeholder="<?=__("Example",'sherpa')?>:  UA-XXXXXXXX-X">
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_stat_counter_project"><?=__("Stat Counter",'sherpa')?> - <?=__("Project",'sherpa')?></label><br />
-							<small><?=__("Within the Stat Counter code, this is the part that says",'sherpa')?> <code>var sc_project=XXXXXXXX;</code></small>
-						</th>
-						<td>
-							<input name="sherpa_stat_counter_project" type="text" value="<?=get_option('sherpa_stat_counter_project')?>" class="regular-text">
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_stat_counter_security"><?=__("Stat Counter",'sherpa')?> - <?=__("Security",'sherpa')?></label><br />
-							<small><?=__("Within the Stat Counter code, this is the part that says",'sherpa')?> <code>var sc_security="XXXXXXXX";</code></small>
-						</th>
-						<td>
-							<input name="sherpa_stat_counter_security" type="text" value="<?=get_option('sherpa_stat_counter_security')?>" class="regular-text">
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_google_site_verification"><?=__("Google Site Verification",'sherpa')?></label><br />
-							<small><?=__("This usually looks like",'sherpa')?> <code>&lt;meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxx" /&gt;</code> (<?=__("You just want the",'sherpa')?> <strong>xxxx</strong> <?=__("part",'sherpa')?>)</small>
-						</th>
-						<td>
-							<input name="sherpa_google_site_verification" type="text" value="<?=get_option('sherpa_google_site_verification')?>" class="regular-text">
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="sherpa_schema"><?=__("Schema",'sherpa')?></label><br />
-							<small><?=__("This is for the LD+JSON formatted Schema.  It will go in the head right before the",'sherpa')?> <code>&lt;/head&gt;</code> <?=_x("tag",'referring to an HTML tag','sherpa')?>.
-						</th>
-						<td>
-							<textarea name="sherpa_schema" class="large-text" style="min-height: 15em;"><?=get_option('sherpa_schema')?></textarea>
-						</td>
-					</tr>
-					<tr>
-    					<td colspan="2">
-        					<?php submit_button(); ?>
-    					</td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-			<td>
-			<table class="form-table">
-    			<thead>
-        			<tr>
-            			<th colspan="2">
-                            <h3><?=__("Misc",'sherpa')?></h3>
-            			</th>
-        			</tr>
-    			</thead>
-				<tbody>
-					<tr>
-    					<td colspan="2">
-        					<?php submit_button(); ?>
-    					</td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-			</tr>
 			</table>
 			
 			

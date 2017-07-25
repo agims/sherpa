@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.6.1 - Nuptse
+* Fix Theme Options page
+
 ## Version 3.6.0 - Nuptse
 * Add ability to hide social media icons when a URL has not been set for that network
 * Add smooth scrolling to internal links (hashtag links)

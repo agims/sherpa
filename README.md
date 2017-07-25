@@ -3,7 +3,7 @@
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-3.6.0 - Nuptse
+3.6.1 - Nuptse
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -18,6 +18,9 @@ Sherpa was originally intended to be used with [Codekit](https://incident57.com/
 We are now including a gulp file but it's not perfect.  Please use at your own risk.  If you know how to make it better, please send a pull request!
 
 **Sherpa is not meant to be an end-all; it is meant to be a start-all.**
+
+## Coming Up
+We are working on adding maps to Sherpa in a big way for our 4.0 release.  If you want to see how it's working then check out the `dev-map` branch.
 
 ## Included Frameworks, Libraries, and Dependencies
 * [Twitter Bootstrap](http://getbootstrap.com/) (SCSS) - v3.3.7
