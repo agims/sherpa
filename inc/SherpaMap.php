@@ -309,7 +309,7 @@ class SherpaMap
 			});					
 					<?php
 				}
-				
+			?>	
 		}
 	</script>
 	    
