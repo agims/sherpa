@@ -4,6 +4,8 @@ class SherpaMap
 {
     // Set up our variables
     ///  First our map options
+    private $googleMapsApiKey = '';
+    private $mapVar = 'map';
     private $mapTypeId = 'google.maps.MapTypeId.ROADMAP';
     private $mapTypeControl = 'false';
     private $zoom = 10;
@@ -20,7 +22,7 @@ class SherpaMap
     private $mapId = 'map-canvas';
     
     /// Styles for the map
-    private $mapStyles = '';
+    private $mapStyles = '[]';
 
     /// Set up icon for the map
     public $icon = new SherpaIcon();
@@ -36,6 +38,8 @@ class SherpaMap
 
 
     // Create our get methods
+    public getGoogleMapsApiKey() {return $this->googleMapsApiKey;}
+    public getMapVar() {return $this->mapVar;}
     public getMapTypeId() {return $this->mapTypeId;}
     public getMapTypeControl() {return $this->mapTypeControl;}
     public getZoom() {return $this->zoom;}
@@ -53,6 +57,12 @@ class SherpaMap
     
     
     // Create our set methods
+    public setGoogleMapsApiKey($val)
+    {
+	    $this->googleMapsApiKey = $val;
+	    return $this;
+    }
+    
     public setMapTypeId($val)
     {
         $this->mapTypeId = $val;
@@ -212,6 +222,25 @@ class SherpaMap
         }
     }
     
+    public __construct($args = NULL)
+    {
+	    if(is_array($args))
+	    {
+		    foreach($args as $key => $value)
+		    {
+			    $f = 'set' . ucfirst($key);
+			    $this->$f($value);
+		    }
+		    return $this;
+	    }
+	    elseif(is_string($args))
+	    {
+		    $this->setGoogleMapsApiKey($args);
+		    return $this;
+	    }
+    }
+
+    
     public addMarker($val)
     {
         if(is_object($val))
@@ -225,13 +254,67 @@ class SherpaMap
         }
     }
     
-    public createMarker()
+    public createMarker($args)
     {
-        $this->markers[] = new SherpaMapMarker();
+        $this->markers[] = new SherpaMapMarker($args);
         return $this;
     }
     
-    
+    public buildMap()
+    {
+	    ob_start();
+	    ?>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?=$this->getGoogleMapsApiKey()?>&v=3.exp"></script>
+	<script>
+		var <?=$this->getMapVar()?>;
+		
+		function initialize<?=$this->getMapVar()?>() {
+			var <?=$this->getMapVar()?>Options = {
+				mapTypeId: <?=$this->getMapTypeId()?>,
+				mapTypeControl: <?=$this->getMapTypeControl()?>,
+				zoom: <?=$this->getZoom()?>,
+				zoomControl: <?=$this->getZoomControl()?>,
+				panControl: <?=$this->getPanControl()?>,
+				streetViewControl: <?=$this->getStreetViewControl()?>,
+				scaleControl: <?=$this->getScaleControl()?>,
+				overviewMapControl: <?=$this->getOverviewMapControl()?>,
+				scrollwheel: <?=$this->getScrollwheel()?>,
+				center: {lat: <?=$this->getCenterLat()?>, lng: <?=$this->getCenterLng()?>}
+			};
+			
+			<?=$this->getMapVar()?> = new google.maps.Map(document.getElementById('<?=$this->getMapId()?>'), <?=$this->getMapVar()?>Options);
+			
+			var <?=$this->getMapVar()?>Styles = <?=$this->getMapStyles()?>;
+			
+			<?=$this->getMapVar()?>.setOptions({styles: <?=$this->getMapVar()?>Styles});
+			
+			var icon = {
+				path: '<?=$this->icon->getPath()?>',
+				anchor: new google.maps.Point(<?=$this->icon->getAnchorX()?>, <?=$this->icon->getAnchorY()?>),
+				fillColor: '<?=$this->icon->getFillColor()?>',
+				fillOpacity: <?=$this->icon->getFillOpacity()?>,
+				strokeWeight: <?=$this->icon->getStrokeWeight()?>,
+				scale: <?=$this->icon->getScale()?>
+			};
+			
+			<?php
+				foreach($this->getMarkers() as $marker)
+				{
+					?>
+			var contentString<?=$marker->getMarkerId()?> = <?=$marker->getContent()?>;
+			
+			var infowindow<?=$marker->getMarkerId()?> = new google.maps.InfoWindow({
+				content: contentString<?=$marker->getMarkerId()?>
+			});					
+					<?php
+				}
+				
+		}
+	</script>
+	    
+	    <?php
+    }
     
     
     

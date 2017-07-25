@@ -107,20 +107,18 @@ class SherpaIcon
     
     public createIcon()
     {
-        ob_start();
-        ?>
-
+	    $to_return = "
 				var icon = {
-					path: '<?=$this->getPath()?>',
-					anchor: new google.maps.Point(<?=$this->getAnchorX()?>, <?=$this->getAnchorY()?>),
-					fillColor: '<?=$this->getFillColor()?>',
-					fillOpacity: <?=$this->getFillOpacity()?>,
-					strokeWeight: <?=$this->getStrokeWeight()?>,
-					scale: <?=$this->getScale()?>
+					path: '" . $this->getPath() . "',
+					anchor: new google.maps.Point(" . $this->getAnchorX() . ", " . $this->getAnchorY() . "),
+					fillColor: '" . $this->getFillColor() . "',
+					fillOpacity: " . $this->getFillOpacity() . ",
+					strokeWeight: " . $this->getStrokeWeight() . ",
+					scale: " . $this->getScale() . "
 				};
-        
-        <?php
-        return ob_get_clean();
+        ";
+
+        return $to_return;
     }
     
     
