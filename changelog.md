@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.6.3 - Nuptse
+* Include Advanced Custom Fields within the theme in /plugins/
+* Remove ACF from recommended plugins
+
 ## Version 3.6.2 - Nuptse
 * Update "Add to Any" to only be on single items
 * Make testimonials on the testimonials page into a list

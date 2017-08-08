@@ -3,7 +3,7 @@
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-3.6.1 - Nuptse
+3.6.3 - Nuptse
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -31,6 +31,7 @@ We are working on adding maps to Sherpa in a big way for our 4.0 release.  If yo
 * [bxSlider](https://github.com/stevenwanderski/bxslider-4) - v4.1.12
 * [MobileDetect.js](https://github.com/hgoebl/mobile-detect.js) - v1.3.3
 * [TGM Plugin Activation](http://tgmpluginactivation.com/) - 2.6.1
+* [Advanced Custom Fields](https://github.com/elliotcondon/acf) - v4.4.11
 
 ## Documentation
 We have started working on documentation [in the wiki area](https://github.com/agims/sherpa/wiki), though it is **very much** still under construction.

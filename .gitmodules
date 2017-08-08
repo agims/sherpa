@@ -1,0 +1,3 @@
+[submodule "plugins/acf"]
+	path = plugins/acf
+	url = https://github.com/elliotcondon/acf

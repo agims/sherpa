@@ -32,6 +32,7 @@
 		'sherpa-video-embed-shortcode.php',   // Add shortcode 
 		'add-tags-to-single.php',             // Add tags to the content on single posts
 		'get-stars-for-rating.php',           // Get Stars for ratings on testimonials
+		'plugin-acf.php',                     // Add the plugin Advanced Custom Fields
 	);
 	
 	$prefix = 'inc/';
