@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.6.4 - Nuptse
+* Only load the included version of Advanced Custom Fields if another version is not already loaded
+
 ## Version 3.6.3 - Nuptse
 * Include Advanced Custom Fields within the theme in /plugins/
 * Remove ACF from recommended plugins

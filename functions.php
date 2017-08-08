@@ -1,5 +1,6 @@
 <?php
 	
+	// Always Needed
 	$includes = array(
 		'checks.php', 					      // Set up options
 		'constants.php',				      // Add in Constants
@@ -32,8 +33,14 @@
 		'sherpa-video-embed-shortcode.php',   // Add shortcode 
 		'add-tags-to-single.php',             // Add tags to the content on single posts
 		'get-stars-for-rating.php',           // Get Stars for ratings on testimonials
-		'plugin-acf.php',                     // Add the plugin Advanced Custom Fields
+		
 	);
+	
+	// Conditional Includes
+	if(!is_plugin_active('advanced-custom-fields-pro/acf.php') && !is_plugin_active( 'advanced-custom-fields/acf.php' ))
+	{
+    	$includes[] = 'plugin-acf.php';
+	}
 	
 	$prefix = 'inc/';
 	
