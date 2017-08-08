@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.6.5 - Nuptse
+* Bugfix for adding ACF
+* Add in custom fields for Testimonial CPT
+
 ## Version 3.6.4 - Nuptse
 * Only load the included version of Advanced Custom Fields if another version is not already loaded
 

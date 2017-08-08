@@ -36,10 +36,13 @@
 		
 	);
 	
+	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+	
 	// Conditional Includes
-	if(!is_plugin_active('advanced-custom-fields-pro/acf.php') && !is_plugin_active( 'advanced-custom-fields/acf.php' ))
+	if(file_exists(__DIR__ . '/plugins/acf/acf.php') && !is_plugin_active('advanced-custom-fields-pro/acf.php') && !is_plugin_active( 'advanced-custom-fields/acf.php' ))
 	{
     	$includes[] = 'plugin-acf.php';
+    	$includes[] = 'acf-testimonial.php';
 	}
 	
 	$prefix = 'inc/';
