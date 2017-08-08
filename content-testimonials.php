@@ -13,6 +13,9 @@
 							$star_rating = '5';
 							
 							if(have_posts()) {
+    							?>
+    							<ul class="list-unstyled">
+    							<?php
 								while(have_posts()) {
 									the_post();
 									
@@ -25,7 +28,7 @@
 										$profile_url = $no_pic;
 									}
 									
-									
+									echo "<li>\n";
 									echo "<blockquote itemprop=\"review\" itemscope itemtype=\"http://schema.org/Review\" class=\"testimonial\">\n";
 									echo "\t<div itemprop=\"reviewRating\" itemscope itemtype=\"http://schema.org/Rating\">\n";
 									echo "\t\t<meta itemprop=\"worstRating\" content = \"1\"/>\n";
@@ -44,7 +47,12 @@
 									echo "\t\t</div>\n";
 									echo "\t</div>\n";
 									echo "</blockquote>\n";
+									echo "</li>\n";
+									
 								}
+								?>
+    							</ul>
+								<?php
 							}
 							
 							

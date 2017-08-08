@@ -1,4 +1,9 @@
 # Changelog
+## Version 3.6.2 - Nuptse
+* Update "Add to Any" to only be on single items
+* Make testimonials on the testimonials page into a list
+* Update Testimonials page to no longer include content and include a default H1
+
 ## Version 3.6.1 - Nuptse
 * Fix Theme Options page
 

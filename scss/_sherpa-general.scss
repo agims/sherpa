@@ -159,7 +159,7 @@ blockquote.testimonial {
 	min-height: 12em;
 	padding: 1em 3.1428571429em 1em 10em;
 	position: relative;
-	&:nth-of-type(2n) {
+	li:nth-of-type(2n) & {
 		background-color: $testimonial-b;
 		border-top: 5px solid $testimonial-b-border-color;
 		.profile-pic {

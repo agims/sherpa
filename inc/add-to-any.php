@@ -4,7 +4,7 @@ function add_to_any($content)
 {
     ob_start();
     
-    if(((is_page() && !is_front_page()) || is_single()) && !empty($content)):
+    if( is_single() && !empty($content)):
     ?>
         <br />
         <h4><?=__('Like this content?  Share it here!', 'sherpa')?></h4>

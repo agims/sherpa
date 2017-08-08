@@ -9,8 +9,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="<?=FULLWIDTH?>">
-				<?php get_template_part('content', 'page'); ?>
-				<?php get_template_part('content', 'testimonials'); ?>
+    			<article>
+        			<h1><?=__('Testimonials')?></h1>
+    				<?php get_template_part('content', 'testimonials'); ?>
+    			</article>
 			</div>
 		</div>
 	</div>
