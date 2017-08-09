@@ -10,16 +10,16 @@
 			?>
 						    <!-- Brand and toggle get grouped for better mobile display -->
 						    <div class="navbar-header">
-						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-<?=$collapse_id?>">
-						        <span class="sr-only"><?=__('Toggle navigation','sherpa')?></span>
-						        <span class="icon-bar"></span>
-						        <span class="icon-bar"></span>
-						        <span class="icon-bar"></span>
-						      </button>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-<?=$collapse_id?>">
+                                    <span class="sr-only"><?=__('Toggle navigation','sherpa')?></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+    						    <?php if(!empty($brand)): ?>
+    						    <a class="navbar-brand" href="<?=SITEURL?>"><?=$brand?></a>
+    						    <?php endif; ?>
 						    </div>
-						    <?php if(!empty($brand)): ?>
-						    <a class="navbar-brand" href="<?=SITEURL?>"><?=$brand?></a>
-						    <?php endif; ?>
 						
 						    <!-- Collect the nav links, forms, and other content for toggling -->
 						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-<?=$collapse_id?>">

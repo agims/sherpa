@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.6.6 - Nuptse
+* Bugfix - fix brand location in nav
+
 ## Version 3.6.5 - Nuptse
 * Bugfix for adding ACF
 * Add in custom fields for Testimonial CPT
