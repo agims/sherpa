@@ -1,4 +1,10 @@
 # Changelog
+## Version 3.7.0 - Annapurna
+* Update styling for the options page
+* Added the missing code for the custom fields for testimonials
+* Move all the "content" files into the `template-parts/` directory
+* Organize the `inc/` directory; move classes into `inc/class/` and custom post types into `inc/cpt/`
+
 ## Version 3.6.6 - Nuptse
 * Bugfix - fix brand location in nav
 

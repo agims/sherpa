@@ -56,17 +56,24 @@ function sherpa_theme_option_page() {
 	}
 	?>
 	<style>
+    	.wrap {
+        	box-sizing: border-box;
+    	}
+    	
+    	.wrap * {
+        	box-sizing: border-box;
+    	}
+    	
     	#layout {
         	width: 100%;
     	}
     	
-        #layout td {
-            vertical-align: top;
-        }
-        
+    	#layout td {
+        	vertical-align: top;
+    	}
+    	
         .form-table th[colspan="2"] {
-            padding-bottom: 0;
-            padding-top: 0;
+            padding: 0;
         }
         
         .form-table h3 {
@@ -74,7 +81,7 @@ function sherpa_theme_option_page() {
             box-sizing: border-box;
             color: #EEB935;
             padding: 5px 10px;
-            margin-left: -10px;
+            margin-bottom: 0;
             margin-top: 0;
             text-shadow: 1px 1px 0 #333;
         }
@@ -83,6 +90,65 @@ function sherpa_theme_option_page() {
             padding-left: 0;
             padding-right: 0;
         }
+        
+        .form-table tr {
+            background-color: #DDD;
+        }
+        
+        .form-table tr:nth-of-type(2n) {
+            background-color: #BBB;
+        }
+        
+        .form-table tr > th,
+        .form-table tr > td {
+            padding: 5px 15px;
+        }
+        
+        .form-table tr > th {
+            vertical-align: top;
+            width: 40%;
+        }
+        
+        .form-table tr > td {
+            vertical-align: middle;
+            width: 60%;
+        }
+        
+        .form-table label {
+            display: inline-block;
+            padding: 10px 0;
+        }
+        
+        .form-table input[type="text"],
+        .form-table select,
+        .form-table textarea {
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        
+        .form-table td p.submit {
+            margin-bottom: 4px;
+            padding: 0;
+            text-align: right;
+        }
+        
+        .form-table input[type="submit"] {
+            margin-right: 15px;
+        }
+        
     </style>
 	
 	

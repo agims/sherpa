@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="<?=FULLWIDTH?>">
-				<?php get_template_part('content', 'single'); ?>
+				<?php get_template_part('template-parts/content', 'single'); ?>
 			</div>
 		</div>
 	</div>
