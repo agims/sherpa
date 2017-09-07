@@ -1,4 +1,7 @@
 # Changelog
+## Version 3.7.2 - Annapurna
+* Bugfix: Devmode code now written properly
+
 ## Version 3.7.1 - Annapurna
 * Move social media button styling to its own scss file
 * Use @each loops for the social media buttons
