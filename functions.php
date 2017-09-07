@@ -15,9 +15,9 @@
 		'paging-nav.php',				      // Set up our paging nav
 		'theme-features.php',			      // Set up our theme features
 		'cpt/testimonials-cpt.php',			  // Set up our Testimonials Custom Post Type
-		'class/wp_bootstrap_navwalker.php',	  // Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
+		'wp_bootstrap_navwalker.php',	      // Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
 		'prevent-image-size-attr.php',	      // Prevent WP from adding Height and Width to images
-		'class/SocialMedia.php',			  // Set up social media function
+		'SocialMedia.php',			          // Set up social media function
 		'google-analytics.php',		          // Include Google Analytics
 		'stat-counter.php',				      // Include Stat Counter
 		'google-site-verification.php',	      // Include Google Site Verification
@@ -25,7 +25,7 @@
 		'create-pages.php',                   // Create the home page and the blog page upon activation
 		'address.php',                        // Address and their related functions
 		'sherpa-gallery.php',                 // Make gallery shortcode work with colorbox
-		'class/class-tgm-plugin-activation.php', // Allow for required plugins
+		'class-tgm-plugin-activation.php',    // Allow for required plugins
 		'required-plugins.php',               // Set up required plugins
 		'disable-emoji.php',                  // Disable Emoji
 		'add-to-any.php',                     // Add filter for 'the_content' to add Social Media sharing buttons

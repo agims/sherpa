@@ -1,4 +1,12 @@
 # Changelog
+## Version 3.7.1 - Annapurna
+* Move social media button styling to its own scss file
+* Use @each loops for the social media buttons
+* Bugfix: move classes back into `inc/` as they weren't working right in the `inc/class/` directory
+* Add styling for alignleft images
+* Switch back to WP version of jQuery, though leaving the code there in case you want to use external jQuery
+* Add "Dev Mode" so that when on, uses cache-busting for main.min.js and style.css
+
 ## Version 3.7.0 - Annapurna
 * Update styling for the options page
 * Added the missing code for the custom fields for testimonials

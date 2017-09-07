@@ -24,7 +24,7 @@ function sherpa_styles() {
 	$main_css_deps[] = 'font_awesome';
 
 
-	wp_register_style( 'main_css', get_stylesheet_directory_uri() . '/css/style.css', $main_css_deps, time(), 'all' );
+	wp_register_style( 'main_css', get_stylesheet_directory_uri() . '/css/style.css', $main_css_deps, (if(get_option('sherpa_is_dev_mode') == 'y') ? time() : '1.0'), 'all' );
 	wp_enqueue_style( 'main_css' );
 
 }

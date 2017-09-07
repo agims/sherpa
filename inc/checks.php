@@ -43,6 +43,7 @@
 		'sherpa_blog_interior_image_width'          => '1170',
 		'sherpa_blog_interior_image_height'         => '200',
 		'sherpa_blog_interior_image_classes'        => '',
+		'sherpa_is_dev_mode'                        => 'y',
 
 	);
 	

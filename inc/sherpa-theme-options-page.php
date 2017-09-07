@@ -32,6 +32,7 @@ function sherpa_register_settings() {
 	register_setting('default', 'sherpa_blog_interior_image_width');
 	register_setting('default', 'sherpa_blog_interior_image_height');
 	register_setting('default', 'sherpa_blog_interior_image_classes');
+	register_setting('default', 'sherpa_is_dev_mode');
 
 	// Analytics and SEO
 	register_setting('default', 'sherpa_google_analytics');
@@ -537,6 +538,32 @@ function sherpa_theme_option_page() {
 						</th>
 						<td>
 							<input name="sherpa_blog_interior_image_classes" type="text" value="<?=get_option('sherpa_blog_interior_image_classes')?>" class="regular-text" placeholder="<?=__('e.g. alignleft', 'sherpa')?>">
+						</td>
+					</tr>
+ 					<tr>
+						<th scope="row">
+							<label for="sherpa_is_dev_mode"><?=__("Is the site in development?",'sherpa')?></label>
+						</th>
+						<td>
+    						<select name="sherpa_is_dev_mode" id="sherpa_is_dev_mode">
+        						<?php
+            					    $options = array(
+                					    'y' => __('Yup!','sherpa'),
+                					    'n' => __('Nope!','sherpa'),
+            					    );
+            					    
+            					    foreach($options as $option => $text) {
+                					    if($option == get_option('sherpa_is_dev_mode')) {
+                    					    $selected = " selected";
+                					    } else {
+                    					    $selected = NULL;
+                					    }
+                					    ?>
+                					    <option value="<?=$option?>"<?=$selected?>><?=$text?></option>
+                					    <?php
+            					    }
+            				    ?>
+    						</select>
 						</td>
 					</tr>
 					<tr>
