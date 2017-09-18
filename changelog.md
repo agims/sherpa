@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.7.3 - Annapurna
+* Update code for Google Analytics
+* As per request from Eric Rivera, compile initial versions of sass and js
+
 ## Version 3.7.2 - Annapurna
 * Bugfix: Devmode code now written properly
 

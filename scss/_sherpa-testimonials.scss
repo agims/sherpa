@@ -1,0 +1,78 @@
+blockquote.testimonial {
+	background-color: $testimonial-a;
+	border: 0;
+	border-top: 5px solid $testimonial-a-border-color;
+	font-size: 1em;
+	line-height: 1.4;
+	margin: 0;
+	min-height: 12em;
+	padding: 1em 3.1428571429em 1em 10em;
+	position: relative;
+	li:nth-of-type(2n) & {
+		background-color: $testimonial-b;
+		border-top: 5px solid $testimonial-b-border-color;
+		.profile-pic {
+			border-color: $testimonial-b-accent;
+		}
+		.quote {
+    		color: $testimonial-b-color;
+    		text-shadow: 1px 1px 0px transparentize($white, 0.9);
+			&:before,
+			&:after {
+				color: $testimonial-b-accent;
+				text-shadow: 0 0 0 transparent;
+			}
+		}
+	}
+	.profile-pic {
+		border: 5px solid $testimonial-a-accent;
+		left: 1em;
+		position: absolute;
+		top: 1em;
+		width: 8em;
+	}
+	.star-rating {
+		left: 1em;
+		position: absolute;
+		top: 150px;
+		width: 8em;
+	}
+	.quote {
+		color: $testimonial-a-color;
+		padding: 0 1em 0 2em;
+		position: relative;
+		text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+		&:before,
+		&:after {
+			color: $testimonial-a-accent;
+			display: inline-block;
+			font-family: "Georgia", serif;
+			font-size: 10em;
+			position: absolute;
+			text-shadow: 0 0 0 transparent;
+			z-index: 1;
+		}
+		&:before {
+			content: "\201C";
+			left: 0;
+			top: -0.2em;
+		}
+		&:after {
+			content: "\201D";
+			bottom: -0.85em;
+			right: 0;
+		}
+		> * {
+			position: relative;
+			z-index: 100;
+		}
+		h3 {
+			margin-top: 0;
+			.post-edit-link {
+				display: inline-block;
+				font-size: 0.5em;
+				margin-left: 1.5em;
+			}
+		}
+	}
+}
