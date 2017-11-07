@@ -1,7 +1,8 @@
 <?php
 
 define('SITEURL',		get_site_url()					        );
-define('THEMEURL',		get_template_directory_uri()            );
+define('THEMEURL',		get_template_directory_uri()            ); // Use this if you aren't planning on a child theme or if you want the parent theme
+define('CHILDURL',		get_stylesheet_directory_uri()			); // Use this if you are wanting to use the child theme directory
 
 define('FACEBOOK', 		get_option('sherpa_facebook_url')       );
 define('TWITTER', 		get_option('sherpa_twitter_url')        );

@@ -1,9 +1,9 @@
-![Sherpa](https://raw.githubusercontent.com/agims/sherpa/master/screenshot.png)
+![Sherpa](https://raw.githubusercontent.com/chris-clapp/sherpa/master/screenshot.png)
 # Sherpa - A Boilerplate WordPress Theme
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-3.7.3 - Annapurna
+3.7.4 - Annapurna
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -34,7 +34,7 @@ We are working on adding maps to Sherpa in a big way for our 4.0 release.  If yo
 * [Advanced Custom Fields](https://github.com/elliotcondon/acf) - v4.4.11
 
 ## Documentation
-We have started working on documentation [in the wiki area](https://github.com/agims/sherpa/wiki), though it is **very much** still under construction.
+We have started working on documentation [in the wiki area](https://github.com/chris-clapp/sherpa/wiki), though it is **very much** still under construction.
 
 ## Changelog
-See what we've been doing - it's listed in the [changelog](https://github.com/agims/sherpa/blob/master/changelog.md)
+See what we've been doing - it's listed in the [changelog](https://github.com/chris-clapp/sherpa/blob/master/changelog.md)
