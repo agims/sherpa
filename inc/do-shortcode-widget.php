@@ -6,7 +6,7 @@ class wpb_widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 		// Base ID of your widget
-		'agi_shortcode_widget', 
+		'sherpa_shortcode_widget', 
 		
 		// Widget name will appear in UI
 		__('Shortcode Widget', 'sherpa'), 
