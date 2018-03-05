@@ -1,9 +1,9 @@
 <?php
 	
-if ( ! function_exists( 'agi_navigation_menus' ) ) {
+if ( ! function_exists( 'sherpa_navigation_menus' ) ) {
 
 // Register Navigation Menus
-function agi_navigation_menus() {
+function sherpa_navigation_menus() {
 
 	$locations = array(
 		'primary'	=> __( 'Primary Menu - top of page', 'sherpa' ),
@@ -14,6 +14,6 @@ function agi_navigation_menus() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'agi_navigation_menus' );
+add_action( 'init', 'sherpa_navigation_menus' );
 
 }	

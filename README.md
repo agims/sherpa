@@ -1,9 +1,9 @@
-![Sherpa](https://raw.githubusercontent.com/agims/sherpa/master/screenshot.png)
+![Sherpa](https://raw.githubusercontent.com/chris-clapp/sherpa/master/screenshot.png)
 # Sherpa - A Boilerplate WordPress Theme
 A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.
 
 ## Current Version
-3.7.3 - Annapurna
+3.7.4 - Annapurna
 
 ## Introduction
 When I think of a Sherpa, I think of the locals that help visitors get to the top of Mount Everest.  They carry the gear up most of the way, helping the expedition out tremendously.
@@ -18,6 +18,9 @@ Sherpa was originally intended to be used with [Codekit](https://incident57.com/
 We are now including a gulp file but it's not perfect.  Please use at your own risk.  If you know how to make it better, please send a pull request!
 
 **Sherpa is not meant to be an end-all; it is meant to be a start-all.**
+
+## Getting Sherpa
+To really get the use of things like Advanced Custom Fields pre-installed, we recommend getting Sherpa from the command line like this:  `git clone --recurse-submodules -j8 https://github.com/chris-clapp/sherpa.git`.  This way it will get all the sub-modules that are included and will download all the latest versions.
 
 ## Coming Up
 We are working on adding maps to Sherpa in a big way for our 4.0 release.  If you want to see how it's working then check out the `dev-map` branch.
@@ -34,7 +37,7 @@ We are working on adding maps to Sherpa in a big way for our 4.0 release.  If yo
 * [Advanced Custom Fields](https://github.com/elliotcondon/acf) - v4.4.11
 
 ## Documentation
-We have started working on documentation [in the wiki area](https://github.com/agims/sherpa/wiki), though it is **very much** still under construction.
+We have started working on documentation [in the wiki area](https://github.com/chris-clapp/sherpa/wiki), though it is **very much** still under construction.
 
 ## Changelog
-See what we've been doing - it's listed in the [changelog](https://github.com/agims/sherpa/blob/master/changelog.md)
+See what we've been doing - it's listed in the [changelog](https://github.com/chris-clapp/sherpa/blob/master/changelog.md)

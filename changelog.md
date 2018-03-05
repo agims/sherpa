@@ -1,4 +1,8 @@
 # Changelog
+## Version 3.7.4 - Annapurna
+* Add CHILDURL constant for working with child themes - same as get_stylesheet_directory_uri()
+* Organization - update menus.php to rename a rouge "agi" prefixed function to "sherpa"
+
 ## Version 3.7.3 - Annapurna
 * Update code for Google Analytics
 * As per request from Eric Rivera, compile initial versions of sass and js
