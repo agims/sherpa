@@ -19,6 +19,9 @@ We are now including a gulp file but it's not perfect.  Please use at your own r
 
 **Sherpa is not meant to be an end-all; it is meant to be a start-all.**
 
+## Getting Sherpa
+To really get the use of things like Advanced Custom Fields pre-installed, we recommend getting Sherpa from the command line like this:  `git clone --recurse-submodules -j8 https://github.com/chris-clapp/sherpa.git`.  This way it will get all the sub-modules that are included and will download all the latest versions.
+
 ## Coming Up
 We are working on adding maps to Sherpa in a big way for our 4.0 release.  If you want to see how it's working then check out the `dev-map` branch.
 
