@@ -34,16 +34,6 @@ function sherpa_register_required_plugins() {
 	 */
 	$plugins = array(
 		array(
-			'name'      => 'Akismet',
-			'slug'      => 'akismet',
-			'required'  => true,
-		),
-		array(
-			'name'      => 'BackWPup',
-			'slug'      => 'backwpup',
-			'required'  => false,
-		),
-		array(
 			'name'      => 'Contact Form 7',
 			'slug'      => 'contact-form-7',
 			'required'  => true,
@@ -94,7 +84,7 @@ function sherpa_register_required_plugins() {
 		'has_notices'  => true,                    // Show admin notices or not.
 		'dismissable'  => true,                    // If false, a user cannot dismiss the nag message.
 		'dismiss_msg'  => '',                      // If 'dismissable' is false, this message will be output at top of nag.
-		'is_automatic' => false,                   // Automatically activate plugins after installation or not.
+		'is_automatic' => true,                   // Automatically activate plugins after installation or not.
 		'message'      => '',                      // Message to output right before the plugins table.
 	);
 

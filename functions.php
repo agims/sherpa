@@ -16,6 +16,7 @@
 		'theme-features.php',			      // Set up our theme features
 		'cpt/testimonials-cpt.php',			  // Set up our Testimonials Custom Post Type
 		'wp_bootstrap_navwalker.php',	      // Set up our Custom Walker for Bootstrap 3.x for wp_nav_menu()
+        'Sherpa-Smartmenu-Walkar-Class.php',  // Add in Smartmenu Walker Class
 		'prevent-image-size-attr.php',	      // Prevent WP from adding Height and Width to images
 		'SocialMedia.php',			          // Set up social media function
 		'google-analytics.php',		          // Include Google Analytics
@@ -28,18 +29,25 @@
 		'class-tgm-plugin-activation.php',    // Allow for required plugins
 		'required-plugins.php',               // Set up required plugins
 		'disable-emoji.php',                  // Disable Emoji
-		'add-to-any.php',                     // Add filter for 'the_content' to add Social Media sharing buttons
+      //'add-to-any.php',                     // Add filter for 'the_content' to add Social Media sharing buttons
 		'add-image-to-post.php',              // Add featured image to post
 		'sherpa-video-embed-shortcode.php',   // Add shortcode 
 		'add-tags-to-single.php',             // Add tags to the content on single posts
 		'get-stars-for-rating.php',           // Get Stars for ratings on testimonials
-		
+		'class.resize.php',                   // Resize images Class
+        'upload-resize.php',                  // Change the max size of images
+        'sherpa-skip-link.php',               // Create a "skip to content" button
+        'allow-svg-uploads.php',              // Allow SVG Uploads
 	);
 	
 	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 	
 	// Conditional Includes
-	if(file_exists(__DIR__ . '/plugins/acf/acf.php') && !is_plugin_active('advanced-custom-fields-pro/acf.php') && !is_plugin_active( 'advanced-custom-fields/acf.php' ))
+	if(
+	    file_exists(__DIR__ . '/plugins/acf/acf.php')
+        && !is_plugin_active('advanced-custom-fields-pro/acf.php')
+        && !is_plugin_active( 'advanced-custom-fields/acf.php' )
+    )
 	{
     	$includes[] = 'plugin-acf.php';
     	$includes[] = 'acf-testimonial.php';

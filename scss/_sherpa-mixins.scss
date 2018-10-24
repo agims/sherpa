@@ -24,3 +24,60 @@
 		background-color: $color;
 	}
 }
+
+// Breakpoint mixin
+@mixin bp($point)
+{
+	@each $min-size, $min-var in
+									(xs, $screen-xs-min),
+									(sm, $screen-sm-min),
+									(md, $screen-md-min),
+									(lg, $screen-lg-min)
+	{
+		@if $point == $min-size
+		{
+			@media only screen and (min-width: $min-var)
+			{
+				@content;
+			}
+		}
+	}
+}
+// Variant of above used to select only one breakpoint rather than "this and up"
+@mixin bp-only($point)
+{
+	@include bp-between($point, $point) {
+		@content;
+	}
+}
+// Variant of bp used to select multiple breakpoints.  Not to be used with lg
+@mixin bp-between($min, $max)
+{
+	@each $min-size, $min-var in
+									(xs, $screen-xs-min),
+									(sm, $screen-sm-min),
+									(md, $screen-md-min)
+	{
+		@if $min == $min-size
+		{
+			@each $max-size, $max-var in
+											(xs, $screen-xs-max),
+											(sm, $screen-sm-max),
+											(md, $screen-md-max)
+			{
+				@if $max == $max-size
+				{
+					@media only screen and (min-width: $min-var) and (max-width: $max-var)
+					{
+						@content;
+					}
+				}
+			}
+		}
+	}
+	@if $min == lg {
+		@include bp(lg) {
+			@content;
+		}
+	}
+}

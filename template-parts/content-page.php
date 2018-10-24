@@ -26,7 +26,9 @@
 			
 			echo "<article>\n";
 			echo $title;
+			echo "<div class='rte'>\n";
 			the_content();
+			echo "\n</div>\n";
 			echo "</article>\n";
 		}
 		

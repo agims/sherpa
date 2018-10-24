@@ -25,3 +25,6 @@ define('MOBILESITE',    get_option('sherpa_mobile_redirect')    );
 
 define('COLBASE',		12);
 define('FULLWIDTH',		'col-xs-' . COLBASE);
+
+define('SHERPA_IMAGE_MAX_WIDTH', 1280);
+define('SHERPA_IMAGE_MAX_HEIGHT', 1024);

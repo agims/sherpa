@@ -23,7 +23,9 @@
 			echo '</div><div class="col-sm-8 text-sm-right hidden-xs">';
 			the_category(', ');
 			echo '</div></div></div>';
+			echo '<div class="rte">';
 			the_content();
+			echo '</div>';
 			
 			echo '<div class="row"><div class="col-sm-6 text-sm-left text-xs-center">';
 			previous_post_link();

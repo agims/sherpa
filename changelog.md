@@ -1,4 +1,15 @@
 # Changelog
+## Version 4.0 - Yangra
+### Updating with stuff learned
+* Allow SVG uploads
+* Allow updates even when VCS is in root
+* Resize images based on max-size values set in constants
+* Update required plugins
+* Add in function for "Skip to content"
+* Add in Smartmenu Walker
+* Add in `rte` class to allow for rich text editor-specific styles 
+* Remove the IE 6 to 8-related tags
+
 ## Version 3.7.4 - Annapurna
 * Add CHILDURL constant for working with child themes - same as get_stylesheet_directory_uri()
 * Organization - update menus.php to rename a rouge "agi" prefixed function to "sherpa"
